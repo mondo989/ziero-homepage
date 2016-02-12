@@ -3,11 +3,12 @@
 body {
   font-family: 'Open sans';
 }
-
 section {
   padding: 70px 0;
 }
-
+.ziero-blue {
+  color: #06bbb9;
+}
 #hero {
   background: url("../imgs/hero-bk.png");
   background-position: -120px -300px;
@@ -25,56 +26,69 @@ section {
   font-size: 41px;
   margin-bottom: 45px;
 }
-#hero h1 span{
+#hero h1 span {
   color: #06bbb9;
 }
-
-.main-cta-row div.col-sm-6 {
-}
-
-.main-cta-row a.main-cta {
+.main-cta-row div.col-sm-6 {}
+a.main-cta {
   background: #06bbb9;
   display: inline-block;
   padding: 20px 0;
   width: 300px;
   text-transform: uppercase;
   color: white;
+  text-align: center;
   font-weight: 600;
   border: 2px solid #06bbb9;
 }
-
 a.main-cta.invert {
   color: #06bbb9;
   background: transparent;
-
 }
-
-
 #value-props {
   margin-top: 0;
 }
-
 #value-props h2 {
-
   font-weight: 500;
 }
-
 #value-props .col-sm-4 img {
   overflow: hidden;
   position: absolute;
-  top:0;
-  bottom:0;
-  right:0;
-  left:0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
-
 #value-props .row .col-sm-4 {
   margin: 0 auto;
   text-align: center;
 }
-
+#value-props-2 .value-props-2-row h1 {
+  margin-bottom: 70px;
+}
+#value-props-2 .value-props-2-row .col-sm-4 {
+  height: 300px;
+}
+#value-props-2 .value-props-2-img-holder {
+  display: block;
+  height: 160px;
+}
+#value-props-2 .value-props-2-img-holder .hands-img {
+  height: 120px;
+  margin-top: 20px;
+}
+#value-props-2 p {
+  padding-top: 20px;
+  height: 120px;
+  font-size: 17px;
+}
+#value-props-2 p span {
+  font-weight: bold;
+  display: block;
+  margin-top: 20px;
+}
 #value-props .row .col-sm-4 span.circle {
-  border: 12px solid #f3f3f3;
+  border: 13px solid #f3f3f3;
   margin: 0 auto!important;
   text-align: center!important;
   border-radius: 100%;
@@ -85,11 +99,9 @@ a.main-cta.invert {
   width: 300px;
   position: relative;
 }
-
 #value-props .container .row {
   margin: 60px 0;
 }
-
 #wellness {
   background: url('../imgs/money-bkgd.png');
   background-position: center;
@@ -106,14 +118,13 @@ a.main-cta.invert {
   text-align: center;
   border-radius: 8px;
 }
-
 #wellness .wellness-row h6 {
   text-align: center;
   font-size: 20px;
   position: absolute;
-  bottom:20px;
-  right:0;
-  left:0;
+  bottom: 20px;
+  right: 0;
+  left: 0;
   font-weight: 400;
 }
 #wellness .wellness-row div img {
@@ -122,24 +133,100 @@ a.main-cta.invert {
   margin: 0 auto;
   text-align: center;
 }
-
 #wellness .wellness-row div img.dollarsign-img {
   width: 40px;
 }
-
 .wellness-row .col-sm-4 {
   background: blue;
   padding: 0;
   text-align: center;
   margin: 0!important;
 }
-
 #wellness h1 {
   color: white;
   margin-bottom: 30px;
 }
-
-
+#contact {
+  background: #06bbb9;
+  height: 600px;
+}
+#contact i {
+  display: inline-block;
+}
+#contact h1 {
+  color: white;
+}
+#contact .contact-row input {
+  text-indent: 60px;
+  width: 100%;
+  margin: 10px 0;
+  height: 60px;
+  border-radius: 6px;
+  border: 0;
+}
+#contact .contact-row .col-sm-6 {
+  position: relative;
+}
+#contact .contact-row .col-sm-6 i {
+  position: absolute;
+  top: 12px;
+  bottom: 0;
+  font-size: 35px;
+  left: 30px;
+}
+#contact a {
+  color: white;
+  margin-top: 40px;
+  border-color: white;
+}
+#contact span.separator {
+  background: blue;
+}
+#nonprofit {
+  padding: 20px 0;
+  background: #f3f3f3;
+  color: #353535;
+}
+#faq {}
+#faq h2, #faq p {
+  width: 90%;
+}
+#faq p {
+  font-size: 18px;
+  margin: 25px 0;
+}
+#faq i.ion-ios-help-outline {
+  font-size: 150px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.125);
+  top: -60px;
+  right: 0;
+  left: 0;
+}
+.question-holder {
+  padding-top: 0!important;
+  margin-top: 0!important;
+  position: relative;
+}
+#footer {
+  background: black;
+  color: white;
+}
+#footer a.circle-link {
+  color: white;
+  display: block;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 120px;
+  border: 2px solid white;
+  padding-top: 5px;
+}
+#footer a i {
+  font-size: 50px;
+}
 .separator {
   background: #e5e5e5;
   display: block;
@@ -147,4 +234,9 @@ a.main-cta.invert {
   width: 100%;
   margin-left: -15px!important;
   height: 2px;
+}
+@media (max-width:991px) {
+  #faq i.ion-ios-help-outline {
+    position: relative;
+  }
 }
