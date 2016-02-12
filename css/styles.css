@@ -1,0 +1,79 @@
+/*Brand Color::  #06bbb9   */
+
+
+section {
+  padding: 70px 0;
+}
+
+#hero {
+  background: url("../imgs/hero-bk.png");
+  background-position: -120px -300px;
+  background-size: 110%;
+  background-repeat: no-repeat;
+  padding: 200px 0 450px;
+}
+#hero h1 {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 41px;
+  margin-bottom: 45px;
+}
+#hero h1 span{
+  color: #06bbb9;
+}
+
+.main-cta-row div.col-sm-6 {
+}
+
+.main-cta-row a.main-cta {
+  background: #06bbb9;
+  display: inline-block;
+  padding: 20px 0;
+  width: 300px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  border: 2px solid #06bbb9;
+}
+
+a.main-cta.invert {
+  color: #06bbb9;
+  background: transparent;
+
+}
+
+
+#value-props {
+  background: #f3f3f3;
+}
+
+#value-props .col-sm-4 img {
+  border-radius: 120px;
+  border: 5px solid red;
+}
+
+
+#wellness {
+  background: url('../imgs/money-bkgd.png');
+  background-position: center;
+  background-size: 100% 100%;
+}
+#wellness .wellness-row div {
+  background: white;
+  border-radius: 8px;
+}
+#wellness .wellness-row div img {
+  width: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.separator {
+  background: #e5e5e5;
+  display: block;
+  margin: 15px auto!important;
+  width: 95%;
+  height: 2px;
+}
