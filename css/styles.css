@@ -1,5 +1,8 @@
 /*Brand Color::  #06bbb9   */
 
+body {
+  font-family: 'Open sans';
+}
 
 section {
   padding: 70px 0;
@@ -10,7 +13,10 @@ section {
   background-position: -120px -300px;
   background-size: 110%;
   background-repeat: no-repeat;
-  padding: 200px 0 450px;
+  padding: 200px 0 100px;
+  height: 600px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 #hero h1 {
   width: 70%;
@@ -45,28 +51,92 @@ a.main-cta.invert {
 
 
 #value-props {
-  background: #f3f3f3;
+  margin-top: 0;
+}
+
+#value-props h2 {
+
+  font-weight: 500;
 }
 
 #value-props .col-sm-4 img {
-  border-radius: 120px;
-  border: 5px solid red;
+  overflow: hidden;
+  position: absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
 }
 
+#value-props .row .col-sm-4 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#value-props .row .col-sm-4 span.circle {
+  border: 12px solid #f3f3f3;
+  margin: 0 auto!important;
+  text-align: center!important;
+  border-radius: 100%;
+  overflow: hidden;
+  margin-top: -20px!important;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+
+#value-props .container .row {
+  margin: 60px 0;
+}
 
 #wellness {
   background: url('../imgs/money-bkgd.png');
   background-position: center;
   background-size: 100% 100%;
+  height: 400px;
 }
-#wellness .wellness-row div {
+#wellness .wellness-row span.white-box {
   background: white;
+  display: inline-block;
+  padding: 30px;
+  min-height: 170px;
+  position: relative;
+  width: 180px;
+  text-align: center;
   border-radius: 8px;
 }
+
+#wellness .wellness-row h6 {
+  text-align: center;
+  font-size: 20px;
+  position: absolute;
+  bottom:20px;
+  right:0;
+  left:0;
+  font-weight: 400;
+}
 #wellness .wellness-row div img {
-  width: 50px;
+  width: 70px;
+  height: auto;
   margin: 0 auto;
   text-align: center;
+}
+
+#wellness .wellness-row div img.dollarsign-img {
+  width: 40px;
+}
+
+.wellness-row .col-sm-4 {
+  background: blue;
+  padding: 0;
+  text-align: center;
+  margin: 0!important;
+}
+
+#wellness h1 {
+  color: white;
+  margin-bottom: 30px;
 }
 
 
@@ -74,6 +144,7 @@ a.main-cta.invert {
   background: #e5e5e5;
   display: block;
   margin: 15px auto!important;
-  width: 95%;
+  width: 100%;
+  margin-left: -15px!important;
   height: 2px;
 }
