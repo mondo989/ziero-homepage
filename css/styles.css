@@ -30,6 +30,7 @@ section {
   color: #06bbb9;
 }
 .main-cta-row div.col-sm-6 {}
+
 a.main-cta {
   background: #06bbb9;
   display: inline-block;
@@ -40,11 +41,21 @@ a.main-cta {
   text-align: center;
   font-weight: 600;
   border: 2px solid #06bbb9;
+
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 a.main-cta.invert {
   color: #06bbb9;
   background: transparent;
 }
+
+a.main-cta:hover {
+  text-decoration: none;
+-webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 #value-props {
   margin-top: 0;
 }
@@ -63,6 +74,18 @@ a.main-cta.invert {
   margin: 0 auto;
   text-align: center;
 }
+#value-props .row p {
+  font-size: 18px;
+  width: 90%;
+}
+#value-props .row a {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 20px;
+  display: block;
+}
+
+
 #value-props-2 .value-props-2-row h1 {
   margin-bottom: 70px;
 }
@@ -99,6 +122,8 @@ a.main-cta.invert {
   width: 300px;
   position: relative;
 }
+
+
 #value-props .container .row {
   margin: 60px 0;
 }
@@ -106,7 +131,7 @@ a.main-cta.invert {
   background: url('../imgs/money-bkgd.png');
   background-position: center;
   background-size: 100% 100%;
-  height: 400px;
+  min-height: 400px;
 }
 #wellness .wellness-row span.white-box {
   background: white;
@@ -144,7 +169,7 @@ a.main-cta.invert {
 }
 #wellness h1 {
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 #contact {
   background: #06bbb9;
@@ -158,11 +183,12 @@ a.main-cta.invert {
 }
 #contact .contact-row input {
   text-indent: 60px;
-  width: 100%;
+  width: 80%;
   margin: 10px 0;
   height: 60px;
   border-radius: 6px;
   border: 0;
+  font-size: 17px;
 }
 #contact .contact-row .col-sm-6 {
   position: relative;
@@ -172,20 +198,27 @@ a.main-cta.invert {
   top: 12px;
   bottom: 0;
   font-size: 35px;
-  left: 30px;
+  margin-left: 16px;
 }
 #contact a {
   color: white;
   margin-top: 40px;
   border-color: white;
 }
-#contact span.separator {
-  background: blue;
+#contact .separator {
+  width: 75%;
+  margin: 20px auto!important;
+
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 50px;
 }
 #nonprofit {
   padding: 20px 0;
   background: #f3f3f3;
   color: #353535;
+}
+#nonprofit h4 {
+  font-weight: 400;
 }
 #faq {}
 #faq h2, #faq p {
@@ -214,19 +247,52 @@ a.main-cta.invert {
   background: black;
   color: white;
 }
+
+#footer .footer-link-row p {
+  padding-top: 20px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+#footer .footer-link-row p.address {
+  padding-top: 0;
+}
 #footer a.circle-link {
   color: white;
   display: block;
   text-align: center;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border-radius: 120px;
   border: 2px solid white;
   padding-top: 5px;
 }
-#footer a i {
-  font-size: 50px;
+#footer a.circle-link:hover {
+  background: white;
+  color: #000;
 }
+
+#footer a i {
+  font-size: 30px;
+  display: block;
+  margin-top: -5px;
+}
+#footer .separator {
+  opacity: .3;
+  height: 1px;
+  border-radius: 20px;
+  margin: 20px auto!important;
+  display: block;
+}
+.chevron-row  {
+  font-size: 25px;
+  display: inline;
+}
+
+.chevron-row .learn-more {
+  text-indent: 15px;
+  font-weight: 600;
+}
+
 .separator {
   background: #e5e5e5;
   display: block;
@@ -235,8 +301,82 @@ a.main-cta.invert {
   margin-left: -15px!important;
   height: 2px;
 }
+
+
+.ziero-main-logo {
+  margin-top: -7px;
+  width: 160px;
+}
+
+.nav-list {
+}
+
+.nav-list li {
+  display: inline;
+}
+
+.nav-list a {
+  display: inline-block;
+}
+
+.social-media-row a {
+  display: inline-block;
+  color: white;
+  width: 30px;
+  margin: 10px;
+  opacity: .6;
+}
+.social-media-row a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.social-media-row a i  {
+  font-size: 20px!important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:991px) {
   #faq i.ion-ios-help-outline {
     position: relative;
   }
+
+  #hero {
+
+  }
+
+  #hero .main-cta-row .col-sm-6 {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  #value-props p {
+    text-align: left;
+  }
+
+
+
 }
