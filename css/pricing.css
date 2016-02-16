@@ -13,6 +13,11 @@
   box-shadow: 2px 2px 2px #ccc;
   border-radius: 5px;
 }
+
+#pricing .pricing-row .price-box.mid {
+  width: 85%;
+}
+
 #pricing .pricing-row .col-sm-4 {
   position: relative;
 }
@@ -66,4 +71,15 @@ section#need-help {
   margin-left: 52px;
   color: black;
   width: 80px;
+}
+
+
+
+
+@media (max-width: 991px) {
+
+  #pricing .pricing-row .price-box {
+    width: 85%;
+    margin: 25px auto;
+  }
 }

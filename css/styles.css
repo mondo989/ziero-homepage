@@ -43,21 +43,19 @@ a.main-cta {
   text-align: center;
   font-weight: 600;
   border: 2px solid #06bbb9;
-
   -webkit-transition: .5s;
   transition: .5s;
+  z-index: 90;
 }
 a.main-cta.invert {
   color: #06bbb9;
   background: transparent;
 }
-
 a.main-cta:hover {
   text-decoration: none;
--webkit-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
-
 #value-props {
   margin-top: 0;
 }
@@ -86,15 +84,12 @@ a.main-cta:hover {
   margin-top: 20px;
   display: block;
 }
-
-
 #value-props-2 .value-props-2-row h1 {
   margin-bottom: 70px;
 }
 #value-props-2 .value-props-2-row .col-sm-4 {
   height: 300px;
 }
-
 #value-props-2 .value-props-2-img-holder {
   display: block;
   height: 160px;
@@ -113,7 +108,7 @@ a.main-cta:hover {
   display: block;
   margin-top: 20px;
 }
-#value-props .row .col-sm-4 span.circle {
+#value-props .row span.circle {
   border: 11px solid #f3f3f3;
   margin: 0 auto!important;
   text-align: center!important;
@@ -125,8 +120,6 @@ a.main-cta:hover {
   width: 270px;
   position: relative;
 }
-
-
 #value-props .container .row {
   margin: 70px 0;
 }
@@ -177,7 +170,9 @@ a.main-cta:hover {
 #contact {
   background: #06bbb9;
   height: 600px;
+  position: relative;
   overflow-x: hidden;
+  z-index: 0;
 }
 #contact i {
   display: inline-block;
@@ -204,6 +199,32 @@ a.main-cta:hover {
   font-size: 35px;
   margin-left: 16px;
 }
+#contact .contact-row .col-sm-6 {
+  overflow: hidden;
+}
+
+/*#contact .contact-row .col-sm-6 i {
+
+  margin-left: 0;
+  width: 55px;
+}*/
+
+
+/*
+#contact .contact-row .col-sm-6 i:after {
+  content:'';
+  height: 90px;
+  top: 20px;
+  width: 0;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: red;
+  right: 0;
+
+  position: absolute;
+  top: 20px;
+}*/
+
 #contact a {
   color: white;
   margin-top: 40px;
@@ -212,7 +233,6 @@ a.main-cta:hover {
 #contact .separator {
   width: 75%;
   margin: 20px auto!important;
-
   background: rgba(255, 255, 255, 0.25);
   border-radius: 50px;
 }
@@ -223,6 +243,10 @@ a.main-cta:hover {
 }
 #nonprofit h4 {
   font-weight: 400;
+  width: 80%;
+  padding: 20px 0;
+  margin: 0 auto;
+  line-height: 1.6;
 }
 #faq {}
 #faq h2, #faq p {
@@ -251,7 +275,6 @@ a.main-cta:hover {
   background: black;
   color: white;
 }
-
 #footer .footer-link-row p {
   padding-top: 10px;
   font-size: 20px;
@@ -277,6 +300,9 @@ a.main-cta:hover {
   color: #000;
 }
 
+#footer a {
+  color: white;
+}
 #footer a i {
   font-size: 30px;
   display: block;
@@ -290,34 +316,26 @@ a.main-cta:hover {
   display: block;
   width: 85%;
 }
-
-
-
 #footer .footer-link-row .col-md-3 {
   margin-left: 0;
   padding-left: 0;
-
 }
-
-.chevron-row  {
+.chevron-row {
   font-size: 25px;
   width: 85%;
   display: block;
   margin: 0 auto;
 }
-
 .chevron-row .learn-more {
   text-indent: 15px;
   font-size: 18px;
 }
 .chevron-row i {
-
-font-size: 30px;
-display: inline-block;
-width: 20px;
-text-align: center;
+  font-size: 30px;
+  display: inline-block;
+  width: 20px;
+  text-align: center;
 }
-
 .separator {
   background: #e5e5e5;
   display: block;
@@ -327,37 +345,54 @@ text-align: center;
   height: 1px;
   border-radius: 120px;
 }
-
-
+.bk-img {
+  background: url("../imgs/ziero-bk-blue.png");
+  opacity: .6;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
 .ziero-main-logo {
   margin-top: -7px;
-  width: 160px;
+  width: 190px;
 }
-
 .navbar-nav {
   padding-top: 15px;
   margin-bottom: -15px;
 }
-
-.navbar-nav .nav-list {
+nav .navbar-toggle {
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top:20px;
+}
+.navbar-toggle .icon-bar {
+  background: #ccc;
 }
 
+.navbar-nav .nav-list {}
 .nav-list li {
   display: inline-block;
   text-align: center;
   margin: 0 20px;
   font-weight: bold;
 }
-
 .nav-list a {
   display: inline-block;
+  color: #353535;
+  font-size: 15px;
+  font-weight: 400;
 }
 .nav-list-row a.main-cta {
   width: 120px;
   padding: 10px 20px;
 }
-
-
 .social-media-row a {
   display: inline-block;
   color: white;
@@ -369,78 +404,54 @@ text-align: center;
   opacity: 1;
   text-decoration: none;
 }
-
-.social-media-row a i  {
+.social-media-row a i {
   font-size: 20px!important;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#value-props a {
+  margin-top: 40px!important;
+  display: block;
+}
 @media (max-width:1200px) {
-
   #hero .main-cta-row .col-lg-6 {
     text-align: center;
     margin: 15px 0;
   }
-
 }
 
 
-
-
-
-
 @media (max-width:991px) {
-
   #hero {
     background-position: center;
   }
 
 
+
   h1 {
     max-width: 95%;
   }
-
-  h1,h2 {
+  h1, h2 {
     max-width: 80%;
     text-align: center;
     margin: 0 auto;
   }
-
   #faq i.ion-ios-help-outline {
     position: relative;
   }
-
   #hero {
     padding: 50px 0 0!important;
   }
-
   #hero .main-cta-row .col-lg-6 {
     text-align: center;
     margin: 15px 0;
   }
-
   #value-props p {
     text-align: left;
   }
 
+
+  #value-props .row {
+    text-align: center;
+  }
   #value-props-2 img {
     width: 120px;
   }
@@ -449,35 +460,25 @@ text-align: center;
     height: auto;
     margin-top: -5px!important;
   }
-
   #wellness {
     display: none;
   }
-
   #contact {
     height: auto;
   }
-
   #contact .contact-row input {
-    width: 100%;
+    width: 85%;
   }
-
-  #contact .contact-row .col-sm-6.text-right,
-  #contact .contact-row .col-sm-6.text-left {
+  #contact .contact-row .col-sm-6.text-right, #contact .contact-row .col-sm-6.text-left {
     margin: 0 auto;
     text-align: center;
   }
-
-
   #faq i.ion-ios-help-outline {
-    top:0;
+    top: 0;
   }
-
-  #footer .footer-link-row  {
+  #footer .footer-link-row {
     text-align: center;
   }
-
-
   #footer .address {
     max-width: 250px;
     margin: 20px auto;
@@ -493,9 +494,26 @@ text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-
   .chevron-row {
     width: 80%;
   }
+}
 
+@media (max-width: 767px) {
+  .navbar-nav li {
+    display: block;
+    margin: 30px auto;
+    font-size: 30px;
+  }
+  .navbar-nav li a {
+    font-size: 20px;
+  }
+}
+
+
+@media (max-width:601px) {
+
+  /*h1 {
+    font-size: 10vw!important;
+  }*/
 }

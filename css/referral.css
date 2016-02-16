@@ -33,3 +33,10 @@ input.half-width {
 #referral .main-cta {
   margin-top: 60px;
 }
+
+
+.ion-ios-heart {
+  color: #06bbb9;
+  font-size: 70px;
+  margin-left: 10px;
+}
