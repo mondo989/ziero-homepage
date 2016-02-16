@@ -30,9 +30,13 @@
 
       <div class="collapse navbar-collapse">
         <span class="nav navbar-nav navbar-right ">
-            <ul class="nav-list">
-              <li><a href="pricing.html">Pricing</a></li>
-              <li><a href="#">Log In</a></li>
+            <ul class="nav-list nav-list-row">
+              <li>
+                <a href="pricing.html">Pricing</a>
+              </li>
+              <li>
+                <a class="main-cta invert" href="#">Log In</a>
+              </li>
             </ul>
         </span>
       </div>
@@ -65,9 +69,7 @@
           <h2>Improve Financial Wellness</h2>
           <div class="separator"></div>
           <p>
-            Over 70% of employees live paycheck to paycheck. As much as one forth has taken out a 401k loan.
-            Personal financial challenges strongly affect employee health and productivity.
-            Ziero helps soluve this problem.</p>
+            Over 70% of employees live paycheck to paycheck. As much as one forth has taken out a 401k loan. Personal financial challenges strongly affect employee health and productivity. Ziero helps soluve this problem.</p>
           <a href="#">Learn how much Financial Wellness Matters</a>
         </div>
         <div class="col-sm-4">
@@ -251,18 +253,34 @@
 
   <section id="faq">
     <div class="container">
-      <div class="col-md-3 question-holder">
-        <i class="ion-ios-help-outline"></i>
-      </div>
-      <div class="col-md-9">
-        <h2>Is the employer responsible for the repayment in case of default?</h2>
-        <p>No. The loan is an agreement strictly between Ziero Financial and the borrower. The employer is responsible simply for the fee, which is collected upfront before we issue the loan.
-        </p>
+      <div id="faq-carousel" class="carousel slide" data-ride="carousel">
+
+        <div class="col-md-3 question-holder">
+          <i class="ion-ios-help-outline"></i>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="col-md-offset-3 col-md-9">
+              <h2>Is the employer responsible for the repayment in case of default?</h2>
+              <p>No. The loan is an agreement strictly between Ziero Financial and the borrower. The employer is responsible simply for the fee, which is collected upfront before we issue the loan.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="col-md-offset-3 col-md-9">
+              <h2>Is the employer responsible for the repayment in case of default?</h2>
+              <p>No. The loan is an agreement strictly between Ziero Financial and the borrower. The employer is responsible simply for the fee, which is collected upfront before we issue the loan.</p>
+            </div>
+          </div>
+        </div>
+
         <div class="row chevron-row">
           <a class="learn-more" href="#">Learn More</a>
+
           <span class="pull-right">
-            <a href=""><i class="fa fa-chevron-left"></i></a>
-            <a href=""><i class="fa fa-chevron-right"></i></a>
+            <a href="#faq-carousel" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+            <a href="#faq-carousel" data-slide="next"><i class="fa fa-chevron-right"></i></a>
           </span>
         </div>
       </div>
@@ -303,6 +321,7 @@
           <p class="address">739 Bryant Street, Suite 205, San Francisco, CA 94107</p>
         </div>
       </div>
+      <div class="separator"></div>
 
       <div class="row text-center">
         <p>Ziero Ⓒ 2016 | Terms of Use | Privacy Policy</p>
@@ -318,5 +337,8 @@
   </section>
 
 </body>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 
 </html>
