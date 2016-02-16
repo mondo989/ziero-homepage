@@ -11,8 +11,10 @@ section {
 }
 #hero {
   background: url("../imgs/hero-bk.png");
-  background-position: -120px -300px;
-  background-size: 110%;
+  /*background-position: -120px -300px;*/
+  /*background-position: -80px center;*/
+  background-position: center;
+  /*background-size: 100%;*/
   background-repeat: no-repeat;
   padding: 200px 0 100px;
   height: 600px;
@@ -20,7 +22,7 @@ section {
   padding-bottom: 0;
 }
 #hero h1 {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
   font-size: 41px;
@@ -174,6 +176,7 @@ a.main-cta:hover {
 #contact {
   background: #06bbb9;
   height: 600px;
+  overflow-x: hidden;
 }
 #contact i {
   display: inline-block;
@@ -249,12 +252,14 @@ a.main-cta:hover {
 }
 
 #footer .footer-link-row p {
-  padding-top: 20px;
+  padding-top: 10px;
   font-size: 20px;
   /*margin-bottom: 50px;*/
 }
 #footer .footer-link-row p.address {
   padding-top: 0;
+  margin-bottom: -5px;
+  margin-top: -5px;
 }
 #footer a.circle-link {
   color: white;
@@ -284,6 +289,15 @@ a.main-cta:hover {
   display: block;
   width: 85%;
 }
+
+
+
+#footer .footer-link-row .col-md-3 {
+  margin-left: 0;
+  padding-left: 0;
+
+}
+
 .chevron-row  {
   font-size: 25px;
   width: 85%;
@@ -303,7 +317,8 @@ a.main-cta:hover {
   margin: 15px auto!important;
   width: 100%;
   margin-left: -15px!important;
-  height: 2px;
+  height: 1px;
+  border-radius: 120px;
 }
 
 
@@ -371,6 +386,15 @@ a.main-cta:hover {
 
 
 
+@media (max-width:1200px) {
+
+  #hero .main-cta-row .col-lg-6 {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+}
+
 
 
 
@@ -378,6 +402,14 @@ a.main-cta:hover {
 
 @media (max-width:991px) {
 
+  #hero {
+    background-position: center;
+  }
+
+
+  h1 {
+    max-width: 95%;
+  }
 
   h1,h2 {
     max-width: 80%;
@@ -393,7 +425,7 @@ a.main-cta:hover {
     padding: 50px 0 0!important;
   }
 
-  #hero .main-cta-row .col-md-6 {
+  #hero .main-cta-row .col-lg-6 {
     text-align: center;
     margin: 15px 0;
   }
@@ -410,6 +442,10 @@ a.main-cta:hover {
     height: auto;
   }
 
+  #contact .contact-row input {
+    width: 100%;
+  }
+
   #contact .contact-row .col-sm-6.text-right,
   #contact .contact-row .col-sm-6.text-left {
     margin: 0 auto;
@@ -419,14 +455,24 @@ a.main-cta:hover {
   #footer .footer-link-row  {
     text-align: center;
   }
+
+
   #footer .address {
     max-width: 250px;
     margin: 20px auto;
   }
   #footer a.circle-link {
     margin: 0 auto;
-
   }
+  #footer .footer-link-row p {
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+  #footer .footer-link-row p.address {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   .chevron-row {
     width: 70%;
   }
