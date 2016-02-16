@@ -94,6 +94,7 @@ a.main-cta:hover {
 #value-props-2 .value-props-2-row .col-sm-4 {
   height: 300px;
 }
+
 #value-props-2 .value-props-2-img-holder {
   display: block;
   height: 160px;
@@ -440,6 +441,15 @@ text-align: center;
     text-align: left;
   }
 
+  #value-props-2 img {
+    width: 120px;
+  }
+  #value-props-2 .hands-img {
+    width: 180px;
+    height: auto;
+    margin-top: -5px!important;
+  }
+
   #wellness {
     display: none;
   }
@@ -456,6 +466,11 @@ text-align: center;
   #contact .contact-row .col-sm-6.text-left {
     margin: 0 auto;
     text-align: center;
+  }
+
+
+  #faq i.ion-ios-help-outline {
+    top:0;
   }
 
   #footer .footer-link-row  {
