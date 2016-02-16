@@ -307,8 +307,14 @@ a.main-cta:hover {
 
 .chevron-row .learn-more {
   text-indent: 15px;
-
   font-size: 18px;
+}
+.chevron-row i {
+
+font-size: 30px;
+display: inline-block;
+width: 20px;
+text-align: center;
 }
 
 .separator {
@@ -474,8 +480,7 @@ a.main-cta:hover {
   }
 
   .chevron-row {
-    width: 70%;
+    width: 80%;
   }
-
 
 }
