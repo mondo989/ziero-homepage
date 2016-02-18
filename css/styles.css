@@ -79,10 +79,10 @@ a.main-cta:hover {
   width: 90%;
 }
 #value-props .row a {
-  font-weight: 600;
-  font-size: 20px;
-  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
   display: block;
+  color: #06bbb9;
 }
 #value-props-2 .value-props-2-row h1 {
   margin-bottom: 70px;
@@ -101,6 +101,9 @@ a.main-cta:hover {
 #value-props-2 p {
   padding-top: 20px;
   height: 120px;
+  width: 85%;
+  margin: 0 auto;
+  line-height: 1.7;
   font-size: 17px;
 }
 #value-props-2 p span {
@@ -408,9 +411,11 @@ nav .navbar-toggle {
   font-size: 20px!important;
 }
 #value-props a {
-  margin-top: 40px!important;
+  margin-top: 20px;
   display: block;
 }
+
+
 @media (max-width:1200px) {
   #hero .main-cta-row .col-lg-6 {
     text-align: center;
