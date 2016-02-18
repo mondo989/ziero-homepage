@@ -68,11 +68,23 @@ section#need-help {
   position: absolute;
   top: 0;
   left: 0;
-  margin-left: 52px;
+  margin-left: 43px;
   color: black;
   width: 80px;
 }
+.ziero-main-logo {
+  margin-left: 22px
+}
 
+
+
+@media (max-width: 1200px) {
+
+    .most-popular {
+      margin-left: 38px;
+    }
+
+}
 
 
 
@@ -81,5 +93,40 @@ section#need-help {
   #pricing .pricing-row .price-box {
     width: 85%;
     margin: 25px auto;
+  }
+
+  .most-popular {
+  margin-left: 72px;
+  }
+
+  #need-help input {
+    width: 95%;
+    margin: 0 auto!important;
+    margin-bottom: 20px!important;
+  }
+
+  #need-help .need-help-input-holder,
+  #need-help .need-help-cta-btn-holder {
+    text-align: center;
+    margin: 0 auto!important;
+  }
+}
+
+@media (max-width: 761px) {
+  .most-popular {
+    margin-left: 9%;
+  }
+}
+
+@media (max-width: 610px) {
+  .most-popular {
+  margin-left:10%;
+  }
+}
+
+
+@media (max-width: 451px) {
+  .most-popular {
+  margin-left:10%;
   }
 }
