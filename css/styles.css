@@ -20,6 +20,7 @@ section {
   height: 600px;
   margin-bottom: 0;
   padding-bottom: 0;
+  position: relative;
 }
 #hero h1 {
   width: 80%;
@@ -32,7 +33,6 @@ section {
   color: #06bbb9;
 }
 .main-cta-row div.col-sm-6 {}
-
 a.main-cta {
   background: #06bbb9;
   display: inline-block;
@@ -74,12 +74,15 @@ a.main-cta:hover {
   margin: 0 auto;
   text-align: center;
 }
+#value-props .row .align-right {
+  text-align: right;
+}
 #value-props .row p {
   font-size: 18px;
   width: 90%;
 }
 #value-props .row a {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 18px;
   display: block;
   color: #06bbb9;
@@ -111,6 +114,9 @@ a.main-cta:hover {
   display: block;
   margin-top: 20px;
 }
+#value-props-2 {
+  padding-bottom: 110px;
+}
 #value-props .row span.circle {
   border: 11px solid #f3f3f3;
   margin: 0 auto!important;
@@ -122,6 +128,22 @@ a.main-cta:hover {
   height: 270px;
   width: 270px;
   position: relative;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+#value-props .row span.circle .trio-img {
+  margin-top: -20px;
+}
+#value-props .row span.circle .doctors-img {
+  margin-top: 10px;
+}
+#value-props .row span.circle .shipping-img {
+  margin-top: 10px;
+  width: 340px;
+  margin-left: -80px;
+}
+#value-props .row span.circle .weights-img {
+  margin-top: -5px;
 }
 #value-props .container .row {
   margin: 70px 0;
@@ -129,7 +151,7 @@ a.main-cta:hover {
 #wellness {
   background: url('../imgs/money-bkgd.png');
   background-position: center;
-  background-size: 100% 100%;
+  background-size: 101% 100%;
   min-height: 400px;
 }
 #wellness .wellness-row span.white-box {
@@ -161,7 +183,6 @@ a.main-cta:hover {
   width: 40px;
 }
 .wellness-row .col-sm-4 {
-  background: blue;
   padding: 0;
   text-align: center;
   margin: 0!important;
@@ -172,7 +193,7 @@ a.main-cta:hover {
 }
 #contact {
   background: #06bbb9;
-  height: 600px;
+  height: 575px;
   position: relative;
   overflow-x: hidden;
   z-index: 0;
@@ -191,6 +212,8 @@ a.main-cta:hover {
   border-radius: 6px;
   border: 0;
   font-size: 17px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 #contact .contact-row .col-sm-6 {
   position: relative;
@@ -253,19 +276,22 @@ a.main-cta:hover {
 }
 #faq {}
 #faq h2, #faq p {
-  width: 90%;
+  width: 100%;
+  text-align: left;
 }
 #faq p {
   font-size: 18px;
   margin: 25px 0;
 }
 #faq i.ion-ios-help-outline {
-  font-size: 150px;
+  font-size: 200px;
   text-align: center;
   display: block;
+  background: white;
+  z-index: 90;
   position: absolute;
   color: rgba(0, 0, 0, 0.125);
-  top: -60px;
+  top: -30px;
   right: 0;
   left: 0;
 }
@@ -277,16 +303,21 @@ a.main-cta:hover {
 #footer {
   background: black;
   color: white;
+  padding: 25px 0;
+  padding-bottom: 20px;
+}
+#footer .address {
+  margin-left: 20px;
 }
 #footer .footer-link-row p {
   padding-top: 10px;
-  font-size: 20px;
+  font-size: 17px;
   /*margin-bottom: 50px;*/
 }
 #footer .footer-link-row p.address {
   padding-top: 0;
   margin-bottom: -5px;
-  margin-top: -5px;
+  margin-top: 0px;
 }
 #footer a.circle-link {
   color: white;
@@ -297,12 +328,13 @@ a.main-cta:hover {
   border-radius: 120px;
   border: 1px solid white;
   padding-top: 8px;
+  margin-left: 35px;
 }
 #footer a.circle-link:hover {
   background: white;
   color: #000;
+  cursor: default;
 }
-
 #footer a {
   color: white;
 }
@@ -329,9 +361,16 @@ a.main-cta:hover {
   display: block;
   margin: 0 auto;
 }
-.chevron-row .learn-more {
+.chevron-row span {
+  margin-top: -35px;
+  z-index: 9000000;
+  position: absolute;
+  right: 0%;
+}
+.item .learn-more {
   text-indent: 15px;
-  font-size: 18px;
+  font-size: 19px;
+  font-weight: 500;
 }
 .chevron-row i {
   font-size: 30px;
@@ -373,13 +412,14 @@ nav .navbar-toggle {
   background: #f0f0f0;
   border: 1px solid #ccc;
   padding: 10px;
-  margin-top:20px;
+  margin-top: 20px;
 }
 .navbar-toggle .icon-bar {
   background: #ccc;
 }
-
-.navbar-nav .nav-list {}
+.navbar-nav .nav-list {
+  padding-left: 0;
+}
 .nav-list li {
   display: inline-block;
   text-align: center;
@@ -414,30 +454,39 @@ nav .navbar-toggle {
   margin-top: 20px;
   display: block;
 }
-
-
+.footer-content-row p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 @media (max-width:1200px) {
   #hero .main-cta-row .col-lg-6 {
     text-align: center;
     margin: 15px 0;
   }
+  #footer a.circle-link {
+    margin-left: 20px;
+  }
+  #footer .telephone-start {
+    margin-left: 50px;
+  }
+  #footer .address {
+    margin-left: 20px;
+  }
 }
-
-
 @media (max-width:991px) {
   #hero {
     background-position: center;
   }
-
-
-
   h1 {
     max-width: 95%;
   }
   h1, h2 {
-    max-width: 80%;
     text-align: center;
     margin: 0 auto;
+  }
+
+  #hero h1  {
+    margin-top: 60px;
   }
   #faq i.ion-ios-help-outline {
     position: relative;
@@ -452,10 +501,25 @@ nav .navbar-toggle {
   #value-props p {
     text-align: left;
   }
-
-
   #value-props .row {
     text-align: center;
+  }
+  #value-props .row span.circle {
+    width: 240px;
+    height: 240px;
+    border: 6px solid #f3f3f3;
+  }
+  #value-props h2 {
+    margin-top: 35px;
+  }
+  #value-props .row p, #value-props .row a {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #value-props .row a {
+    margin-top: 10px;
+    font-weight: 500;
   }
   #value-props-2 img {
     width: 120px;
@@ -465,6 +529,9 @@ nav .navbar-toggle {
     height: auto;
     margin-top: -5px!important;
   }
+  #value-props-2 p {
+    width: 95%;
+  }
   #wellness {
     display: none;
   }
@@ -472,11 +539,14 @@ nav .navbar-toggle {
     height: auto;
   }
   #contact .contact-row input {
-    width: 85%;
+    width: 95%;
   }
   #contact .contact-row .col-sm-6.text-right, #contact .contact-row .col-sm-6.text-left {
     margin: 0 auto;
     text-align: center;
+  }
+  #faq {
+    padding-top: 0;
   }
   #faq i.ion-ios-help-outline {
     top: 0;
@@ -491,6 +561,9 @@ nav .navbar-toggle {
   #footer a.circle-link {
     margin: 0 auto;
   }
+  #footer .telephone-start {
+    margin-left: 0;
+  }
   #footer .footer-link-row p {
     margin-bottom: 30px;
     margin-top: 10px;
@@ -503,7 +576,6 @@ nav .navbar-toggle {
     width: 80%;
   }
 }
-
 @media (max-width: 767px) {
   .navbar-nav li {
     display: block;
@@ -513,12 +585,46 @@ nav .navbar-toggle {
   .navbar-nav li a {
     font-size: 20px;
   }
+  #value-props-2 .value-props-2-img-holder {
+    margin-top: 70px;
+  }
+  #contact h1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #contact .contact-row input {
+    width: 90%;
+  }
 }
-
-
 @media (max-width:601px) {
-
+  .bk-filter {
+    -webkit-transition: 1s;
+    transition: 1s;
+    background: rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .main-cta-row .invert {
+    background: rgba(255, 255, 255, .2)!important;
+  }
+  #hero h1 {
+    text-shadow: 1px 1px 0 #f3f3f3;
+  }
   /*h1 {
     font-size: 10vw!important;
   }*/
+}
+@media (max-width: 441px) {
+  #hero h1 {
+    font-size: 10vw!important;
+  }
+  h1 {
+    font-size: 9vw!important;
+  }
+  h2 {
+    font-size: 8vw!important;
+  }
 }
