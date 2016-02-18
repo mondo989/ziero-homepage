@@ -136,19 +136,28 @@ a.main-cta:hover {
   -webkit-transition: 1s;
   transition: 1s;
 }
+#value-props .row span.circle .piggybank {
+  width: 170px;
+  margin-top: 20px;
+
+}
 #value-props .row span.circle .trio-img {
-  margin-top: -20px;
+  margin-top: -5px;
+  width: 200px;
 }
 #value-props .row span.circle .doctors-img {
-  margin-top: 10px;
+  margin-top: 15px;
+  width: 180px;
 }
 #value-props .row span.circle .shipping-img {
-  margin-top: 10px;
-  width: 340px;
-  margin-left: -80px;
+  margin-top: 40px;
+  width: 240px;
+  margin-left: -20px;
 }
 #value-props .row span.circle .weights-img {
-  margin-top: -5px;
+  margin-top: 25px;
+  margin-left: -10px;
+  width: 180px;
 }
 #value-props .container .row {
   margin: 70px 0;
@@ -329,7 +338,7 @@ animation: fadeIn 1s;
   margin: 25px 0;
 }
 #faq i.ion-ios-help-outline {
-  font-size: 200px;
+  font-size: 180px;
   text-align: center;
   display: block;
   background: white;
@@ -337,7 +346,7 @@ animation: fadeIn 1s;
   position: absolute;
   color: rgba(0, 0, 0, 0.125);
   top: -30px;
-  right: 0;
+  right: 0;  padding-bottom: 0!important;
   left: 0;
 }
 .question-holder {
@@ -629,6 +638,10 @@ nav .navbar-toggle {
   }
   .navbar-nav li a {
     font-size: 20px;
+  }
+  .navbar-nav li a.login-btn {
+    width: 225px;
+
   }
   #value-props-2 .value-props-2-img-holder {
     margin-top: 70px;
