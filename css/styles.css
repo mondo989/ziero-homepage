@@ -1,5 +1,10 @@
 /*Brand Color::  #06bbb9   */
 
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
   font-family: 'Open sans';
 }
