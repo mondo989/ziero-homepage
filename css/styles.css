@@ -167,6 +167,7 @@ a.main-cta:hover {
   background-position: center;
   background-size: 101% 100%;
   min-height: 400px;
+  padding-bottom: 100px;
 }
 #wellness .wellness-row span.white-box {
   background: white;
