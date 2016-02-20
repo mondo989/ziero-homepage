@@ -39,7 +39,7 @@
                 <a target="blank()" href="pricing.html">Pricing</a>
               </li>
               <li>
-                <a class="main-cta invert" href="#">Log In</a>
+                <a data-toggle="modal" data-target="#login-modal" class="main-cta invert">Log In</a>
               </li>
             </ul>
         </span>
@@ -138,6 +138,71 @@
       </div>
     </div>
   </section>
+
+
+
+
+      <!--  Modals Start here -->
+      <!--  Modal 1 -->
+      <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="loginmodal-container">
+            <h1>Login to Your Account</h1>
+            <div class="separator"></div>
+            <form>
+              <input type="text" name="user" placeholder="Username">
+              <input type="password" name="pass" placeholder="Password">
+              <span class="invalid active">Invalid Username/Password</span>
+              <span class="remember-password-row">
+                 <input type="checkbox" name="rememberPassword" value="rememberPassword">
+                  Remeber Password
+              </span>
+              <input type="submit" name="login" class="login loginmodal-submit" value="Log in">
+            </form>
+            <div class="login-help">
+              <a data-dismiss="modal" data-toggle="modal" data-target="#signup-modal">Register</a> - <a href="#">Forgot Password</a>
+              <a data-dismiss="modal" class="close-btn"><i class="ion-ios-close-empty"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--  Modals Start here -->
+      <!--  Modal 2 -->
+      <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="loginmodal-container">
+            <h1>Sign Up for Ziero</h1>
+            <div class="separator"></div>
+
+            <form>
+              <input type="text" name="user" placeholder="Employer ID">
+              <span class="half-input">
+                <input type="text" name="firstName" placeholder="First Name">
+                <input type="text" name="lastName" placeholder="Last Name">
+              </span>
+              <input type="text" name="companyEmail" placeholder="Company Email Address (Optional)">
+              <input type="password" name="pass" placeholder="Password">
+              <span class="invalid">All Fields must be Filled</span>
+
+              <div class="row tos-row">
+                By clicking sign up, I agree to Ziero's <a targer="blank()" href="https://www.zierofinance.com/home/terms">terms of service</a> &amp; <a targer="blank()" href="https://www.zierofinance.com/home/privacy/">privacy policy</a>.
+              </div>
+
+              <input type="submit" name="login" class="login loginmodal-submit" value="Sign up">
+            </form>
+            <div class="login-help">
+              <a data-dismiss="modal" data-toggle="modal" data-target="#login-modal">Already have an account?</a> - <a href="#">Forgot Password</a>
+            </div>
+            <a data-dismiss="modal" class="close-btn">
+              <i class="ion-ios-close-empty"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
 
 </body>
 

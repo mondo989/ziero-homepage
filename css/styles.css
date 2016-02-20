@@ -464,7 +464,6 @@ a.main-cta:hover {
   margin-bottom: -15px;
 }
 nav .navbar-toggle {
-  background: #f0f0f0;
   border: 1px solid #ccc;
   padding: 10px;
   margin-top: 20px;
@@ -515,6 +514,7 @@ nav .navbar-toggle {
   margin-bottom: 10px;
 }
 
+.
 
 
 
@@ -537,7 +537,6 @@ nav .navbar-toggle {
 .loginmodal-container h1 {
   text-align: center;
   font-size: 1.8em;
-  font-weight: 400;
 }
 .loginmodal-container input[type=submit] {
   width: 100%;
@@ -648,6 +647,27 @@ nav .navbar-toggle {
 }
 .close-btn:hover {
   cursor: pointer;
+}
+span.invalid {
+  display: none;
+}
+
+span.invalid.active {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+  color: red;
+  font-weight: 500;
+  -webkit-animation: fadeInUp 1s;
+  animation: fadeInUp 1s;
+}
+.half-input  {
+  width: 100%;
+  display: inline!important;
+}
+.half-input input {
+  background: blue;
+  width: 49.5%!important;
 }
 
 

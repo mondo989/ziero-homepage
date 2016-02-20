@@ -361,60 +361,18 @@
 
 
 
-  <!-- popup -->
-  <a class="basic_close"></a>
-  <div id="basic" class="well custom-well" style="display:none;">
-    <div class="login_box">
-
-
-      <div class="login-box-body">
-        <form id="login_form" action="/profile/ajaxlogin/">
-          <input type='hidden' name='csrfmiddlewaretoken' value='hqF1rpoIE4BsRbCD05dvNgKaY7axG5FK' />
-          <div class="form-group">
-            <div class="input-group">
-              <input type="email" name="email" id="login_email" class="form-control" autofocus placeholder="Email Address">
-            </div>
-          </div>
-          <div class="form-group">
-            <div class="input-group">
-              <input type="text" name="password" id="login_password" class="form-control" placeholder="password">
-            </div>
-          </div>
-          <div id="auth_error_message" style="display: none; color: #f0512f">place holder</div>
-          <div class="form-group form-group-2">
-            <div class="input-group">
-              <div class="checkbox">
-                <input id="checkboxpass" class="styled" type="checkbox" name="checkboxpass">
-                <label for="checkboxpass">Remember Password</label>
-              </div>
-              <span class="home-btn pull-right">
-                <a href="#">Log in</a></span>
-            </div>
-          </div>
-          <p><a href="#">Forgot your password?</a></p>
-          <div class="sign-up-line">
-            <p>Don't have an account? <a onclick="sign_up_popups();" class="signupme" href="" data-toggle="modal">Sign up</a></p>
-          </div>
-        </form>
-      </div>
-
-    </div>
-
-  </div>
-
-
 
   <!--  Modals Start here -->
+  <!--  Modal 1 -->
   <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-
     <div class="modal-dialog">
       <div class="loginmodal-container">
         <h1>Login to Your Account</h1>
         <div class="separator"></div>
-
         <form>
           <input type="text" name="user" placeholder="Username">
           <input type="password" name="pass" placeholder="Password">
+          <span class="invalid active">Invalid Username/Password</span>
           <span class="remember-password-row">
              <input type="checkbox" name="rememberPassword" value="rememberPassword">
               Remeber Password
@@ -432,6 +390,7 @@
 
 
   <!--  Modals Start here -->
+  <!--  Modal 2 -->
   <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="loginmodal-container">
@@ -440,14 +399,16 @@
 
         <form>
           <input type="text" name="user" placeholder="Employer ID">
-          <input type="text" name="firstName" placeholder="First Name">
-          <input type="text" name="lastName" placeholder="Last Name">
-          <input type="text" name="email" placeholder="Company Email Address (Optional)">
+          <span class="half-input">
+            <input type="text" name="firstName" placeholder="First Name">
+            <input type="text" name="lastName" placeholder="Last Name">
+          </span>
+          <input type="text" name="companyEmail" placeholder="Company Email Address (Optional)">
           <input type="password" name="pass" placeholder="Password">
+          <span class="invalid">All Fields must be Filled</span>
 
           <div class="row tos-row">
-            By clicking sign up, I agree to Ziero's <a targer="blank()" href="https://www.zierofinance.com/home/terms">terms of service</a>
-            &amp; <a targer="blank()" href="https://www.zierofinance.com/home/privacy/">privacy policy</a>.
+            By clicking sign up, I agree to Ziero's <a targer="blank()" href="https://www.zierofinance.com/home/terms">terms of service</a> &amp; <a targer="blank()" href="https://www.zierofinance.com/home/privacy/">privacy policy</a>.
           </div>
 
           <input type="submit" name="login" class="login loginmodal-submit" value="Sign up">
@@ -455,7 +416,9 @@
         <div class="login-help">
           <a data-dismiss="modal" data-toggle="modal" data-target="#login-modal">Already have an account?</a> - <a href="#">Forgot Password</a>
         </div>
-        <a data-dismiss="modal" class="close-btn"><i class="ion-ios-close-empty"></i></a>
+        <a data-dismiss="modal" class="close-btn">
+          <i class="ion-ios-close-empty"></i>
+        </a>
       </div>
     </div>
   </div>
