@@ -59,10 +59,15 @@
             <div class="price-box">
               <span class="type">Starter</span>
               <span class="price">$250</span>
+              <span class="employer-fee">Employer Fee</span>
+              <br>
+              <span class="employee-perk-holder">
+                <span class="employer-perk">Employer Perk</span>
+                <span class="amount">$2,500</span>
               <span class="terms">Term: 15 Months</span>
-              <span class="amount">Amount: $2,500</span>
               <span class="repayment">Repayment: $166/mo</span>
               <span class="interest">Interest: 0%</span>
+              </span>
             </div>
           </div>
 
@@ -70,10 +75,15 @@
             <div class="price-box mid">
               <span class="type">Standard</span>
               <span class="price">$550</span>
-              <span class="terms">Term: 18 Months</span>
-              <span class="amount">Amount: $5,000</span>
-              <span class="repayment">Repayment: $277/mo</span>
-              <span class="interest">Interest: 0%</span>
+              <span class="employer-fee">Employer Fee</span>
+              <br>
+              <span class="employee-perk-holder">
+                  <span class="employer-perk">Employer Perk</span>
+                  <span class="amount">$5,000</span>
+                  <span class="terms">Term: 18 Months</span>
+                  <span class="repayment">Repayment: $277/mo</span>
+                  <span class="interest">Interest: 0%</span>
+              </span>
               <img src="imgs/ribbon.png" class="most-popular">
             </div>
 
@@ -83,11 +93,15 @@
             <div class="price-box">
               <span class="type">Extended Term</span>
               <span class="price">$800</span>
-
+              <span class="employer-fee">Employer Fee</span>
+              <br>
+              <span class="employee-perk-holder">
+                <span class="employer-perk">Employer Perk</span>
+                <span class="amount">$5,000</span>
               <span class="terms">Term: 24 Months</span>
-              <span class="amount">Amount: $5,000</span>
               <span class="repayment">Repayment: $208/mo</span>
               <span class="interest">Interest: 0%</span>
+              </span>
             </div>
           </div>
 
@@ -111,7 +125,7 @@
   </section>
 
   <section id="nonprofit">
-  <h4 class="text-center">Non-Profit? <a href="mailto:info@zierofinance.com?Subject=Nonprofit%20Question">Contact us</a> directly to benefit from special pricing.</h4>
+    <h4 class="text-center">Non-Profit? <a href="mailto:info@zierofinance.com?Subject=Nonprofit%20Question">Contact us</a> directly to benefit from special pricing.</h4>
   </section>
 
   <section id="footer">
@@ -165,66 +179,66 @@
 
 
 
-    <!--  Modals Start here -->
-    <!--  Modal 1 -->
-    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="loginmodal-container">
-          <h1>Login to Your Account</h1>
-          <div class="separator"></div>
-          <form>
-            <input type="text" name="user" placeholder="Username">
-            <input type="password" name="pass" placeholder="Password">
-            <span class="invalid active">Invalid Username/Password</span>
-            <span class="remember-password-row">
+  <!--  Modals Start here -->
+  <!--  Modal 1 -->
+  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="loginmodal-container">
+        <h1>Login to Your Account</h1>
+        <div class="separator"></div>
+        <form>
+          <input type="text" name="user" placeholder="Username">
+          <input type="password" name="pass" placeholder="Password">
+          <span class="invalid active">Invalid Username/Password</span>
+          <span class="remember-password-row">
                <input type="checkbox" name="rememberPassword" value="rememberPassword">
                 Remeber Password
             </span>
-            <input type="submit" name="login" class="login loginmodal-submit" value="Log in">
-          </form>
-          <div class="login-help">
-            <a data-dismiss="modal" data-toggle="modal" data-target="#signup-modal">Register</a> - <a href="#">Forgot Password</a>
-            <a data-dismiss="modal" class="close-btn"><i class="ion-ios-close-empty"></i></a>
-          </div>
+          <input type="submit" name="login" class="login loginmodal-submit" value="Log in">
+        </form>
+        <div class="login-help">
+          <a data-dismiss="modal" data-toggle="modal" data-target="#signup-modal">Register</a> - <a href="#">Forgot Password</a>
+          <a data-dismiss="modal" class="close-btn"><i class="ion-ios-close-empty"></i></a>
         </div>
       </div>
     </div>
+  </div>
 
 
 
-    <!--  Modals Start here -->
-    <!--  Modal 2 -->
-    <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="loginmodal-container">
-          <h1>Sign Up for Ziero</h1>
-          <div class="separator"></div>
+  <!--  Modals Start here -->
+  <!--  Modal 2 -->
+  <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="loginmodal-container">
+        <h1>Sign Up for Ziero</h1>
+        <div class="separator"></div>
 
-          <form>
-            <input type="text" name="user" placeholder="Employer ID">
-            <span class="half-input">
+        <form>
+          <input type="text" name="user" placeholder="Employer ID">
+          <span class="half-input">
               <input type="text" name="firstName" placeholder="First Name">
               <input type="text" name="lastName" placeholder="Last Name">
             </span>
-            <input type="text" name="companyEmail" placeholder="Company Email Address (Optional)">
-            <input type="password" name="pass" placeholder="Password">
-            <span class="invalid">All Fields must be Filled</span>
+          <input type="text" name="companyEmail" placeholder="Company Email Address (Optional)">
+          <input type="password" name="pass" placeholder="Password">
+          <span class="invalid">All Fields must be Filled</span>
 
-            <div class="row tos-row">
-              By clicking sign up, I agree to Ziero's <a targer="blank()" href="https://www.zierofinance.com/home/terms">terms of service</a> &amp; <a targer="blank()" href="https://www.zierofinance.com/home/privacy/">privacy policy</a>.
-            </div>
-
-            <input type="submit" name="login" class="login loginmodal-submit" value="Sign up">
-          </form>
-          <div class="login-help">
-            <a data-dismiss="modal" data-toggle="modal" data-target="#login-modal">Already have an account?</a> - <a href="#">Forgot Password</a>
+          <div class="row tos-row">
+            By clicking sign up, I agree to Ziero's <a targer="blank()" href="https://www.zierofinance.com/home/terms">terms of service</a> &amp; <a targer="blank()" href="https://www.zierofinance.com/home/privacy/">privacy policy</a>.
           </div>
-          <a data-dismiss="modal" class="close-btn">
-            <i class="ion-ios-close-empty"></i>
-          </a>
+
+          <input type="submit" name="login" class="login loginmodal-submit" value="Sign up">
+        </form>
+        <div class="login-help">
+          <a data-dismiss="modal" data-toggle="modal" data-target="#login-modal">Already have an account?</a> - <a href="#">Forgot Password</a>
         </div>
+        <a data-dismiss="modal" class="close-btn">
+          <i class="ion-ios-close-empty"></i>
+        </a>
       </div>
     </div>
+  </div>
 
 
 </body>
