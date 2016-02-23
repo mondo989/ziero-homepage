@@ -13,7 +13,9 @@ section {
   color: #06bbb9;
 }
 #hero {
-  background: url("../imgs/hero-bk.png");
+  background: rgba(231, 213, 198, .7);
+  /*background: url("../imgs/hero-bk.png");*/
+  /*background: #f0f0f0;*/
   /*background-position: -120px -300px;*/
   /*background-position: -80px center;*/
   background-position: center;
@@ -24,9 +26,10 @@ section {
   margin-bottom: 0;
   padding-bottom: 0;
   position: relative;
+  overflow: hidden;
 }
 #hero h1 {
-  width: 80%;
+  max-width: 550px;
   margin: 0 auto;
   text-align: center;
   font-size: 41px;
@@ -36,6 +39,17 @@ section {
 }
 #hero h1 span {
   color: #06bbb9;
+}
+.hero-img-row {}
+img.hero-img {
+  top: -24%;
+  width: 125%;
+  position: absolute;
+  left: -20%;
+  -webkit-transition: .3s;
+  transition: .3s;
+  z-index: 0;
+  opacity: .9;
 }
 .main-cta-row {
   -webkit-animation: fadeIn 1.5s;
@@ -278,7 +292,7 @@ a.main-cta:hover {
 .tos-row {
   padding: 15px 0;
   text-align: center;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   line-height: 1.7;
 }
@@ -475,7 +489,7 @@ a.main-cta:hover {
 nav .navbar-toggle {
   border: 1px solid #ccc;
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 24px;
 }
 .navbar-toggle .icon-bar {
   background: #ccc;
@@ -702,6 +716,11 @@ span.invalid.active {
   #hero {
     background-position: center;
   }
+  img.hero-img {
+    width: 170%;
+    left: -40%;
+    top: -32%;
+  }
   h1 {
     max-width: 95%;
   }
@@ -802,6 +821,21 @@ span.invalid.active {
   }
 }
 @media (max-width: 767px) {
+  img.hero-img {
+    top: -20%;
+    bottom: 0;
+    /*background: black;*/
+    width: 1240px;
+    position: absolute;
+    left: -400px;
+    opacity: .7;
+  }
+  #hero {
+    /*background: rgba(0, 0, 0, 0.15);*/
+  }
+  #hero h1 {
+    margin-top: 70px;
+  }
   .navbar-nav li {
     display: block;
     margin: 30px auto;
@@ -839,18 +873,19 @@ span.invalid.active {
   .bk-filter {
     -webkit-transition: 1s;
     transition: 1s;
-    background: rgba(0, 0, 0, 0.15);
+    /*background: rgba(255, 255, 255, 0)!important;*/
     position: absolute;
     top: 0;
     right: 0;
+    z-index: -1;
     left: 0;
     bottom: 0;
   }
   .main-cta-row .invert {
-    background: rgba(255, 255, 255, .2)!important;
+    /*background: rgba(255, 255, 255, .2)!important;*/
   }
   #hero h1 {
-    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.7);
+    margin-top: 30px;
   }
   div.modal-dialog {
     margin: 0 auto !important;
@@ -866,6 +901,21 @@ span.invalid.active {
 @media (max-width: 441px) {
   #hero h1 {
     font-size: 10vw!important;
+  }
+  img.ziero-main-logo {
+    margin-top: 0px;
+    width: 150px;
+  }
+  #hero {
+    /*background: rgba(0, 0, 0, 0.15);*/
+    z-index: 1;
+  }
+  img.hero-img {
+    top: -50px;
+    width: 1110px;
+    left: -380px;
+    z-index: -1;
+    opacity: .5;
   }
   h1 {
     font-size: 9vw!important;
@@ -892,6 +942,39 @@ span.invalid.active {
     margin-top: -10px;
   }
 }
+@media (min-width:1200px) {
+  img.hero-img {
+    width: 125%;
+    left: -20%;
+    top: -35%;
+  }
+}
+@media (min-width:1475px) {
+  .bk-filter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /*background: rgba(231, 213, 198, 1);*/
+    z-index: -5;
+  }
+  img.hero-img {
+    top: -50%;
+    left: -10%;
+    width: 120%;
+  }
+}
+
+@media (min-width: 2000px) {
+  img.hero-img {
+    top: -30%;
+    left: 15%;
+    width: 1550px;
+  }
+}
+
+
 fadeInDown {
   0% {
     opacity: 0;
