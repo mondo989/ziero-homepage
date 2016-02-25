@@ -717,19 +717,22 @@ input.error:-ms-input-placeholder {
   display: none;
 }
 .submit-copy.active {
-  display: block;
-  text-align: center;
-  width: 85%;
   padding-top: 20px;
-
+}
+.error-copy {
+  display: none;
+}
+.error-copy.active {
+  color: red;
+}
+.submit-copy.active,
+.error-copy.active {
+  display: block;
+  width: 85%;
   margin: 0 auto;
-
   -webkit-animation: fadeInDown 1s;
   animation: fadeInDown 1s;
 }
-
-
-
 @media (max-width:1200px) {
   #hero {
     padding: 120px 0;
