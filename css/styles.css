@@ -694,6 +694,42 @@ span.invalid.active {
 .half-input input:last-child {
   margin-left: 7px!important;
 }
+input.error {
+  border: 1px solid red!important;
+}
+input.error::-webkit-input-placeholder {
+  color: red;
+  font-weight: 500;
+}
+input.error:-moz-placeholder {
+  color: red;
+  font-weight: 500;
+}
+input.error::-moz-placeholder {
+  color: red;
+  font-weight: 500;
+}
+input.error:-ms-input-placeholder {
+  color: red;
+  font-weight: 500;
+}
+.submit-copy {
+  display: none;
+}
+.submit-copy.active {
+  display: block;
+  text-align: center;
+  width: 85%;
+  padding-top: 20px;
+
+  margin: 0 auto;
+
+  -webkit-animation: fadeInDown 1s;
+  animation: fadeInDown 1s;
+}
+
+
+
 @media (max-width:1200px) {
   #hero {
     padding: 120px 0;
@@ -965,7 +1001,6 @@ span.invalid.active {
     width: 120%;
   }
 }
-
 @media (min-width: 2000px) {
   img.hero-img {
     top: -30%;
@@ -973,8 +1008,6 @@ span.invalid.active {
     width: 1550px;
   }
 }
-
-
 fadeInDown {
   0% {
     opacity: 0;
