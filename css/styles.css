@@ -22,7 +22,7 @@ section {
   /*background-size: 100%;*/
   background-repeat: no-repeat;
   padding: 200px 0 100px;
-  height: 600px;
+  height: 800px;
   margin-bottom: 0;
   padding-bottom: 0;
   position: relative;
@@ -33,24 +33,36 @@ section {
   margin: 0 auto;
   text-align: center;
   font-size: 41px;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
   -webkit-animation: fadeInDown 1s;
   animation: fadeInDown 1s;
+}
+#hero h6 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin:40px auto 45px auto;
+  width: 80%;
+  line-height: 1.4;
+
 }
 #hero h1 span {
   color: #06bbb9;
 }
-.hero-img-row {}
 img.hero-img {
-  width: 1240px;
+  width: 1485px;
   position: absolute;
   left: -200px;
-  top: -24%;
+  top: -13%;
   -webkit-transition: .3s;
   transition: .3s;
   z-index: 0;
   opacity: .9;
 }
+.hero-copy-row {
+  margin-top: 50px;
+}
+
 .main-cta-row {
   -webkit-animation: fadeIn 1.5s;
   animation: fadeIn 1.5s;
@@ -761,9 +773,9 @@ input.error:-ms-input-placeholder {
     background-position: center;
   }
   img.hero-img {
-    width: 1350px;
-    left: -340px;
-    top: -32%;
+    width: 1620px;
+left: -370px;
+top: -23%;
   }
   h1 {
     max-width: 95%;
@@ -773,8 +785,8 @@ input.error:-ms-input-placeholder {
     margin: 0 auto;
   }
   #hero h1 {
-    margin-top: 60px;
-    width: 90%;
+    margin-top: 55px;
+    width: 100%;
   }
   #faq i.ion-ios-help-outline {
     position: relative;
@@ -869,19 +881,19 @@ input.error:-ms-input-placeholder {
 }
 @media (max-width: 767px) {
   img.hero-img {
-    top: -20%;
-    bottom: 0;
-    /*background: black;*/
-    width: 1240px;
-    position: absolute;
-    left: -400px;
-    opacity: .7;
+    top: 3%;
+  bottom: 0;
+  /*background: black;*/
+  width: 1301px;
+  position: absolute;
+  left: -400px;
+  opacity: .7;
   }
   #hero {
     /*background: rgba(0, 0, 0, 0.15);*/
   }
   #hero h1 {
-    margin-top: 70px;
+    margin-top: 70px!important;
   }
   .navbar-nav li {
     display: block;
@@ -927,6 +939,10 @@ input.error:-ms-input-placeholder {
     z-index: -1;
     left: 0;
     bottom: 0;
+  }
+
+  .hero-copy-row {
+    margin-top: 0!important;
   }
   .main-cta-row .invert {
     /*background: rgba(255, 255, 255, .2)!important;*/
@@ -997,9 +1013,13 @@ input.error:-ms-input-placeholder {
 }
 @media (min-width:1200px) {
   img.hero-img {
-    width: 1360px;
-    left: -120px;
-    top: -35%;
+    width: 1670px;
+    left: -180px;
+    top: -26%;
+  }
+
+  .hero-copy-row {
+    margin-top: 48px;
   }
 }
 @media (min-width:1475px) {
@@ -1013,9 +1033,10 @@ input.error:-ms-input-placeholder {
     z-index: -5;
   }
   img.hero-img {
-    top: -40%;
-    left: 2%;
-    width: 1450px;
+    top: -32%;
+      left: -8%;
+      width: 1750px;
+
   }
 }
 @media (min-width: 2000px) {
