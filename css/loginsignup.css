@@ -1,0 +1,49 @@
+section#login {
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+  padding-bottom: 0;
+}
+.loginmodal-container {
+  padding-top: 35px;
+}
+#login .loginmodal-container {
+  max-width: 750px;
+}
+#login .invalid {
+  margin-top: 10px;
+}
+.loginmodal-container > * {
+  max-width: 500px;
+  margin: 0 auto;
+}
+#login .loginmodal-submit {
+  margin-top: 20px;
+}
+#login .remember-password-row {
+  margin-top: 15px;
+}
+#login .loginmodal-container .separator {
+  margin: 25px auto!important
+}
+section#signup {
+  padding: 40px 0!important;
+  margin-top: 0;
+  display: block;
+
+}
+#signup h3 {
+  font-weight: 400;
+  -webkit-animation: fadeInDown 1s;
+  animation: fadeInDown 1s;
+}
+#signup h3 a {
+  display: block;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 448px) {
+  #signup h3 {
+    font-size: 15px;
+  }
+}

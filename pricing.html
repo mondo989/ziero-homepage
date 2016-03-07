@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Karla:400,700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/pricing.css">
 </head>
@@ -40,7 +40,10 @@
                 <a target="blank()" href="pricing.html">Pricing</a>
               </li>
               <li>
-                <a data-toggle="modal" data-target="#login-modal" class="main-cta invert" >Log In</a>
+                <a href="login.html" >Log In</a>
+              </li>
+              <li>
+                <a href="signup.html" class="main-cta invert login-btn">Sign Up</a>
               </li>
             </ul>
         </span>
@@ -52,8 +55,7 @@
   <section id="pricing">
     <div class="container text-center">
       <div class="row">
-
-        <h1>Here's the Current Pricing Plans Available</h1>
+        <h1>Current Pricing Plans</h1>
         <!-- <div class="separator"></div> -->
         <div class="row pricing-row">
           <div class="col-md-4">
@@ -64,11 +66,12 @@
               <br>
               <span class="employee-perk-holder">
                 <span class="employer-perk">Employee Perk</span>
-                <span class="amount">$2,500</span>
+              <span class="amount">$2,500</span>
               <span class="terms">Term: 15 Months</span>
               <span class="repayment">Repayment: $166/mo</span>
               <span class="interest">Interest: 0%</span>
               </span>
+              <img src="imgs/ribbon-nonprofit.png" class="most-popular non-profit">
             </div>
           </div>
 
@@ -80,10 +83,10 @@
               <br>
               <span class="employee-perk-holder">
                   <span class="employer-perk">Employee Perk</span>
-                  <span class="amount">$5,000</span>
-                  <span class="terms">Term: 18 Months</span>
-                  <span class="repayment">Repayment: $277/mo</span>
-                  <span class="interest">Interest: 0%</span>
+              <span class="amount">$5,000</span>
+              <span class="terms">Term: 18 Months</span>
+              <span class="repayment">Repayment: $277/mo</span>
+              <span class="interest">Interest: 0%</span>
               </span>
               <img src="imgs/ribbon.png" class="most-popular">
             </div>
@@ -98,7 +101,7 @@
               <br>
               <span class="employee-perk-holder">
                 <span class="employer-perk">Employee Perk</span>
-                <span class="amount">$5,000</span>
+              <span class="amount">$5,000</span>
               <span class="terms">Term: 24 Months</span>
               <span class="repayment">Repayment: $208/mo</span>
               <span class="interest">Interest: 0%</span>
@@ -106,6 +109,25 @@
             </div>
           </div>
 
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="nonprofit">
+    <h4 class="text-center">Non-Profit? <a href="mailto:info@zierofinance.com?Subject=Nonprofit%20Question">Contact us</a> directly to benefit from special pricing.</h4>
+  </section>
+
+  <section id="howitworks">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center">How are the loans 0% and what is the fee for?</h2>
+        <div class="col-md-offset-2 col-md-8">
+          <p>When an employee opts to access the Ziero loan perk by submitting an application on our website, our finance partners (e.g., community banks) provide us the capital so Ziero can issue the interest-free loan.</p>
+          <p>At that point, Ziero changes a small fee to the employer. The fee covers the cost of the transaction. Ziero’s platform does the heavy lifting, making it possible for banks to lend, using our no-interest model, to those in need.</p>
+          <p>Our portal makes it easy for any company or non-profit to provide some financial breathing room to their employees.</p>
+          <p>It’s a win-win situation that improves the financial wellness of employees everywhere.</p>
         </div>
       </div>
     </div>
@@ -125,9 +147,6 @@
     </div>
   </section>
 
-  <section id="nonprofit">
-    <h4 class="text-center">Non-Profit? <a href="mailto:info@zierofinance.com?Subject=Nonprofit%20Question">Contact us</a> directly to benefit from special pricing.</h4>
-  </section>
 
   <section id="footer">
     <div class="container">
