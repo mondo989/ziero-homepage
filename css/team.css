@@ -1,0 +1,64 @@
+body {
+  font-family: 'Open Sans';
+}
+
+#team h1 {
+  font-weight: 400;
+}
+
+#team h3 {
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+#team h4:first-child {
+  color: #06bbb9;
+}
+
+#team h4:last-child {
+  font-weight: 400!important;
+}
+#team .profile-img {
+  width: 200px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#team .team-main-row {
+  margin-top: 60px;
+}
+
+#team .separator {
+  margin: 0 auto!important;
+  opacity: .3;
+  width: 70%;
+}
+#team .description {
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+#team .circle-link {
+  border: 1px solid #06bbb9;
+  display: block;
+  margin: 0 auto;
+  border-radius: 120px;
+  width: 30px;
+  position: relative;
+  height: 30px;
+  color: #06bbb9;
+}
+
+#team .circle-link i {
+  position: absolute;
+  top:6px;
+  bottom:0;
+  right: 0;
+  font-size: 15px;
+  left:0;
+}
+
+#team .ziero-blue {
+  color: #06bbb9;
+  font-weight: 600;
+}
