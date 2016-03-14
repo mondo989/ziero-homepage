@@ -81,15 +81,64 @@ a.main-cta {
   transition: .5s;
   z-index: 90;
 }
-a.main-cta.invert {
+a.main-cta.invert,
+input.main-cta.invert {
   color: #06bbb9;
   background: transparent;
+}
+input.main-cta.invert {
+  display: inline-block;
+  padding: 20px 0;
+  width: 300px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  border: 2px solid #fff;
+  -webkit-transition: .5s;
+  transition: .5s;
+  z-index: 90;
+  margin-top: 40px;
 }
 a.main-cta:hover {
   text-decoration: none;
   -webkit-transform: scale(1.015);
   transform: scale(1.015);
 }
+
+#referral input.main-cta {
+background: #06bbb9;
+display: inline-block;
+
+width: 300px;
+text-transform: uppercase;
+color: white;
+text-align: center;
+font-weight: 600;
+border: 2px solid #06bbb9;
+-webkit-transition: .5s;
+transition: .5s;
+z-index: 90;
+border-radius: 0;
+text-indent: 0;
+}
+
+#need-help input.main-cta {
+  background: #06bbb9;
+display: inline-block;
+width: 300px;
+text-transform: uppercase;
+color: white;
+text-align: center;
+font-weight: 600;
+border: 2px solid #06bbb9;
+-webkit-transition: .5s;
+border-radius: 0;
+transition: .5s;
+z-index: 90;
+text-indent: 0;
+}
+
 #value-props {
   margin-top: 0;
 }

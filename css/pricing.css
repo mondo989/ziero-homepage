@@ -43,6 +43,10 @@ section#need-help {
   margin-top: 10px;
   margin-left: -20px;
 }
+#need-help input.main-cta {
+  margin-top: 2px;
+}
+
 #need-help input {
   text-indent: 25px;
   width: 90%;

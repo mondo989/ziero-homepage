@@ -138,12 +138,14 @@
     <div class="container text-center">
       <div class="row">
         <h2>Need Help Choosing the Right Plan?</h2>
-        <div class="col-md-8 need-help-input-holder">
-          <input type="text" placeholder="Enter Email Address">
-        </div>
-        <div class="col-md-4 need-help-cta-btn-holder">
-          <a class="main-cta" href="#">Get Help Today</a>
-        </div>
+        <form action="//formspree.io/mzschoch@zierofinance.com" method="POST">
+          <div class="col-md-8 need-help-input-holder">
+            <input type="email" name="_replyto" placeholder="Enter Email Address" required>
+          </div>
+          <div class="col-md-4 need-help-cta-btn-holder">
+            <input type="submit" value="Get Help Today" class="main-cta">
+          </div>
+        </form>
       </div>
     </div>
   </section>

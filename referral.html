@@ -67,20 +67,20 @@
               <a href="" data-toggle="tooltip" data-placement="top" title=" Refer <100 Employees = $200     Refer >100 Employees = $500">$500</a>
            </span> as a referral bonus.</h4>
 
-        <form action="post">
+        <form action="//formspree.io/mzschoch@zierofinance.com" method="POST">
           <div class="row referral-row">
             <span class="half-width-holder">
-            <input type="text" class="half-width" placeholder="First Name">
-            <input type="text" class="half-width" placeholder="Last Name">
+            <input type="text" name="firstName" class="half-width" placeholder="First Name" required>
+            <input type="text" name="lastName" class="half-width" placeholder="Last Name" required>
             </span>
-            <input type="text" placeholder="Your Email Address">
-            <input type="text" placeholder="Company / Organization">
-            <input type="text" placeholder="Contact Name">
-            <input type="text" placeholder="Contact Email Address">
+            <input type="email" name="_replyto" placeholder="Your Email Address" required>
+            <input type="text" name="company" placeholder="Company / Organization" required>
+            <input type="text" name="contactName" placeholder="Contact Name" required>
+            <input type="email" name="contactEmailAddress" placeholder="Contact Email Address" required>
 
             <h3 class="submit-copy">Your information has been submitted</h3>
             <h3 class="error-copy">Please complete all fields.</h3>
-            <a href="#" class="main-cta">Submit Employer</a>
+            <input type="submit" value="Submit Employer" class="main-cta">
           </div>
         </form>
       </div>
@@ -128,7 +128,7 @@
       <div class="separator"></div>
       <div class="row footer-content-row text-center">
         <p>
-        <!--  <a href="team.html">Meet the Team </a> | --> <a href="http://www.zierofinance.com/home/terms/">Terms of Use </a>| <a href="https://www.zierofinance.com/home/privacy/">Privacy Policy</a>
+          <!--  <a href="team.html">Meet the Team </a> | --><a href="http://www.zierofinance.com/home/terms/">Terms of Use </a>| <a href="https://www.zierofinance.com/home/privacy/">Privacy Policy</a>
         </p>
         <br>
         <div class="social-media-row">
