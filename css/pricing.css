@@ -5,8 +5,7 @@
   margin-bottom: 60px;
 }
 #pricing .pricing-row {
-
--webkit-animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
 #pricing .pricing-row .price-box {
@@ -17,11 +16,9 @@
   box-shadow: 2px 2px 2px #ccc;
   border-radius: 5px;
 }
-
 #pricing .pricing-row .price-box.mid {
   width: 85%;
 }
-
 #pricing .pricing-row .col-sm-4 {
   position: relative;
 }
@@ -46,7 +43,6 @@ section#need-help {
 #need-help input.main-cta {
   margin-top: 2px;
 }
-
 #need-help input {
   text-indent: 25px;
   width: 90%;
@@ -72,22 +68,38 @@ section#need-help {
   margin-bottom: 10px;
   /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);*/
 }
-
 #pricing .pricing-row span.amount {
   font-size: 60px;
   color: #06bbb9;
   font-weight: 600;
   /*text-shadow: 1px 1px 1px black;*/
 }
-
 #howitworks h2 {
   margin-bottom: 30px;
 }
-
 #howitworks p {
   font-size: 16px;
 }
-
+#howitworks {
+  background: url("../imgs/coffee.jpg");
+  height: 580px;
+  background-position: 0 -200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#howitworks::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+}
+#howitworks .separator {
+  width: 70%;
+  margin: 15px auto!important;
+}
 .employer-fee {
   font-size: 14px!important;
   margin-top: -5px;
@@ -97,13 +109,11 @@ section#need-help {
 .employee-perk-holder {
   border-top: 3px dotted #f3f3f3;
 }
-
 .employee-perk-holder .employer-perk {
   font-size: 15px!important;
   font-weight: 600;
   margin-top: 30px;
 }
-
 .most-popular {
   position: absolute;
   top: 0;
@@ -115,41 +125,31 @@ section#need-help {
 .non-profit {
   margin-left: 53px
 }
-
 #nonprofit {
   padding-top: 0;
   background: white;
 }
-
-
+#nonprofit-modal.active {
+  padding-top: 10px;
+}
 .ziero-main-logo {
   margin-left: 22px
 }
-
-
-
 @media (max-width: 1200px) {
-
-    .most-popular {
-      margin-left: 38px;
-    }
-    .non-profit {
-      margin-left: 46px!important;
-    }
-
+  .most-popular {
+    margin-left: 38px;
+  }
+  .non-profit {
+    margin-left: 46px!important;
+  }
 }
-
-
-
 @media (max-width: 991px) {
-
   #pricing .pricing-row .price-box {
     width: 85%;
     margin: 25px auto;
   }
-
   .most-popular {
-  margin-left: 72px;
+    margin-left: 72px;
   }
   .non-profit {
     margin-left: 72px!important;
@@ -159,35 +159,27 @@ section#need-help {
     margin: 0 auto!important;
     margin-bottom: 20px!important;
   }
-
-  #need-help .need-help-input-holder,
-  #need-help .need-help-cta-btn-holder {
+  #need-help .need-help-input-holder, #need-help .need-help-cta-btn-holder {
     text-align: center;
     margin: 0 auto!important;
   }
 }
-
 @media (max-width: 761px) {
   .most-popular {
     margin-left: 9%;
   }
 }
-
 @media (max-width: 610px) {
   .most-popular {
-  margin-left:10%;
+    margin-left: 10%;
   }
   .non-profit {
-    margin-left:53px!important;
+    margin-left: 53px!important;
   }
 }
-
-
-
-
 @media (max-width: 451px) {
   .most-popular {
-    margin-left:10%;
+    margin-left: 10%;
   }
   .non-profit {
     margin-left: 42px!important;

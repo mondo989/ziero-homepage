@@ -1,0 +1,153 @@
+#hero.concept {
+  background: url("../imgs/concept-hero.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0 100px;
+  height: 500px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position: relative;
+  overflow: hidden;
+}
+.concept .separator {
+  width: 80%;
+  display: block;
+  background: white!important;
+  margin: 0 auto!important;
+}
+#hero.concept h5 {
+  font-size: 25px;
+  width: 770px !important;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  line-height: 1.4;
+}
+.concept h5 {
+  -webkit-animation: fadeInUp .6s!important;
+  animation: fadeInUp .6s!important;
+}
+#hero.concept:before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 0;
+  content: "";
+  background: rgba(0, 0, 0, 0.35);
+}
+#hero.concept h1, #hero.concept h5 {
+  color: white;
+  max-width: 100%!important;
+  display: block;
+}
+#hero.concept .hero-copy-row {
+  margin-top: -21px;
+}
+#platforms {
+  min-height: 760px;
+}
+#platforms h4 {
+  line-height: 1.5;
+  font-size: 24px;
+  margin: 30px 0;
+}
+#platforms li i.ion-checkmark-circled, #platforms li i.ion-android-arrow-dropright-circle {
+  font-size: 30px;
+  color: #06bbb9;
+  top: -6px;
+  left: 0;
+  position: absolute;
+  -webkit-animation: fadeInLeft .6s!important;
+  animation: fadeInLeft .6s!important;
+}
+#platforms li i.ion-android-arrow-dropright-circle {
+  font-size: 33px;
+  top: -9px;
+}
+#platforms li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 40px;
+  margin: 20px 0;
+  font-size: 20px;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+#platforms img.ziero-macbook {
+  width: 100%!important;
+  height: 100%;
+  -wetbkit-transition: .6s;
+  transition: .6s;
+  margin-top: 40px;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+.row#employee-row {
+  padding-top: 60px;
+}
+#platforms .get-started-holder {
+  position: relative;
+  display: block;
+  min-height: 450px;
+}
+#platforms .get-started-holder .get-started-1 {
+  width: 45%;
+  left: 0;
+  position: absolute;
+}
+#platforms .get-started-holder .get-started-2 {
+  width: 45%;
+  right: 50px;
+  top: 50px;
+  position: absolute;
+}
+#employee-row {
+  display: none;
+}
+#employee-row.active {
+  display: block;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/*#employee-row.active .employee-platform-container {
+-webkit-animation: fadeInRight 1s;
+  animation: fadeInRight 1s;
+}
+
+#employee-row.active .get-started-1 {
+  -webkit-animation: fadeInUp 1s;
+    animation: fadeInUp 1s;
+}
+
+#employee-row.active .get-started-2 {
+  -webkit-animation: fadeInDown 1s;
+    animation: fadeInDown 1s;
+}*/
+
+@media (max-width: 991px) {
+  #hero.concept .hero-copy-row {
+    margin-top: 70px;
+  }
+  #hero.concept .hero-copy-row h1 {
+    margin-bottom: 30px;
+  }
+  #platforms .get-started-holder .get-started-2 {
+    top: -10px;
+  }
+}
+@media (max-width: 761px) {
+  #hero.concept h1 {
+    margin-top: 7.5px!important;
+  }
+}
+@media (max-width: 661px) {
+  #hero.concept .hero-copy-row {
+    margin-top: 70px!important;
+  }
+  #employee-row .get-started-holder {
+    display: none;
+  }
+}

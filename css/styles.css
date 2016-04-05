@@ -41,10 +41,9 @@ section {
   font-size: 20px;
   text-align: center;
   font-weight: 400;
-  margin:40px auto 45px auto;
+  margin: 40px auto 45px auto;
   width: 80%;
   line-height: 1.4;
-
 }
 #hero h1 span {
   color: #06bbb9;
@@ -62,7 +61,6 @@ img.hero-img {
 .hero-copy-row {
   margin-top: 50px;
 }
-
 .main-cta-row {
   -webkit-animation: fadeIn 1.5s;
   animation: fadeIn 1.5s;
@@ -81,8 +79,7 @@ a.main-cta {
   transition: .5s;
   z-index: 90;
 }
-a.main-cta.invert,
-input.main-cta.invert {
+a.main-cta.invert, input.main-cta.invert {
   color: #06bbb9;
   background: transparent;
 }
@@ -105,40 +102,36 @@ a.main-cta:hover {
   -webkit-transform: scale(1.015);
   transform: scale(1.015);
 }
-
 #referral input.main-cta {
-background: #06bbb9;
-display: inline-block;
-
-width: 300px;
-text-transform: uppercase;
-color: white;
-text-align: center;
-font-weight: 600;
-border: 2px solid #06bbb9;
--webkit-transition: .5s;
-transition: .5s;
-z-index: 90;
-border-radius: 0;
-text-indent: 0;
+  background: #06bbb9;
+  display: inline-block;
+  width: 300px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  border: 2px solid #06bbb9;
+  -webkit-transition: .5s;
+  transition: .5s;
+  z-index: 90;
+  border-radius: 0;
+  text-indent: 0;
 }
-
 #need-help input.main-cta {
   background: #06bbb9;
-display: inline-block;
-width: 300px;
-text-transform: uppercase;
-color: white;
-text-align: center;
-font-weight: 600;
-border: 2px solid #06bbb9;
--webkit-transition: .5s;
-border-radius: 0;
-transition: .5s;
-z-index: 90;
-text-indent: 0;
+  display: inline-block;
+  width: 300px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  border: 2px solid #06bbb9;
+  -webkit-transition: .5s;
+  border-radius: 0;
+  transition: .5s;
+  z-index: 90;
+  text-indent: 0;
 }
-
 #value-props {
   margin-top: 0;
 }
@@ -172,6 +165,8 @@ text-indent: 0;
 }
 #value-props-2 .value-props-2-row h1 {
   margin-bottom: 70px;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 #value-props-2 .value-props-2-row .col-sm-4 {
   height: 300px;
@@ -201,7 +196,7 @@ text-indent: 0;
   padding-bottom: 110px;
 }
 #value-props .row span.circle {
-  border: 11px solid #f3f3f3;
+  border: 9px solid rgba(0, 0, 0, 0.125);
   margin: 0 auto!important;
   text-align: center!important;
   border-radius: 100%;
@@ -243,8 +238,10 @@ text-indent: 0;
   background: url('../imgs/money-bkgd.png');
   background-position: center;
   background-size: 101% 100%;
-  min-height: 400px;
+  min-height: 400px!important;
   padding-bottom: 100px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 #wellness .wellness-row span.white-box {
   background: white;
@@ -312,6 +309,15 @@ text-indent: 0;
 #wellness h1 {
   color: white;
   margin-bottom: 60px;
+  display: none;
+}
+#wellness .wellness-row {
+  display: none;
+}
+#wellness h1.active, #wellness .wellness-row.active {
+  display: block;
+  -webkit-animation: fadeInUp 1s;
+  animation: fadeInUp 1s;
 }
 #contact {
   background: #06bbb9;
@@ -409,6 +415,7 @@ text-indent: 0;
 }
 #faq {
   padding-bottom: 90px;
+  min-height: 340px;
 }
 #faq h2, #faq p {
   width: 100%;
@@ -521,7 +528,7 @@ text-indent: 0;
   text-align: center;
 }
 .separator {
-  background: #e5e5e5;
+  background: rgba(0, 0, 0, 0.125);
   display: block;
   margin: 15px auto!important;
   width: 100%;
@@ -678,14 +685,67 @@ nav .navbar-toggle {
   width: 90%;
   margin: 0 auto;
 }
-
 #privacy h3 {
   margin-bottom: 30px;
 }
 #privacy h4 {
   margin-bottom: 10px;
 }
-
+#nonprofit-modal {
+  /*display: none;*/
+  bottom: 0;
+  left: 0;
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px 20px;
+}
+#nonprofit-modal h3 a {
+  color: #06bbb9;
+}
+#nonprofit-modal a i {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  color: white;
+  font-size: 30px;
+}
+#nonprofit-modal h2 {
+  margin-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#nonprofit-modal h3 {
+  line-height: 1.5;
+}
+#nonprofit-modal h2, #nonprofit-modal h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #343434;
+  width: 90%;
+  margin: 0 auto;
+}
+#nonprofit-modal .row {
+  background: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  border-radius: 6px;
+  width: auto;
+  margin: 0 auto;
+  position: relative;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+#nonprofit-modal .non-profit-icon {
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  top: -57px;
+  left: 0;
+  right: 0;
+  width: 110px;
+  height: auto;
+}
 .loginmodal-submit:hover {
   -webkit-transform: scale(1.015);
   transform: scale(1.015);
@@ -735,6 +795,12 @@ nav .navbar-toggle {
   padding: 20px;
   margin: 5px 5px;
 }
+.sm-font {
+  font-size: 11px;
+}
+.sm-font span {
+  word-wrap: break-word
+}
 .close-btn {
   font-size: 40px;
   position: absolute;
@@ -770,27 +836,24 @@ span.invalid.active {
 .half-input input:last-child {
   margin-left: 7px!important;
 }
-
-/*input.error {
-  border: 1px solid red!important;
+.iframe-loan-calc {
+  width: 100%;
 }
-input.error::-webkit-input-placeholder {
-  color: red;
-  font-weight: 500;
+#nonprofit-modal {
+  display: none;
 }
-input.error:-moz-placeholder {
-  color: red;
-  font-weight: 500;
+#nonprofit-modal.active {
+  display: block;
+  padding-top: 120px;
+  -webkit-animation: bounceIn .5s;
+  animation: bounceIn .5s;
 }
-input.error::-moz-placeholder {
-  color: red;
+#nonprofit-modal a {
+  border-bottom: 1px solid white;
+  color: white;
   font-weight: 500;
+  text-decoration: none;
 }
-input.error:-ms-input-placeholder {
-  color: red;
-  font-weight: 500;
-}*/
-
 .submit-copy {
   display: none;
 }
@@ -841,13 +904,16 @@ input.error:-ms-input-placeholder {
   #hero h1 {
     max-width: 95%;
   }
-  #hero h1, #hero  h2 {
+  #hero h1, #hero h2 {
     text-align: center;
     margin: 0 auto;
   }
   #hero h1 {
     margin-top: 55px;
     width: 100%;
+  }
+  #faq {
+    min-height: 550px;
   }
   #faq i.ion-ios-help-outline {
     position: relative;
@@ -868,7 +934,7 @@ input.error:-ms-input-placeholder {
   #value-props .row span.circle {
     width: 240px;
     height: 240px;
-    border: 6px solid #f3f3f3;
+    border: 6px solid rgba(0, 0, 0, 0.125);
   }
   #value-props h2 {
     margin-top: 35px;
@@ -943,12 +1009,12 @@ input.error:-ms-input-placeholder {
 @media (max-width: 767px) {
   img.hero-img {
     top: 3%;
-  bottom: 0;
-  /*background: black;*/
-  width: 1301px;
-  position: absolute;
-  left: -400px;
-  opacity: .7;
+    bottom: 0;
+    /*background: black;*/
+    width: 1301px;
+    position: absolute;
+    left: -400px;
+    opacity: .7;
   }
   #hero {
     /*background: rgba(0, 0, 0, 0.15);*/
@@ -977,6 +1043,12 @@ input.error:-ms-input-placeholder {
   #contact .contact-row input {
     width: 90%;
   }
+  .iframe-loan-calc {
+    /*background: blue;*/
+    height: 620px;
+    overflow-x: hidden;
+    overflow-y: hidden!important;
+  }
   div.loginmodal-container {
     margin: 0 auto!important;
     text-align: center!important;
@@ -1001,12 +1073,14 @@ input.error:-ms-input-placeholder {
     left: 0;
     bottom: 0;
   }
-
   .hero-copy-row {
     margin-top: 0!important;
   }
   .main-cta-row .invert {
     /*background: rgba(255, 255, 255, .2)!important;*/
+  }
+  #faq {
+    min-height: 600px;
   }
   #hero h1 {
     margin-top: 15px;
@@ -1079,7 +1153,6 @@ input.error:-ms-input-placeholder {
     left: -180px;
     top: -26%;
   }
-
   .hero-copy-row {
     margin-top: 48px;
   }
@@ -1096,9 +1169,8 @@ input.error:-ms-input-placeholder {
   }
   img.hero-img {
     top: -32%;
-      left: -8%;
-      width: 1750px;
-
+    left: -8%;
+    width: 1750px;
   }
 }
 @media (min-width: 2000px) {

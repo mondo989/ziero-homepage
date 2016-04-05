@@ -17,10 +17,17 @@
 
   <!-- Google Analytics -->
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-75483521-1', 'auto');
     ga('send', 'pageview');
@@ -51,8 +58,14 @@
                 <a target="blank()" href="http://www.zierofinance.com/home/howitworks/">How it Works</a>
               </li> -->
               <li>
-                <a target="blank()" href="pricing.html">Pricing</a>
+                <a href="concept.html">Concept</a>
               </li>
+              <li>
+                <a href="pricing.html">Pricing</a>
+              </li>
+              <!-- <li>
+                <a href="library.html">Library</a>
+              </li> -->
               <li>
                 <a href="team.html">Team</a>
               </li>
@@ -96,8 +109,11 @@
   <section id="value-props">
     <div class="container">
       <div class="row">
+        <span class="circle hidden-lg hidden-md">
+          <img class="piggybank" src="imgs/piggybank.png" alt="piggy bank and 401k savings">
+        </span>
         <div class="col-md-8">
-          <h2>Improve Financial Wellness</h2>
+          <h2 id="wellness-trigger">Improve Financial Wellness</h2>
           <div class="separator"></div>
           <p>
             7 out of 10 employees live paycheck to paycheck and as many as one-fourth have taken out a 401(k) loan. Personal financial challenges strongly affect employee health and productivity. Ziero helps solve this problem.
@@ -114,18 +130,21 @@
       <div class="row">
         <div class="col-md-4">
           <span class="circle">
-            <img class="trio-img" src="imgs/trio.png" alt="Improve Financial Wellness Image">
+            <img class="trio-img" src="imgs/trio-b.png" alt="Improve Financial Wellness Image">
           </span>
         </div>
         <div class="col-md-8">
           <h2>Finance Life’s Important Events</h2>
           <div class="separator"></div>
-          <p>Whether engagement rings, family vacations, or car repairs, important events and unforeseen expenses require financial flexibility. Ziero can provide your employees with peace of mind.</p>
-          <!-- <a href="#">Learn More</a> -->
+          <p>Whether relocation, family vacations, or car repairs, important events and unforeseen expenses require financial flexibility. Ziero can provide your employees with peace of mind.</p>
+          <a href="pricing.html">Learn more about our flexible pricing models</a>
         </div>
       </div>
 
       <div class="row">
+        <span class="circle hidden-lg hidden-md">
+            <img class="doctors-img" src="imgs/doctors.png" alt="Healthcare Deductible image">
+        </span>
         <div class="col-md-8">
           <h2>Cover Healthcare Deductible</h2>
           <div class="separator"></div>
@@ -139,37 +158,6 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-4">
-          <span class="circle">
-            <img class="shipping-img" src="imgs/shipping.png" alt="shipping guy">
-          </span>
-        </div>
-        <div class="col-md-8">
-          <h2>Affordable Employee Relocation</h2>
-          <div class="separator"></div>
-          <p>
-            Moving expenses and short term lodging quickly adds up and requires substantial upfront capital. With Ziero, employers can leverage their company's budget while easing the financial burden on employees.
-          </p>
-          <!-- <a href="#">Learn More</a> -->
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-8">
-          <h2>Complete your Benefit Portfolio</h2>
-          <div class="separator"></div>
-          <p>Modern employee benefit portfolios include gym memberships, yoga classes, and cell phone plans. Ziero delivers what 81% of employees wish they had: An interest-free loan on-demand.
-          </p>
-          <a href="pricing.html">Learn about our flexible pricing models</a>
-        </div>
-        <div class="col-md-4 align-right">
-          <span class="circle hidden-sm hidden-xs">
-            <img class="weights-img" src="imgs/weights.png" alt="Improve Financial Wellness">
-          </span>
-        </div>
-      </div>
 
     </div>
   </section>
@@ -177,9 +165,9 @@
   <section id="wellness">
     <div class="container">
       <div class="row">
-        <h1 class="text-center">Financial Wellness Matters</h1>
+        <h1 class="text-center" id="wellness-copy">Financial Wellness Matters</h1>
       </div>
-      <div class="row wellness-row text-center">
+      <div id="wellness-row" class="row wellness-row text-center">
         <div class="col-md-offset-2 col-md-2 col-sm-6">
           <span class="white-box">
             <img src="imgs/three-arrow.png"alt="three arrow image">
@@ -225,31 +213,25 @@
   <section id="value-props-2">
     <div class="container">
       <div class="row value-props-2-row text-center">
-        <h1>Simple. Risk Free. <span class="ziero-blue">On Demand</span>.</h1>
-        <div class="col-sm-4">
-          <span class="value-props-2-img-holder">
-            <img src="imgs/pc.png" alt="">
-          </span>
-          <p>Employer partners up with Ziero and adds employees to portal.
-            <span>(Total Time: 5-10 Minutes)</span>
-          </p>
-        </div>
-        <div class="col-sm-4">
-          <span class="value-props-2-img-holder">
-            <img src="imgs/check-list.png" alt="">
-          </span>
-          <p>Employee can redeem perk anytime by completing an application.
-            <span>(Total Time: 5-7 Minutes)</span>
-          </p>
-        </div>
+        <h1>Because Numbers Speak Louder Than Words</h1>
 
-        <div class="col-sm-4 ">
-          <span class="value-props-2-img-holder">
-            <img src="imgs/hands.png" class="hands-img" alt="">
-          </span>
-          <p>Ziero collects fee from company and transfers funds to employee.
-            <span>(Total Time: 24-48 Hours)</span>
-          </p>
+        <iframe src="https://jscalc.io/embed/DIMrdiR0cGa8Y3yM" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0" style="border: 1px solid rgba(0,0,0,0.12)" class="iframe-loan-calc"></iframe>
+      </div>
+      <br>
+      <div class="row text-left sm-font">
+        <div class="col-sm-6">
+          <span id="nonprofit-trigger">Based on:</span>
+          <br>
+          <span>1) "[Employees] spend 2-3 hours per week at work dealing with personal finances on average."</span>
+          <br>
+          <span>http://empowerapp.com/blog/combatting-financial-stress-in-the-workplace/</span>
+        </div>
+        <div class="col-sm-6">
+          <br>
+          <span>2) "3% Average Absence Rate"</span>
+          <br>
+          <span>http://www.bls.gov/cps/cpsaat47.htm#cps_eeann_abs_ft_occu_ind.f.2</span>
+
         </div>
       </div>
     </div>
@@ -291,12 +273,27 @@
         <!-- <div class="separator"></div> -->
       </div>
     </div>
-
   </section>
 
-  <section id="nonprofit">
+  <section id="nonprofit-modal">
+    <div class="container">
+      <div class="row">
+        <!-- <a href="#">
+        <i class="ion-ios-close"></i>
+      </a> -->
+        <a href="mailto:info@zierofinance.com?Subject=Nonprofit%20Question">
+          <img class="non-profit-icon" src="imgs/non-profit-logo-2.png" alt="Ziero Nonprofit">
+        </a>
+        <h2>Representing a non-profit organization?</h2>
+        <h3><a href="mailto:info@zierofinance.com?Subject=Nonprofit%20Question">Contact us</a> Directly to benefit from special pricing</h3>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- <section id="nonprofit">
     <h4 class="text-center">Non-Profit? <a href="mailto:info@zierofinance.com?Subject=Nonprofit%20Question">Contact us</a> directly to benefit from special pricing.</h4>
-  </section>
+  </section> -->
 
   <section id="faq">
     <div class="container">
@@ -393,92 +390,12 @@
     </div>
   </section>
 
-
-
-
-
-
-
-  <!--  Modals Start here -->
-  <!--  Modal 1 -->
-  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="loginmodal-container">
-        <h1>Login to Your Account</h1>
-        <div class="separator"></div>
-        <form>
-          <input type="text" name="user" placeholder="Username">
-          <input type="password" name="pass" placeholder="Password">
-          <span class="invalid active">Invalid Username/Password</span>
-          <span class="remember-password-row">
-             <input type="checkbox" name="rememberPassword" value="rememberPassword">
-              Remeber Password
-          </span>
-          <input type="submit" name="login" class="login loginmodal-submit" value="Log in">
-        </form>
-        <div class="login-help">
-          <a data-dismiss="modal" data-toggle="modal" data-target="#signup-modal">Register</a> - <a href="#">Forgot Password</a>
-          <a data-dismiss="modal" class="close-btn"><i class="ion-ios-close-empty"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!--  Modals Start here -->
-  <!--  Modal 2 -->
-  <div class="modal fade" id="signup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="loginmodal-container">
-        <h1>Sign Up for Ziero</h1>
-        <div class="separator"></div>
-
-        <form>
-          <input type="text" name="user" placeholder="Employer ID">
-          <span class="half-input">
-            <input type="text" name="firstName" placeholder="First Name">
-            <input type="text" name="lastName" placeholder="Last Name">
-          </span>
-          <input type="text" name="companyEmail" placeholder="Company Email Address (Optional)">
-          <input type="password" name="pass" placeholder="Password">
-          <span class="invalid">All Fields must be Filled</span>
-
-          <div class="row tos-row">
-            By clicking sign up, I agree to Ziero's <a targer="blank()" href="https://www.zierofinance.com/home/terms">terms of service</a> &amp; <a targer="blank()" href="privacy-policy.html">privacy policy</a>.
-          </div>
-
-          <input type="submit" name="login" class="login loginmodal-submit" value="Sign up">
-        </form>
-        <div class="login-help">
-          <a data-dismiss="modal" data-toggle="modal" data-target="#login-modal">Already have an account?</a> - <a href="#">Forgot Password</a>
-        </div>
-        <a data-dismiss="modal" class="close-btn">
-          <i class="ion-ios-close-empty"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
 </body>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script src="js/jqueryEasing.min.js"></script>
-
-
-<script type="text/javascript"></script>
-
-
-<script>
-  // Allows for page easing
-  $('.page-scroll').bind('click', function(event) {
-    var $anchor = $(this);
-    $('html, body').stop().animate({
-      scrollTop: $($anchor.attr('href')).offset().top
-    }, 1800, 'easeInOutExpo');
-    event.preventDefault();
-  });
-</script>
+<script type="text/javascript" src="js/zepto.waypoints.js"></script>
+<script type="text/javascript" src="js/ziero.js"></script>
 
 </html>
