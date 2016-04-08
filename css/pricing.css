@@ -125,6 +125,7 @@ section#need-help {
 .non-profit {
   margin-left: 53px
 }
+
 #nonprofit {
   padding-top: 0;
   background: white;
@@ -184,4 +185,10 @@ section#need-help {
   .non-profit {
     margin-left: 42px!important;
   }
+}
+
+
+.nonprofit-copy {
+  font-size: 13px!important;
+  margin-top: 20px;
 }
