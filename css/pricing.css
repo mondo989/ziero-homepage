@@ -30,7 +30,7 @@
   font-weight: 600;
 }
 section#need-help {
-  padding-bottom: 100px;
+  /*padding-bottom: 100px;*/
 }
 #need-help .need-help-input-holder {
   text-align: right;
@@ -83,10 +83,11 @@ section#need-help {
 #howitworks {
   background: url("../imgs/coffee.jpg");
   height: 580px;
-  background-position: 0 -200px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding-bottom: 0!important;
 }
 #howitworks::after {
   position: absolute;
@@ -132,6 +133,7 @@ section#need-help {
 }
 #nonprofit-modal.active {
   padding-top: 10px;
+  margin:80px 0;
 }
 .ziero-main-logo {
   margin-left: 22px
@@ -184,6 +186,11 @@ section#need-help {
   }
   .non-profit {
     margin-left: 42px!important;
+  }
+  #howitworks {
+    height: auto;
+    padding-bottom: 20px!important;
+    /*margin-bottom: 20px;*/
   }
 }
 

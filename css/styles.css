@@ -41,7 +41,7 @@ section {
   font-size: 20px;
   text-align: center;
   font-weight: 400;
-  margin: 10px auto;
+  margin: 40px auto 45px auto;
   width: 80%;
   line-height: 1.4;
 }
@@ -62,7 +62,6 @@ img.hero-img {
   margin-top: 50px;
 }
 .main-cta-row {
-  margin-top: 35px;
   -webkit-animation: fadeIn 1.5s;
   animation: fadeIn 1.5s;
 }
@@ -533,7 +532,7 @@ a.main-cta:hover {
   text-align: center;
 }
 .separator {
-  background: rgba(0, 0, 0, 0.125);
+  background: rgba(0, 0, 0, 0.25);
   display: block;
   margin: 15px auto!important;
   width: 100%;
@@ -541,6 +540,10 @@ a.main-cta:hover {
   height: 1px;
   border-radius: 120px;
 }
+#footer .separator {
+  background: rgba(255, 255, 255, 1);
+}
+
 .bk-img {
   background: url("../imgs/ziero-bk-blue.png");
   opacity: .6;
