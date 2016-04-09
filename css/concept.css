@@ -117,6 +117,14 @@
   animation: fadeIn 1s;
 }
 
+.learn-more  {
+  font-size: 18px;
+  display: block;
+  margin-top: 40px ;
+  color: #06bbb9;
+  font-weight: 600
+}
+
 
 /*#employee-row.active .employee-platform-container {
 -webkit-animation: fadeInRight 1s;
