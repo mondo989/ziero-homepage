@@ -48,7 +48,10 @@
   left:0;
   right:0;
   top: 35%;
-
+}
+#hero.concept h1 {
+  font-size: 35px;
+  padding-bottom: 7.5px;
 }
 #platforms {
   min-height: 760px;

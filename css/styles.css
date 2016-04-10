@@ -515,7 +515,9 @@ a.main-cta:hover {
   position: absolute;
   right: 0%;
 }
-
+span.strong {
+  font-weight: 600;
+}
 /*.item.active {
   height: 230px;
 }*/
