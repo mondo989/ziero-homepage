@@ -507,7 +507,8 @@ a.main-cta:hover {
   background: white;
   z-index: 90;
   position: absolute;
-  color: rgba(0, 0, 0, 0.05125);
+  color: #06bbb9;
+  opacity: .35;
   top: -30px;
   right: 0;
   padding-bottom: 0!important;
