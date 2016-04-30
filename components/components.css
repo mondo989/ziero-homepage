@@ -1,0 +1,72 @@
+#auth-to-obtain-credit h2.main-header-copy {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+  font-family: Arial;
+}
+#auth-to-obtain-credit p.main-content-copy {
+  margin: 0 auto;
+  width: 80%;
+  line-height: 1.4;
+  font-family: Arial;
+}
+#privacy-policy, #terms, #auth-loan, #electronic-signature, #tcpa-consent {
+  font-family: Arial;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+#glb-act {
+  font-family: Arial;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+
+#glb-act h2.bordered {
+  text-align: center;
+  margin-bottom: 0;
+  width: 100%;
+  mar
+}
+
+
+.bordered .col-sm-10 {
+  border-left: 1px solid #ccc;
+}
+
+#glb-act .width-15 {
+  min-height: 120px;
+  width: 14%;
+  display: inline-block;
+}
+#glb-act .width-85 {
+  background: red;
+  margin: 0;
+  padding:0;
+  width: 83%;
+  display: inline-block;
+  height: auto;
+  min-height: 120px;
+  text-align: left;
+  padding-left: 10px!important;
+}
+
+#glb-act .bordered {
+  border: 1px solid #ccc;
+  background: #f3f3f3;
+  height: auto;
+  margin-left: 0;margin-right: 0;
+  padding: 15px 0;
+}
+
+
+@media (max-width: 600px) {
+  #privacy-policy, #terms, #auth-loan, #auth-to-obtain-credit, #electronic-signature, #tcpa-consent {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
