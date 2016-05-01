@@ -770,10 +770,35 @@ nav .navbar-toggle {
   transition: .5s;
   z-index: 90;
 }
-#terms, #privacy {
+#terms, #privacy, #rates {
   width: 90%;
   margin: 0 auto;
 }
+
+#rates img.licenses {
+  width: 100px;
+}
+
+#rates h4 {
+  font-weight: 500;
+  line-height: 1.4;
+  color: #707070;
+}
+#rates h3 {
+  line-height: 1.4;
+}
+#rates p {
+  font-size: 18px;
+}
+#rates .row {
+  padding-bottom: 20px;
+}
+
+#rates a img{
+  border: 2px solid #06bbb9;
+
+}
+
 #privacy h3 {
   margin-bottom: 30px;
 }
@@ -1097,6 +1122,10 @@ span.invalid.active {
   }
   .separator {
     margin-left: 0!important;
+  }
+
+  #rates .row .col-sm-2 {
+    text-align: center;
   }
 }
 @media (max-width: 767px) {

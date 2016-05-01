@@ -16,13 +16,19 @@
 
   <link rel="icon" type="image/png" href="favicon.ico" />
 
-
   <!-- Google Analytics -->
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-75483521-1', 'auto');
     ga('send', 'pageview');
@@ -33,7 +39,7 @@
 
 
 
-  <nav class="navbar ">
+  <nav class="navbar">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ziero-menu-collapse" aria-expanded="false">
@@ -53,10 +59,7 @@
                 <a target="blank()" href="http://www.zierofinance.com/home/howitworks/">How it Works</a>
               </li> -->
               <li>
-                <a href="concept.html">Concept</a>
-              </li>
-              <li>
-                <a href="pricing.html">Pricing</a>
+                <a target="blank()" href="pricing.html">Pricing</a>
               </li>
               <li>
                 <a href="team.html">Team</a>
@@ -74,10 +77,80 @@
     </div>
   </nav>
 
+  <section id="rates">
+    <div class="container">
+      <div class="row">
+        <h2>Rates and Terms</h2>
+        <p>Ziero Financial Inc. is licensed in California with the Department of Business Oversight under Finance Lender License 60DBO46293 and 60DBO52829 </p>
+        <p>State of CA – Department of Business Oversight 1515 K St., Ste. 200; Sacramento, CA 95814</p>
+      </div>
 
-  <section id="about">
-    <h1>This is the about page</h1>
+      <br>
+
+      <div class="row">
+        <a href="licenses/CaliforniaLendersLicense(MONTREALOFFICElicense)_ZieroFinancialInc_03-28-2016.pdf">
+          <div class="col-sm-2 col-sm-offset-1">
+            <img class="licenses" src="imgs/license.png" alt="Ziero License">
+          </div>
+          <div class="col-sm-8">
+            <h3>California Lenders License (MONTREAL OFFICE license)_Ziero Financial Inc_03-28-2016</h3>
+          </div>
+        </a>
+      </div>
+
+      <br>
+
+      <div class="row">
+          <a href="licenses/CaliforniaLendersLicense_ZieroFinancialInc_03-28-2016.pdf">
+        <div class="col-sm-2 col-sm-offset-1">
+            <img class="licenses" src="imgs/license.png" alt="Ziero License">
+        </div>
+        <div class="col-sm-8">
+          <h3>
+            California Lenders License (SAN FRANCISCO OFFICE license) Ziero Financial Inc 03-28-2016
+          </h3>
+        </div>
+        </a>
+      </div>
+
+      <br>
+
+      <div class="row">
+        <h2> Rate terms that applies to: </h2>
+        <h4>State: California</h4>
+        <h4>Loan Amount: $1,000 - $5,000</h4>
+        <h4>APR: 0%</h4>
+        <h4>Term: 6-18 Months</h4>
+      </div>
+      <div class="row">
+        <h2>Other Terms</h2>
+        <h3>Unsuccessful payment fee</h3>
+        <p>When an automatic payment fails and is rejected by the borrower&#39;s bank, an unsuccessful payment fee is charged to the borrower to cover the cost Ziero Financial incurs on the transaction. This could happen if there is insufficient balance
+          in the borrower&#39;s bank account, the bank account has been closed or if the account is otherwise suspended. Each attempt to collect the monthly payment is considered a transaction, so an unsuccessful payment fee may be assessed for each failed
+          attempt. The amount of an unsuccessful payment fee is $15.
+
+        </p>
+
+        <h3>Late payment fee</h3>
+        <p>
+          When a borrower&#39;s payment is late after a 10-day grace period, a late payment fee is assessed on the 11th day for the delay. The amount of a late payment fee is $10. This fee may be charged only once per late payment.
+        </p>
+
+        <h3>Check processing fee</h3>
+        <p>
+          If a borrower elects to make payments via check, there will be a $15 processing fee per payment. There is no additional charge if the borrower makes payments via direct debit from their bank account (ACH).
+        </p>
+
+        <h3>Prepayment fee </h3>
+
+        <p>You can prepay anytime – there are no prepayment penalties or fees.
+        </p>
+      </div>
+
+    </div>
   </section>
+
+
 
   <section id="footer">
     <div class="container">
@@ -116,7 +189,7 @@
       <div class="separator"></div>
       <div class="row footer-content-row text-center">
         <p>
-        <!--  <a href="team.html">Meet the Team </a> | --> <a href="terms-of-use.html">Terms of Use </a>| <a href="privacy-policy.html">Privacy Policy </a>| <a href="rates-terms.html">Rates &amp; Terms</a>
+          <!--  <a href="team.html">Meet the Team </a> | --><a href="terms-of-use.html">Terms of Use </a>| <a href="privacy-policy.html">Privacy Policy </a>| <a href="rates-terms.html">Rates &amp; Terms</a>
         </p>
         <br>
         <div class="social-media-row">
@@ -128,29 +201,9 @@
       </div>
     </div>
   </section>
-
-
-
-
 </body>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script src="js/jqueryEasing.min.js"></script>
-
-
-<script type="text/javascript"></script>
-
-
-<script>
-  // Allows for page easing
-  $('.page-scroll').bind('click', function(event) {
-    var $anchor = $(this);
-    $('html, body').stop().animate({
-      scrollTop: $($anchor.attr('href')).offset().top
-    }, 1800, 'easeInOutExpo');
-    event.preventDefault();
-  });
-</script>
 
 </html>
