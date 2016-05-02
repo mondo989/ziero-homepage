@@ -250,6 +250,7 @@ a.main-cta:hover {
 }
 #value-props-2 .col-sm-6 span {
   font-size: 13px;
+  word-break: break-all;
 }
 #value-props .row span.circle {
   border: 9px solid rgba(0, 0, 0, 0.125);
@@ -1194,6 +1195,11 @@ span.invalid.active {
     left: 0;
     bottom: 0;
   }
+
+  #faq .carousel-inner {
+    height: 230px;
+  }
+
   #footer .separator {
     min-width: 30%!important;
   }
