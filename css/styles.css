@@ -1098,7 +1098,7 @@ span.invalid.active {
   }
   #footer .address {
     max-width: 250px;
-    margin: 20px auto;
+    /*margin: 20px auto;*/
   }
   #footer a.circle-link {
     margin: 0 auto;
