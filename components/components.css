@@ -58,13 +58,17 @@
 .creat-campaign-hdr-part ul {
   margin: 0!important;
 }
-
+#approved h4 {
+  margin: 20px auto;
+  font-weight: 400;
+}
 
 #approved div.numbers {
   color: #06bbb9;
   font-size: 35px;
   text-align: left;
   padding-left: 0;
+  font-family: gotham_mediumregular, 'Open sans', 'Arial';
 }
 #approved img.loan-amount {
   width: 50px;
@@ -101,15 +105,15 @@ font-size: 15px;
 }
 
 .credit-score-row {
-  border: 3px solid #cacaca;
+  border: 1px solid #cacaca;
   width: 75%;
   margin: 0 auto!important;
-  padding: 20px 0 25px 0;
+  padding: 20px 0 20px 0;
 }
 .credit-score-notice {
   margin-top: 25px;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .credit-score-number,
