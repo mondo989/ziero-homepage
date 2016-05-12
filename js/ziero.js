@@ -31,6 +31,7 @@ $('#nonprofit-trigger').waypoint( function(){
 });
 
 
+// $('slide.bs.carousel')
 
 
 
