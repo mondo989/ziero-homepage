@@ -1,18 +1,18 @@
-#privacy-policy, #terms, #auth-loan, #electronic-signature, #tcpa-consent, #auth-to-obtain-credit {
+#privacy-policy, #terms, #auth-loan, #electronic-signature, #tcpa-consent, #auth-to-obtain-credit, #benefits-agreement {
   font-family: Arial;
   width: 80%;
   margin: 0 auto;
   padding: 20px 0;
 }
-#privacy-policy p, #terms p, #auth-loan p, #electronic-signature p, #tcpa-consent p, #auth-to-obtain-credit p {
+#privacy-policy p, #terms p, #auth-loan p, #electronic-signature p, #tcpa-consent p, #auth-to-obtain-credit p, #benefits-agreement p {
   line-height: 1.5;
 }
-#privacy-policy h2, #terms h2, #auth-loan h2, #electronic-signature h2, #tcpa-consent h2, #auth-to-obtain-credit h2 {
+#privacy-policy h2, #terms h2, #auth-loan h2, #electronic-signature h2, #tcpa-consent h2, #auth-to-obtain-credit h2, #benefits-agreement h2 {
   margin: 20px 0!important;
   line-height: 1.3!important;
   padding-bottom: 20px!important;
 }
-#privacy-policy h3, #terms h3, #electronic-signature h3, #auth-to-obtain-credit h3, #privacy-policy h4, #electronic-signature h3, #auth-to-obtain-credit h3 {
+#privacy-policy h3, #terms h3, #electronic-signature h3, #auth-to-obtain-credit h3, #privacy-policy h4, #electronic-signature h3, #auth-to-obtain-credit h3, #benefits-agreement h3 {
   margin: 10px 0!important;
   line-height: 1.3!important;
   padding-bottom: 5px!important;
@@ -62,7 +62,6 @@
   margin: 20px auto;
   font-weight: 400;
 }
-
 #approved div.numbers {
   color: #06bbb9;
   font-size: 35px;
@@ -80,13 +79,12 @@
   width: 65px;
 }
 #approved .seperator {
-  background: rgba(0,0,0,.105);
+  background: rgba(0, 0, 0, .105);
   height: 2px;
   width: 70%;
   max-width: 800px;
   margin: 25px auto;
 }
-
 .terms-row {
   margin-top: 25px;
   font-family: gotham_mediumregular, 'Open sans', 'Arial';
@@ -96,14 +94,11 @@
   margin-top: 10px;
   color: #656556;
 }
-
-.credit-score,
-.credit-score-range {
-padding-top: 6px;
-text-align: right;
-font-size: 15px;
+.credit-score, .credit-score-range {
+  padding-top: 6px;
+  text-align: right;
+  font-size: 15px;
 }
-
 .credit-score-row {
   border: 1px solid #cacaca;
   width: 75%;
@@ -115,9 +110,7 @@ font-size: 15px;
   font-size: 18px;
   font-weight: 400;
 }
-
-.credit-score-number,
-.credit-score-range-number {
+.credit-score-number, .credit-score-range-number {
   font-weight: 600;
   font-size: 28px;
   color: #353535;
@@ -126,16 +119,30 @@ font-size: 15px;
   padding-left: 0;
   padding-right: 0;
 }
-
 .credit-score-notice {
   margin-bottom: 0;
 }
-
 .terms-frequency-row .payment-frequency, .terms-frequency-row .number-payments {
   padding-top: 15px
 }
+.text-center {
+  text-align: center;
+}
+.underline {
+  text-decoration: underline;
+}
+.bold {
+  font-weight: bold;
+}
+#sign-agreement {
+  display: inline;
+}
+label.sign-agreement-label {
+  display: inline;
+  margin-left: 20px;
+}
 @media (max-width: 600px) {
-  #privacy-policy, #terms, #auth-loan, #auth-to-obtain-credit, #electronic-signature, #tcpa-consent {
+  #privacy-policy, #terms, #auth-loan, #auth-to-obtain-credit, #electronic-signature, #tcpa-consent, #benefits-agreement {
     width: 95%;
     margin: 0 auto;
   }
