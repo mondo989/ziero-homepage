@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Ziero Finance</title>
+  <meta name="description" content="Ziero Finance provides the financial support your employees really need" />
+  <link rel="icon" type="image/png" href="favicon.ico" />
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -13,10 +15,6 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/styles.css">
-
-  <link rel="icon" type="image/png" href="favicon.ico" />
-
-
 
   <!-- Google Analytics -->
   <script>
@@ -38,8 +36,6 @@
 </head>
 
 <body>
-
-
 
   <nav class="navbar ">
     <div class="container-fluid">
@@ -89,8 +85,6 @@
 
   <section id="hero">
     <div class="container hero-img-row">
-      <!-- <img class="hero-img" src="../imgs/girl-happy-hero.png" alt="Girl happy about having financial freedom"> -->
-      <!-- <img class="hero-girl" src="../imgs/girl-bk.png" alt="Girl happy about having financial freedom"> -->
       <div class="row hero-copy-row">
         <div class="col-sm-offset-4 col-sm-8">
           <h1>Interest-free loans for your Employees.
@@ -104,7 +98,7 @@
               <a href="concept.html" class="main-cta page-scroll">Learn More</a>
             </div>
             <div class="col-md-6 text-center">
-              <a href="referral.html" class="main-cta invert">Refer Employer</a>
+              <a data-toggle="modal" data-target="#videoModal" class="main-cta invert">Watch Video</a>
             </div>
           </div>
         </div>
@@ -112,6 +106,12 @@
     </div>
     <div class="bk-filter"></div>
   </section>
+
+  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalAboutZiero">
+    <span class="ion-ios-close-outline" data-dismiss="modal"></span>
+    <iframe class="video-container" src="https://www.youtube.com/embed/VlunxiqqHfA" frameborder="0" height="100%" allowfullscreen></iframe>
+  </div>
+
 
   <section id="value-props">
     <div class="container">
@@ -323,7 +323,7 @@
     </div>
   </section>
 
-  <section id="nonprofit-trigger" >
+  <section id="nonprofit-trigger">
     <!-- <div  id="value-props-2" class="container">
       <div class="row value-props-2-row text-center">
         <h1>Because Numbers Speak Louder Than Words</h1>
