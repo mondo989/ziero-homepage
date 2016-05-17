@@ -833,36 +833,26 @@ nav .navbar-toggle {
   width: 80%;
   margin: 15px auto!important;
 }
-
-#videoModal {
-  background: rgba(0,0,0,.7);
-  position: absolute;
-  right:0;
-
-}
-
 .ion-ios-close-outline {
   position: absolute;
-  top:0;
+  top: 0;
   font-size: 50px;
-  right:0;
+  right: 0;
   color: white;
   margin-top: 10px;
   margin-right: 20px;
   cursor: pointer;
   opacity: .8;
 }
-
 iframe.video-container {
-width: 80%;
-margin: 0 auto;
-position: absolute;
-bottom: 0;
-top: 90px;
-right: 0;
-left: 0;
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  top: 70px;
+  right: 0;
+  left: 0;
 }
-
 .loginmodal-container {
   padding: 40px 50px;
   max-width: 75%;
@@ -1417,7 +1407,6 @@ span.invalid.active {
     font-size: 10vw!important;
   }*/
 }
-
 @media (max-width: 441px) {
   #hero h1 {
     font-size: 9vw!important;
