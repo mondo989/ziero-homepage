@@ -1,0 +1,75 @@
+#onboarding h1 {
+  color: #353535!important;
+}
+#onboarding h5 {
+  color: #353535;
+  font-size: 16px;
+}
+#onboarding .separator {
+  width: 80%;
+  opacity: .4;
+  margin: 25px auto!important;
+}
+#onboarding-content .circle {
+  font-size: 50px;
+  font-weight: bold;
+  position: relative;
+  line-height: 1.15;
+}
+#onboarding-content .circle::after {
+  background: white;
+  border: 3px solid #06bbb9;
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 60px;
+  border-radius: 120px;
+  left: 0;
+  text-align: right;
+  margin: 0 auto;
+  right: 0;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+}
+#onboarding-content .sub-copy {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  background: rgba(0, 0, 0, .02);
+  border: 1px solid #f3f3f3;
+  padding: 20px 10px 20px 35px;
+  border-radius: 12px;
+}
+#onboarding-content h3 {
+  text-indent: 20px;
+}
+#onboarding-content .sub-copy .copy {
+  padding-left: 40px;
+  display: block;
+  font-weight: 500;
+}
+#onboarding-content img {
+  max-width: 480px;
+  margin: 0 auto!important;
+  display: block;
+  text-align: center;
+}
+#onboarding-content .ion-alert-circled {
+  color: #06bbb9;
+  font-size: 40px;
+  display: inline-block;
+  margin-right: 15px;
+  position: absolute;
+  top: 12px;
+  bottom: 0;
+  left: 20px;
+}
+#onboarding-content .separator {
+  width: 70%;
+  margin: 20px auto!important;
+  opacity: .3;
+}
