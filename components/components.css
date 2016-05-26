@@ -58,6 +58,14 @@
 .creat-campaign-hdr-part ul {
   margin: 0!important;
 }
+
+
+/*Loan Detail CSS Snippet*/
+#approved .container.main-container {
+  padding-left: 0;
+  width: 115%;
+  margin-left: -40px;
+}
 #approved h4 {
   margin: 20px auto;
   font-weight: 400;
@@ -71,6 +79,8 @@
 }
 #approved img.loan-amount {
   width: 50px;
+  margin-left: -10px;
+  display: inline-block;
 }
 #approved img.loan-term {
   width: 45px;
@@ -85,32 +95,35 @@
   max-width: 800px;
   margin: 25px auto;
 }
-.terms-row {
+#approved .payment-amount {
+  margin-left: -10px;
+}
+#approved .terms-row {
   margin-top: 25px;
   font-family: gotham_mediumregular, 'Open sans', 'Arial';
 }
-.terms-row-info {
+#approved .terms-row-info {
   text-indent: -20px;
   margin-top: 10px;
   color: #656556;
 }
-.credit-score, .credit-score-range {
+#approved .credit-score, .credit-score-range {
   padding-top: 6px;
   text-align: right;
   font-size: 15px;
 }
-.credit-score-row {
+#approved .credit-score-row {
   border: 1px solid #cacaca;
   width: 75%;
   margin: 0 auto!important;
   padding: 20px 0 20px 0;
 }
-.credit-score-notice {
+#approved .credit-score-notice {
   margin-top: 25px;
   font-size: 18px;
   font-weight: 400;
 }
-.credit-score-number, .credit-score-range-number {
+#approved .credit-score-number, .credit-score-range-number {
   font-weight: 600;
   font-size: 28px;
   color: #353535;
@@ -119,9 +132,14 @@
   padding-left: 0;
   padding-right: 0;
 }
-.credit-score-notice {
+#approved .credit-score-notice {
   margin-bottom: 0;
 }
+
+/*End of the loan details snippet*/
+
+
+
 .terms-frequency-row .payment-frequency, .terms-frequency-row .number-payments {
   padding-top: 15px
 }
