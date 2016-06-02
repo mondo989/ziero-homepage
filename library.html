@@ -102,9 +102,7 @@
       <div class="row content-row">
         <div class="col-sm-4">
           <h4 class="text-center">Employee Stress Factors</h4>
-
-
-          <a href="assets/EmployeeStressFactors.pdf" class="box" id="box-a">
+          <a onclick="openModal()" class="box" id="box-a">
             <!-- <h3></h3> -->
             <!-- <h5>How to Maximize out put by provoking a smile</h5> -->
             <div class="logo-holder">
@@ -113,12 +111,12 @@
           </a>
 
           <p>When employees find relief from financial concerns, it helps not only their stress levels, but their productivity as well.</p>
-          <a onclick="openModal()">Download Now <i class="ion-android-arrow-dropright"></i></a>
+          <a class="download-now-link" onclick="openModal()">Download Now <i class="ion-android-arrow-dropright"></i></a>
         </div>
 
         <div class="col-sm-4">
           <h4 class="text-center">Stuff Happens</h4>
-          <a href="#" class="box" id="box-b">
+          <a onclick="openModal()" class="box" id="box-b">
             <!-- <h3>Employee Happiness 101</h3> -->
             <!-- <h5>How to Maximize out put by provoking a smile</h5> -->
             <div class="logo-holder">
@@ -126,12 +124,12 @@
             </div>
           </a>
           <p>Most people don't have the 3 to 6-month emergency cash reserve recommended by financial advisors to cover unexpected expenses.</p>
-          <a href="#">Download Now <i class="ion-android-arrow-dropright"></i></a>
+          <a class="download-now-link" onclick="openModal()">Download Now <i class="ion-android-arrow-dropright"></i></a>
         </div>
 
         <div class="col-sm-4">
           <h4 class="text-center">Financial Wellness for SMBs</h4>
-          <a href="#" class="box" id="box-c">
+          <a onclick="openModal()" class="box" id="box-c">
             <!-- <h3>How to build an awesome employee engagement plan</h3> -->
             <!-- <h5>How to Maximize out put by provoking a smile</h5> -->
 
@@ -140,12 +138,11 @@
             </div>
           </a>
           <p>The new corporate behemoths - Facebook, Google, Pinterest - appear to be redefining the workplace culture. How can SMBs compete?</p>
-          <a href="#">Download Now <i class="ion-android-arrow-dropright"></i></a>
+          <a class="download-now-link"  onclick="openModal()">Download Now <i class="ion-android-arrow-dropright"></i></a>
         </div>
       </div>
     </div>
   </section>
-
 
 
   <section id="contact">
@@ -184,9 +181,7 @@
         <!-- <div class="separator"></div> -->
       </div>
     </div>
-
   </section>
-
 
   <section id="footer">
     <div class="container">
@@ -204,7 +199,6 @@
             <a href="mailto:info@zierofinance.com?Subject=Hello">info@zierofinance.com</a>
           </p>
         </div>
-
         <div class="col-md-1 telephone-start">
           <a class="circle-link">
             <i class="ion-ios-telephone-outline"></i>
@@ -225,7 +219,7 @@
       <div class="separator"></div>
       <div class="row footer-content-row text-center">
         <p>
-          <!--  <a href="team.html">Meet the Team </a> | --><a href="terms-of-use.html">Terms of Use </a>| <a href="privacy-policy.html">Privacy Policy </a>| <a href="rates-terms.html">Rates &amp; Terms</a>
+           <a href="team.html">About Us </a>| <a href="terms-of-use.html">Terms of Use </a>| <a href="privacy-policy.html">Privacy Policy </a>| <a href="rates-terms.html">Rates &amp; Terms</a>
         </p>
         <br>
         <div class="social-media-row">
@@ -233,22 +227,49 @@
           <a href="https://www.linkedin.com/company/10386831"><i class="fa fa-linkedin"></i></a>
           <a href="https://twitter.com/zierofinance"><i class="fa fa-twitter"></i></a>
         </div>
-        <p>Ziero Ⓒ 2016 </p>
+        <p>Ziero &copy; 2016 </p>
       </div>
     </div>
   </section>
+
+
+  <section id="signup-modal">
+    <i class="ion-ios-close-outline" onclick="openModal()"></i>
+    <div class="container modal-container">
+      <div class="row">
+        <h2>Please enter your e-mail address to download our financial wellness content.</h2>
+      </div>
+
+        <form action="//formspree.io/mzschoch@zierofinance.com" method="POST">
+          <div class="col-md-8 signup-input-holder">
+            <input type="email" name="_replyto" placeholder="Enter Email Address" required>
+          </div>
+          <div class="col-md-4 signup-cta-btn-holder">
+            <input type="submit" value="Sign Up Now" class="main-cta">
+              <input type="hidden" name="_next" value="http://zierofinance.com/library-content.html" >
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+
+  <div id="modal-overlay"></div>
 
 </body>
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script src="js/jqueryEasing.min.js"></script>
-<script type="text/javascript" src="js/zepto.waypoints.js"></script>
-<script type="text/javascript" src="js/ziero.js"></script>
+<!-- <script src="js/jqueryEasing.min.js"></script> -->
+<!-- <script type="text/javascript" src="js/zepto.waypoints.js"></script> -->
+<!-- <script type="text/javascript" src="js/ziero.js"></script> -->
 
 <script>
-
-
+  var openModal = function() {
+    document.querySelector("#signup-modal").classList.toggle("active");
+    document.querySelector("#modal-overlay").classList.toggle("active");
+  }
 </script>
 
 </html>

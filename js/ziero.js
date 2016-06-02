@@ -29,10 +29,3 @@ $('#pricing').waypoint( function(){
 $('#nonprofit-trigger').waypoint( function(){
   document.getElementById("nonprofit-modal").classList.add("active");
 });
-
-
-// $('slide.bs.carousel')
-
-
-
-// document.getElementById("published-sidebar").insertRule("display {inactive")
