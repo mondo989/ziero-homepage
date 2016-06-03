@@ -583,7 +583,7 @@ a.main-cta:hover {
 #contact i {
   display: inline-block;
 }
-#contact h1 {
+#contact h2 {
   color: white;
 }
 #contact .contact-row input {
@@ -1360,7 +1360,7 @@ span.invalid.active {
   #value-props-2 .value-props-2-img-holder {
     margin-top: 70px;
   }
-  #contact h1 {
+  #contact h2 {
     width: 90%;
     margin: 0 auto;
   }
