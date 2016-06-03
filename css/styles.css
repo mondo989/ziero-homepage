@@ -5,7 +5,7 @@ html, body {
 }
 body {
   font-family: 'Open sans', arial;
-  overflow-x: hidden;
+  overflow-x: hidden!important;
   width: 100%;
 }
 section {
@@ -375,13 +375,48 @@ a.main-cta:hover {
   -webkit-animation: fadeInUp 1s;
   animation: fadeInUp 1s;
 }
-#contact {
+#contact,
+#featured-in {
   background: #06bbb9;
   height: 575px;
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
   z-index: 0;
 }
+#featured-in {
+  height: auto;
+  /*padding: 80px 0;*/
+  margin-top: 0;
+  background: #f3f3f3;
+  height: 400px;
+  overflow: hidden;
+}
+#featured-in h1 {
+  color: #353535;
+}
+#featured-in img.reuters {
+  margin-top: 30px;
+  width: 230px;
+}
+#featured-in img.yahoo {
+  margin-top: 0;
+  width: 230px;
+}
+
+#featured-in .separator {
+  width: 75%;
+  margin: 20px auto 30px auto!important;
+  background: rgba(0, 0, 0, 0.09);
+  border-radius: 50px;
+}
+#featured-in .featured-in-imgs {
+  width: 180px;
+  height: auto;
+}
+#dashboard-carousel {
+  overflow-x: hidden;
+}
+
 #dashboard-carousel .separator {
   width: 75%;
   margin: 25px auto!important;
@@ -1196,6 +1231,16 @@ span.invalid.active {
     top: -180px!important;
     background: rgba(0, 0, 0, .3);
     z-index: 0;
+  }
+  #value-props .separator {
+    width: 75%;
+    margin: 20px auto!important;
+  }
+  #featured-in {
+    height: auto;
+  }
+  #featured-in img {
+    margin: 25px 0;
   }
   #value-props p {
     text-align: left;
