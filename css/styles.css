@@ -403,6 +403,10 @@ a.main-cta:hover {
   width: 230px;
 }
 
+#featured-in img.btimes {
+  height: 111px;
+}
+
 #featured-in .separator {
   width: 75%;
   margin: 20px auto 30px auto!important;
@@ -585,6 +589,9 @@ a.main-cta:hover {
 }
 #contact h2 {
   color: white;
+  width: 74%;
+  margin: 0 auto;
+  line-height: 1.4;
 }
 #contact .contact-row input {
   text-indent: 60px;
