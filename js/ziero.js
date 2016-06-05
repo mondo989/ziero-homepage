@@ -11,10 +11,10 @@ $('.page-scroll').bind('click', function(event) {
 
 
 // Waypoints
-$('#wellness-trigger').waypoint( function(){
-  document.getElementById("wellness-copy").classList.add("active");
-  document.getElementById("wellness-row").classList.add("active");
-});
+// $('#wellness-trigger').waypoint( function(){
+//   document.getElementById("wellness-copy").classList.add("active");
+//   document.getElementById("wellness-row").classList.add("active");
+// });
 
 $('#employee-trigger').waypoint( function(){
   document.getElementById("employee-row").classList.add("active");
