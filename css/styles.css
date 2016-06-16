@@ -1146,8 +1146,8 @@ span.invalid.active {
 #nonprofit-modal.active {
   display: block;
   padding-top: 120px;
-  -webkit-animation: bounceIn .5s;
-  animation: bounceIn .5s;
+  /*-webkit-animation: bounceIn .5s;
+  animation: bounceIn .5s;*/
 }
 #nonprofit-modal a {
   border-bottom: 1px solid white;

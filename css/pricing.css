@@ -68,6 +68,15 @@ section#need-help {
   margin-bottom: 10px;
   /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);*/
 }
+.asterisk {
+  position: absolute;
+  top: 63px;
+  left: 90px;
+  right: 0;
+  text-align: center;
+  margin:0 auto;
+}
+
 #pricing .pricing-row span.amount {
   font-size: 60px;
   color: #06bbb9;
@@ -171,6 +180,10 @@ section#need-help {
   .most-popular {
     margin-left: 9%;
   }
+  .nonprofit-copy {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 610px) {
   .most-popular {
@@ -196,6 +209,8 @@ section#need-help {
 
 
 .nonprofit-copy {
-  font-size: 13px!important;
-  margin-top: 20px;
+  display: block;
+  margin-left: 40px;
+  font-size: 10px!important;
+  text-align: left;
 }
