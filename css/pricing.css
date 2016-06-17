@@ -135,7 +135,12 @@ section#need-help {
 .non-profit {
   margin-left: 53px
 }
-
+#pricing .nonprofit-copy {
+  display: block;
+  margin-left: 40px;
+  font-size: 12px!important;
+  text-align: left;
+}
 #nonprofit {
   padding-top: 0;
   background: white;
@@ -205,12 +210,4 @@ section#need-help {
     padding-bottom: 20px!important;
     /*margin-bottom: 20px;*/
   }
-}
-
-
-.nonprofit-copy {
-  display: block;
-  margin-left: 40px;
-  font-size: 10px!important;
-  text-align: left;
 }
