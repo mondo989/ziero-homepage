@@ -208,6 +208,7 @@ a.main-cta:hover {
 #value-props .row p {
   font-size: 18px;
   width: 90%;
+  opacity: .65;
 }
 #value-props .row a {
   font-weight: 600;
@@ -387,24 +388,29 @@ a.main-cta:hover {
   height: auto;
   margin-top: 0;
   background: #f3f3f3;
-  height: 365px;
   padding-top: 58px;
-  overflow: hidden;
+  padding-bottom: 80px;
+  /*overflow: hidden;*/
 }
 #featured-in h1 {
   color: #353535;
 }
 #featured-in img.reuters {
   margin-top: 30px;
-  width: 230px;
+  width: 210px;
 }
 #featured-in img.yahoo {
   margin-top: 0;
-  width: 230px;
+  width: 210px;
 }
 
 #featured-in img.btimes {
   height: 111px;
+}
+
+#featured-in img.latimes {
+  width: 120px;
+  height: auto;
 }
 
 #featured-in .separator {
@@ -417,6 +423,15 @@ a.main-cta:hover {
   width: 180px;
   height: auto;
 }
+
+#featured-in .col-xs-2{
+
+}
+#featured-in .col-half-offset{
+    margin-left:4.166666667%
+}
+
+
 #dashboard-carousel {
   overflow-x: hidden;
 }
