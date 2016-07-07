@@ -1,258 +1,301 @@
+.red {
+    background: red;
+}
+.blue {
+    background: blue;
+}
 #pricing {
-  min-height: 500px;
+    min-height: 500px;
 }
 #pricing h1 {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 #pricing .pricing-row {
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
 }
 #pricing .pricing-row .price-box {
-  width: 80%;
-  margin: 0 auto;
-  padding: 30px 0 40px 0;
-  border: 1px solid #bbb;
-  box-shadow: 2px 2px 2px #ccc;
-  border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0 40px 0;
+    border: 1px solid #bbb;
+    box-shadow: 2px 2px 2px #ccc;
+    border-radius: 5px;
 }
 #pricing .pricing-row .price-box.mid {
-  width: 85%;
+    width: 85%;
 }
 #pricing .pricing-row .col-sm-4 {
-  position: relative;
+    position: relative;
 }
 #pricing .pricing-row span {
-  display: block;
-  font-size: 20px;
+    display: block;
+    font-size: 20px;
 }
 #pricing .pricing-row span.type {
-  font-weight: 600;
+    font-weight: 600;
 }
 section#need-help {
-  /*padding-bottom: 100px;*/
+    /*padding-bottom: 100px;*/
 }
-
 section#corporate-plans-row .content-row {
-  border: 1px solid #ccc;
-  overflow: hidden;
+    border: 1px solid #ccc;
+    overflow: hidden;
 }
-section#corporate-plans-row > h1,
-section#corporate-plans-row > h3 {
-  margin: 10px 0;
+section#corporate-plans-row> h1, section#corporate-plans-row> h3 {
+    margin: 10px 0;
 }
-section#corporate-plans-row > h3 {
-  margin-bottom: 20px;
+section#corporate-plans-row> h3 {
+    margin-bottom: 20px;
 }
-
 section#corporate-plans-row .content-row .row:first-child {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 10px;
-  padding-top: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
-
-section#corporate-plans-row  .corporate-row {
-  margin-top: 10px;
-  font-size: 20px;
+section#corporate-plans-row .corporate-row {
+    margin-top: 10px;
+    font-size: 20px;
+    /*border-bottom: 2px solid blue;*/
 }
 section#corporate-plans-row .tier {
-  font-size: 20px;
-  font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
 }
 section#corporate-plans-row h2 {
-  color: #06bbb9;
-  margin-top: 0;
-  font-weight: 600;
+    color: #06bbb9;
+    margin-top: 0;
+    font-weight: 600;
 }
-
 section#corporate-plans-row .monthly-payment {
-  color: #06bbb9;
-  font-weight: 600;
+    color: #06bbb9;
+    font-weight: 600;
 }
-
-
 section#corporate-plans-row .corporate-copy {
-  display: block;
-  text-align: left;
-  font-size: 12px;
+    display: block;
+    text-align: left;
+    font-size: 12px;
 }
-
 #need-help .need-help-input-holder {
-  text-align: right;
+    text-align: right;
 }
 #need-help .need-help-cta-btn-holder {
-  text-align: left;
-  margin-top: 10px;
-  margin-left: -20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: -20px;
 }
 #need-help input.main-cta {
-  margin-top: 2px;
+    margin-top: 2px;
 }
 #need-help input {
-  text-indent: 25px;
-  width: 90%;
-  margin: 12px 0;
-  margin-right: -20px;
-  height: 60px;
-  background: #fff;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  font-size: 17px;
+    text-indent: 25px;
+    width: 90%;
+    margin: 12px 0;
+    margin-right: -20px;
+    height: 60px;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 17px;
 }
 #need-help h2 {
-  margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 #pricing .pricing-row span.terms, #pricing .pricing-row span.amount, #pricing .pricing-row span.interest {
-  margin: 5px 0;
+    margin: 5px 0;
 }
 #pricing .pricing-row span.price {
-  font-size: 40px;
-  font-weight: 500;
-  margin-top: -5px;
-  color: #06bbb9;
-  margin-bottom: 10px;
-  /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);*/
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: -5px;
+    color: #06bbb9;
+    margin-bottom: 10px;
+    /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);*/
 }
 .asterisk {
-  position: absolute;
-  top: 63px;
-  left: 90px;
-  right: 0;
-  text-align: center;
-  margin:0 auto;
+    position: absolute;
+    top: 63px;
+    left: 90px;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
 }
-
 #pricing .pricing-row span.amount {
-  font-size: 60px;
-  color: #06bbb9;
-  font-weight: 600;
-  /*text-shadow: 1px 1px 1px black;*/
+    font-size: 60px;
+    color: #06bbb9;
+    font-weight: 600;
+    /*text-shadow: 1px 1px 1px black;*/
 }
 #howitworks h2 {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 #howitworks p {
-  font-size: 16px;
+    font-size: 16px;
 }
 #howitworks {
-  background: url("../imgs/coffee.jpg");
-  height: 580px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  padding-bottom: 0!important;
+    background: url("../imgs/coffee.jpg");
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 0!important;
 }
 #howitworks::after {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
 }
 #howitworks .separator {
-  width: 70%;
-  margin: 15px auto!important;
+    width: 70%;
+    margin: 15px auto!important;
 }
 .employer-fee {
-  font-size: 14px!important;
-  margin-top: -5px;
-  margin-bottom: 10px;
-  font-weight: 600;
+    font-size: 14px!important;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 .employee-perk-holder {
-  border-top: 3px dotted #f3f3f3;
+    border-top: 3px dotted #f3f3f3;
 }
 .employee-perk-holder .employer-perk {
-  font-size: 15px!important;
-  font-weight: 600;
-  margin-top: 30px;
+    font-size: 15px!important;
+    font-weight: 600;
+    margin-top: 30px;
 }
 .most-popular {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-left: 43px;
-  color: black;
-  width: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 43px;
+    color: black;
+    width: 80px;
 }
 .non-profit {
-  margin-left: 53px
+    margin-left: 53px
 }
 #pricing .nonprofit-copy {
-  display: block;
-  margin-left: 40px;
-  font-size: 12px!important;
-  text-align: left;
+    display: block;
+    margin-left: 40px;
+    font-size: 12px!important;
+    text-align: left;
 }
 #nonprofit {
-  padding-top: 0;
-  background: white;
+    padding-top: 0;
+    background: white;
 }
 #nonprofit-modal.active {
-  padding-top: 10px;
-  margin:80px 0;
+    padding-top: 10px;
+    margin: 80px 0;
 }
 .ziero-main-logo {
-  margin-left: 22px
+    margin-left: 22px
 }
 @media (max-width: 1200px) {
-  .most-popular {
-    margin-left: 38px;
-  }
-  .non-profit {
-    margin-left: 46px!important;
-  }
+    .most-popular {
+        margin-left: 38px;
+    }
+    .non-profit {
+        margin-left: 46px!important;
+    }
 }
 @media (max-width: 991px) {
-  #pricing .pricing-row .price-box {
-    width: 85%;
-    margin: 25px auto;
-  }
-  .most-popular {
-    margin-left: 72px;
-  }
-  .non-profit {
-    margin-left: 72px!important;
-  }
-  #need-help input {
-    width: 95%;
-    margin: 0 auto!important;
-    margin-bottom: 20px!important;
-  }
-  #need-help .need-help-input-holder, #need-help .need-help-cta-btn-holder {
-    text-align: center;
-    margin: 0 auto!important;
-  }
+    #pricing .pricing-row .price-box {
+        width: 85%;
+        margin: 25px auto;
+    }
+    .most-popular {
+        margin-left: 72px;
+    }
+    .non-profit {
+        margin-left: 72px!important;
+    }
+    #need-help input {
+        width: 95%;
+        margin: 0 auto!important;
+        margin-bottom: 20px!important;
+    }
+    #need-help .need-help-input-holder, #need-help .need-help-cta-btn-holder {
+        text-align: center;
+        margin: 0 auto!important;
+    }
 }
 @media (max-width: 761px) {
-  .most-popular {
-    margin-left: 9%;
-  }
-  .nonprofit-copy {
-    width: 90%;
-    margin: 0 auto;
-  }
+    .most-popular {
+        margin-left: 9%;
+    }
+    .nonprofit-copy {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .second.row {
+        margin-top: 30px;
+        border: 1px solid #ccc;
+        padding: 10px 0;
+    }
+    .corporate-plans-row .row:first-child {
+      background: blue!important;
+      padding-bottom: 340px;
+    }
 }
 @media (max-width: 610px) {
-  .most-popular {
-    margin-left: 10%;
-  }
-  .non-profit {
-    margin-left: 53px!important;
-  }
+    .most-popular {
+        margin-left: 10%;
+    }
+    .non-profit {
+        margin-left: 53px!important;
+    }
+    .corporate-row .tier {
+        font-size: 3vw!important;
+        text-indent: 15px;
+        margin: 0;
+        padding: 0;
+    }
+    .corporate-row .average-employee-salary {
+        /*background: blue;*/
+        font-size: 3.2vw!important;
+        padding: 0!important;
+        margin-top: 0px;
+    }
+    .corporate-row .employee-perk-price {
+        margin-left: -5px;
+    }
+    .corporate-row .employee-perk-price h2 {
+        font-size: 4vw!important;
+        text-align: left;
+        text-indent: 5px;
+    }
+    .corporate-row .cost-per-employee, .corporate-row .monthly-payment {
+        font-size: 3.5vw!important;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .content-title {
+        padding-left: 0;
+        text-align: left;
+        font-size: 2vw;
+    }
+
+    .corporate-row .repayment-term {
+        font-size: 2.5vw!important;
+        margin-left: 0;
+        padding-left: 0;
+    }
 }
 @media (max-width: 451px) {
-  .most-popular {
-    margin-left: 10%;
-  }
-  .non-profit {
-    margin-left: 42px!important;
-  }
-  #howitworks {
-    height: auto;
-    padding-bottom: 20px!important;
-    /*margin-bottom: 20px;*/
-  }
+    .most-popular {
+        margin-left: 10%;
+    }
+    .non-profit {
+        margin-left: 42px!important;
+    }
+    #howitworks {
+        height: auto;
+        padding-bottom: 20px!important;
+        /*margin-bottom: 20px;*/
+    }
 }
