@@ -270,14 +270,14 @@ section#corporate-plans-row .corporate-copy {
         text-indent: 5px;
     }
     .corporate-row .cost-per-employee, .corporate-row .monthly-payment {
-        font-size: 3.5vw!important;
+        font-size: 2.75vw!important;
         margin-top: 10px;
         margin-bottom: 20px;
     }
     .content-title {
         padding-left: 0;
         text-align: left;
-        font-size: 2vw;
+        font-size: 2.4vw;
     }
 
     .corporate-row .repayment-term {
