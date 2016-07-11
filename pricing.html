@@ -345,10 +345,10 @@
           <h2>Please enter your e-mail address to download our infosheets.</h2>
         </div>
           <!-- <form action="//formspree.io/mzschoch@zierofinance.com" method="POST" id ="pricingForm"> -->
-            <form id ="pricingForm">
+          <form id="pricingForm">
             <div class="col-md-8 signup-input-holder">
               <!-- <input type="email" name="_replyto" placeholder="Enter Email Address" required> -->
-              <input type="email" id="email">
+              <input id="email" type="email">
             </div>
             <div class="col-md-4 signup-cta-btn-holder">
               <input type="submit" value="Download Now" class="main-cta">
@@ -381,4 +381,30 @@
 <script type="text/javascript" src="js/zepto.waypoints.js"></script>
 <script type="text/javascript" src="js/ziero.js"></script>
 
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#pricingForm').on('submit', function(e) {
+        e.preventDefault();
+
+        var email = $('#email').val();
+
+        $.ajax({
+            url:'https://formspree.io/mzschoch@zierofinance.com',
+            method:'POST',
+            data:{
+                _replyto:email,
+                 email:email,
+                _subject:'Sent submission from pricing page ',
+            },
+            dataType:"json",
+            success:function() {
+                console.log('success');
+                $('#signup-modal h2').html("Thank You, click the link below to download your file")
+                $('#pricingForm').hide();
+                $('#plan-info').show();
+            }
+        });
+    });
+  });
+  </script>
 </html>

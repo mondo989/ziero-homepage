@@ -1363,6 +1363,9 @@ span.invalid.active {
     text-align: center;
     margin: 0 auto !important;
   }
+  #signup-modal .ion-ios-close-outline {
+    color: #afafaf;
+  }
 
 }
 @media (max-width: 767px) {
