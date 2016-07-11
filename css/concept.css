@@ -291,6 +291,7 @@
 #library .box + p {
     margin: 20px auto;
     line-height: 1.7;
+    min-height: 90px;
 }
 #library p + a {
     color: #06bbb9;

@@ -8,6 +8,11 @@ $('.page-scroll').bind('click', function(event) {
   event.preventDefault();
 });
 
+var openModal = function() {
+  document.querySelector("#signup-modal").classList.toggle("active");
+  document.querySelector("#modal-overlay").classList.toggle("active");
+}
+
 
 
 // Waypoints

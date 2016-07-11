@@ -81,7 +81,7 @@
         <div class="container text-center">
             <div class="row">
                 <h1>Pay Per Use</h1>
-                <!-- <div class="separator"></div> -->
+                <a class="download-infosheet-link" onclick="openModal()">Download Infosheet</a>
                 <div class="row pricing-row">
                     <div class="col-md-4">
                         <div class="price-box">
@@ -142,8 +142,10 @@
                 <span class="nonprofit-copy">** Minimum requirement for a Ziero loan is FICO score of 680. About 70% of Americans have a FICO of 680 and above.</span>
             </div>
             <section id="corporate-plans-row">
+                <h3 class="coming-soon">Coming soon</h3>
                 <h1>Corporate Plans</h1>
                 <h3>(100+ Employees)</h3>
+                <a class="download-infosheet-link" onclick="openModal()">Download Infosheet</a>
                 <div class="container">
                     <div class="row ">
                         <div class="content-row">
@@ -154,10 +156,10 @@
                                 <div class="content-title text-left col-sm-2 col-xs-4">
                                     Employee Perk (Loan Amount)
                                 </div>
-                                <div class="content-title text-left  col-sm-2 col-xs-3">
+                                <div class="content-title text-left col-sm-2 col-xs-3">
                                     Repayment Term
                                 </div>
-                                <div class="content-title text-left   col-sm-2 col-xs-2 hidden-xs ">
+                                <div class="content-title text-left col-sm-2 col-xs-2 hidden-xs ">
                                     Cost Per Employee
                                 </div>
                             </div>
@@ -188,10 +190,10 @@
                                 <div class="content-title text-left col-sm-offset-2 col-sm-2 col-xs-offset-2 col-xs-3">
                                     Average Employee Salary
                                 </div>
-                                <div class="content-title text-left  col-sm-2 col-xs-4">
+                                <div class="content-title text-left col-sm-2 col-xs-4">
                                     Employee Perk (Loan Amount)
                                 </div>
-                                <div class="content-title text-left  col-sm-2 col-xs-3">
+                                <div class="content-title text-left col-sm-2 col-xs-3">
                                     Repayment Term
                                 </div>
                                 <div class="content-title col-sm-2 col-xs-2 hidden-xs ">
@@ -336,12 +338,85 @@
     </section>
 
 
+    <section id="signup-modal">
+      <i class="ion-ios-close-outline" onclick="openModal()"></i>
+      <div class="container modal-container">
+        <div class="row">
+          <h2>Please enter your e-mail address to download our plans content.</h2>
+        </div>
+          <!-- <form action="//formspree.io/mzschoch@zierofinance.com" method="POST" id ="pricingForm"> -->
+            <form id ="pricingForm">
+            <div class="col-md-8 signup-input-holder">
+              <!-- <input type="email" name="_replyto" placeholder="Enter Email Address" required> -->
+              <input type="email" id="email">
+            </div>
+            <div class="col-md-4 signup-cta-btn-holder">
+              <input type="submit" value="Download Now" class="main-cta">
+                <!-- <input type="hidden" name="_next" value="http://zierofinance.com/pricing.html" > -->
+            </div>
+          </form>
+
+          <div id="plan-info" class="row text-center">
+            <div class="col-sm-6">
+              <a class="plan-button" href="assets/ZieroCorporatePlan.pdf" download>Ziero's Corporate Plan</a>
+            </div>
+            <div class="col-sm-6">
+              <a class="plan-button" href="assets/ZieroSMBPlan.pdf" download>Ziero's SMB Plan</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div id="modal-overlay"></div>
+
+
 
 </body>
+
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/zepto.waypoints.js"></script>
 <script type="text/javascript" src="js/ziero.js"></script>
+
+
+
+<script>
+
+$(document).ready(function() {
+  $('#pricingForm').on('submit', function(e) {
+      e.preventDefault();
+
+      //get the name field value
+      var email = $('#email').val();
+
+      //send to formspree
+      $.ajax({
+          url:'https://formspree.io/mzschoch@zierofinance.com',
+          method:'POST',
+          data:{
+              _replyto:email,
+               email:email,
+              _subject:'Test form Submission',
+          },
+          dataType:"json",
+          success:function() {
+              console.log('success');
+              $('#signup-modal h2').html("Thank You, click the link below to download your file")
+              $('#pricingForm').hide();
+              $('#plan-info').show();
+          }
+      });
+
+  });
+
+});
+
+
+</script>
+
+
 
 </html>
