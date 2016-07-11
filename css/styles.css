@@ -1351,6 +1351,19 @@ span.invalid.active {
   #rates .row .col-sm-2 {
     text-align: center;
   }
+  #signup-modal .signup-input-holder {
+    margin: 0 auto!important;
+    text-align: center!important;
+  }
+  #signup-modal .signup-cta-btn-holder {
+    margin:10px auto!important;
+    text-align: center!important;
+  }
+  #signup-modal .signup-input-holder input.main-cta {
+    text-align: center;
+    margin: 0 auto !important;
+  }
+
 }
 @media (max-width: 767px) {
   img.hero-img {

@@ -292,6 +292,11 @@ section#corporate-plans-row .corporate-copy {
     text-indent: 0;
 }
 
+#signup-modal .ion-ios-close-outline {
+  color: #afafaf;
+}
+
+
 #plan-info {
   display: none;
   animation: fadeInUp .4s ease;
