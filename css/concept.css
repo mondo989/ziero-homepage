@@ -129,11 +129,16 @@
   margin: 5px auto;
   padding-top: 40px;
 }
+#ziero-way .bubble-copy.second {
+  padding-top: 0;
+}
 
-.bullet-point {
+#ziero-way .bullet-point {
   display: block;
   margin: 15px 0;
   font-size: 18px;
+  opacity: .7;
+  font-size: 16px;
   padding-left: 30px;
 }
 
@@ -210,6 +215,9 @@
     }
     #library .box {
         height: 215px;
+    }
+    .bubble-copy {
+      padding-top: 0!important;
     }
 }
 #library .box h3, #library .box h5 {
