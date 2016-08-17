@@ -441,6 +441,11 @@ a.main-cta:hover {
     margin-left:4.166666667%
 }
 
+#four-columns .vector-icon {
+  margin: 0 auto!important;
+  display: block;
+  text-align: center;
+}
 
 #dashboard-carousel {
   overflow-x: hidden;
