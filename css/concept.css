@@ -106,6 +106,37 @@
 .row#employee-row {
     padding-top: 60px;
 }
+
+#ziero-way h1 {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+#ziero-way .main-copy {
+  font-size: 18px;
+  line-height: 1.9;
+  width: 80%;
+  margin: 10px auto 0 auto;
+}
+#ziero-way .number-bubble {
+  width: 170px;
+  margin: 40px auto;
+}
+#ziero-way .first-bubble-row {
+  margin-top: 70px;
+}
+#ziero-way .bubble-copy {
+  font-size: 20px;
+  margin: 5px auto;
+  padding-top: 40px;
+}
+
+.bullet-point {
+  display: block;
+  margin: 15px 0;
+  font-size: 18px;
+  padding-left: 30px;
+}
+
 #platforms .get-started-holder {
     position: relative;
     display: block;

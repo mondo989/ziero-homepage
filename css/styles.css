@@ -14,6 +14,16 @@ section {
 .ziero-blue {
   color: #06bbb9;
 }
+.strong {
+  font-weight: bold;
+}
+.red {
+  background: red;
+}
+.blue {
+  background: blue;
+}
+
 #hero {
   /*background: rgba(231, 213, 198, .7);*/
   background: url("../imgs/bk-img.jpg");
