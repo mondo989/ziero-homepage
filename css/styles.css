@@ -440,13 +440,45 @@ a.main-cta:hover {
 #featured-in .col-half-offset{
     margin-left:4.166666667%
 }
+#tagline {
+  padding-bottom: 20px;
+}
+#secondary-tagline {
+  padding-top: 0;
+}
 
 #four-columns .vector-icon {
   margin: 0 auto!important;
   display: block;
   text-align: center;
 }
-
+#four-columns h3 {
+  /*height: 40px;*/
+  font-size: 21px;
+  margin-bottom: 0!important;
+  padding-bottom: 0;
+}
+#four-columns h6 {
+  font-size: 17px;
+  text-align: center;
+  height: 30px;
+  width: 80%;
+  opacity: .7;
+  font-weight: 300;
+  margin:  0px auto 30px auto;
+}
+#four-columns .debt-consolidation-copy {
+  font-size: 19px;
+  padding-top: 1px;
+}
+#four-columns p {
+  padding-left: 20px;
+  opacity: .8;
+}
+#four-columns .separator {
+  margin: 15px auto 15px auto!important;
+  opacity: .2;
+}
 #dashboard-carousel {
   overflow-x: hidden;
 }
