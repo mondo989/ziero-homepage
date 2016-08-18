@@ -14,8 +14,13 @@
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
+#pricing .pricing-row h5 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-style: italic;
+}
 #pricing .pricing-row .price-box {
-    width: 80%;
+
     margin: 0 auto;
     padding: 30px 0 40px 0;
     border: 1px solid #bbb;
@@ -28,16 +33,54 @@
 #pricing .pricing-row .col-sm-4 {
     position: relative;
 }
+
+
+#pricing .pricing-row .dual-content-row {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+#pricing .pricing-row .dual-content-row::after {
+  position: absolute;
+  content: "";
+  background: #f3f3f3;
+  width:2px;
+  right: 0;
+  height: 320px;
+  left:0;
+  top: -50px!important;
+  margin: 0 auto;
+}
+
 #pricing .pricing-row span {
     display: block;
     font-size: 20px;
 }
 #pricing .pricing-row span.type {
-    font-weight: 600;
+    font-weight: 400;
+
+    font-size: 28px;
 }
 section#pricing a.download-infosheet-link {
   display: block;
   margin: 20px auto;
+}
+
+#pricing .pricing-row .employer-perk {
+  /*background: blue;*/
+  width: 70%;
+  font-size: 24px;
+  margin-left: 0;
+  margin-right: 0;
+  margin: 0 auto;
+}
+
+#pricing .pricing-row .repayment-copy {
+  width: 98%;
+  margin: 0 auto;
+  font-size: 17px;
 }
 
 section#need-help {
@@ -66,7 +109,6 @@ section#corporate-plans-row .content-row .row:first-child {
 section#corporate-plans-row .corporate-row {
     margin-top: 10px;
     font-size: 20px;
-    /*border-bottom: 2px solid blue;*/
 }
 section#corporate-plans-row .tier {
     font-size: 20px;
@@ -115,9 +157,8 @@ section#corporate-plans-row .corporate-copy {
     margin: 5px 0;
 }
 #pricing .pricing-row span.price {
-    font-size: 40px;
+    font-size: 55px;
     font-weight: 500;
-    margin-top: -5px;
     color: #06bbb9;
     margin-bottom: 10px;
     /*text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);*/
@@ -131,10 +172,9 @@ section#corporate-plans-row .corporate-copy {
     margin: 0 auto;
 }
 #pricing .pricing-row span.amount {
-    font-size: 60px;
+    font-size: 50px;
     color: #06bbb9;
-    font-weight: 600;
-    /*text-shadow: 1px 1px 1px black;*/
+
 }
 #howitworks h2 {
     margin-bottom: 30px;
@@ -164,16 +204,15 @@ section#corporate-plans-row .corporate-copy {
     margin: 15px auto!important;
 }
 .employer-fee {
-    font-size: 14px!important;
+    font-size: 15px!important;
     margin-top: -5px;
-    margin-bottom: 10px;
-    font-weight: 600;
+    margin-bottom: 30px;
 }
 .employee-perk-holder {
     border-top: 3px dotted #f3f3f3;
 }
 .employee-perk-holder .employer-perk {
-    font-size: 15px!important;
+    font-size: 13px!important;
     font-weight: 600;
     margin-top: 30px;
 }
@@ -296,6 +335,8 @@ section#corporate-plans-row .corporate-copy {
   color: #afafaf;
 }
 
+
+
 #plan-info {
   display: none;
   animation: fadeInUp .4s ease;
@@ -322,12 +363,28 @@ section#corporate-plans-row .corporate-copy {
     .non-profit {
         margin-left: 46px!important;
     }
+    .pricing-row .employer-perk {
+      font-size: 25px!important;
+      width: 100%!important;
+    }
+    .pricing-row .repayment-copy {
+      font-size: 13px!important;
+    }
+    .pricing-row .amount {
+      font-size: 45px!important;
+    }
 }
+
 @media (max-width: 991px) {
     #pricing .pricing-row .price-box {
         width: 85%;
         margin: 25px auto;
     }
+    .pricing-row .employer-perk {
+      max-width: 120px!important;
+    }
+
+
     .most-popular {
         margin-left: 72px;
     }
@@ -358,7 +415,6 @@ section#corporate-plans-row .corporate-copy {
         padding: 10px 0;
     }
     .corporate-plans-row .row:first-child {
-      background: blue!important;
       padding-bottom: 340px;
     }
 }
@@ -376,7 +432,6 @@ section#corporate-plans-row .corporate-copy {
         padding: 0;
     }
     .corporate-row .average-employee-salary {
-        /*background: blue;*/
         font-size: 3.2vw!important;
         padding: 0!important;
         margin-top: 0px;
