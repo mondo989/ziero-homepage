@@ -225,11 +225,23 @@ section#corporate-plans-row .corporate-copy {
     width: 80px;
 }
 .non-profit {
-    margin-left: 53px
+    margin-left: 53px;
 }
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt30 {
+
+  padding-top: 20px;
+}
+
+
 #pricing .nonprofit-copy {
     display: block;
-    margin-left: 40px;
+    margin-left: 20px;
+    margin-top: 3px;
     font-size: 12px!important;
     text-align: left;
 }
