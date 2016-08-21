@@ -203,6 +203,13 @@ section#corporate-plans-row .corporate-copy {
     width: 70%;
     margin: 15px auto!important;
 }
+#hero.ziero-wellness {
+  background: url('../imgs/ziero-wellness-hero.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .employer-fee {
     font-size: 15px!important;
     margin-top: -5px;
@@ -365,6 +372,29 @@ section#corporate-plans-row .corporate-copy {
   cursor: pointer;
   text-decoration: none;
   /*border-radius: 120px;*/
+
+}
+#ziero-way.ziero-wellness {
+  background: #f3f3f3;
+  padding-bottom: 90px;
+}
+#ziero-way.ziero-wellness h1 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+#ziero-way.ziero-wellness p.main-copy {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 17px;
+  opacity: .7
+}
+#ziero-way.ziero-wellness .separator {
+  background: rgba(0, 0, 0, 0.08125);
+  width: 80%;
+  display: block;
+  border-radius: 120px;
+  margin: 20px auto 30px auto!important;
+  height: 1px;
 
 }
 

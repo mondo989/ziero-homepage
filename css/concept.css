@@ -64,7 +64,8 @@
     font-size: 35px;
     padding-bottom: 7.5px;
 }
-#platforms {
+#platforms,
+#ziero-way {
     min-height: 760px;
 }
 #platforms h4 {
@@ -72,7 +73,10 @@
     font-size: 24px;
     margin: 30px 0;
 }
-#platforms li i.ion-checkmark-circled, #platforms li i.ion-android-arrow-dropright-circle {
+#platforms li i.ion-checkmark-circled,
+#platforms li i.ion-android-arrow-dropright-circle,
+#ziero-way li i.ion-checkmark-circled,
+#ziero-way li i.ion-android-arrow-dropright-circle {
     font-size: 30px;
     color: #06bbb9;
     top: -6px;
@@ -81,11 +85,13 @@
     -webkit-animation: fadeInLeft .6s!important;
     animation: fadeInLeft .6s!important;
 }
-#platforms li i.ion-android-arrow-dropright-circle {
+#platforms li i.ion-android-arrow-dropright-circle,
+#ziero-way li i.ion-android-arrow-dropright-circle {
     font-size: 33px;
     top: -9px;
 }
-#platforms li {
+#platforms li,
+#ziero-way li {
     list-style-type: none;
     position: relative;
     padding-left: 40px;
@@ -94,7 +100,8 @@
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
-#platforms img.ziero-macbook {
+#platforms img.ziero-macbook,
+#ziero-way img.ziero-macbook {
     width: 100%!important;
     height: 100%;
     -wetbkit-transition: .6s;
@@ -118,7 +125,7 @@
   margin: 10px auto 0 auto;
 }
 #ziero-way .number-bubble {
-  width: 170px;
+  width: 130px;
   margin: 40px auto;
 }
 #ziero-way .first-bubble-row {
@@ -142,17 +149,20 @@
   padding-left: 30px;
 }
 
-#platforms .get-started-holder {
+#platforms .get-started-holder,
+#ziero-way .get-started-holder {
     position: relative;
     display: block;
     min-height: 450px;
 }
-#platforms .get-started-holder .get-started-1 {
+#platforms .get-started-holder .get-started-1,
+#ziero-way .get-started-holder .get-started-1 {
     width: 45%;
     left: 0;
     position: absolute;
 }
-#platforms .get-started-holder .get-started-2 {
+#platforms .get-started-holder .get-started-2,
+#ziero-way .get-started-holder .get-started-2 {
     width: 45%;
     right: 50px;
     top: 50px;
