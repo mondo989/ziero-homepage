@@ -615,4 +615,7 @@ section#corporate-plans-row.ziero-way .cost-per-loan-row {
             font-size: 25px!important;
             padding-bottom: 20px;
         }
+        body {
+          overflow-x: hidden!important;
+        }
     }
