@@ -35,7 +35,7 @@
     </script>
 </head>
 
-<body>
+<body class="ziero-wellness">
   <nav class="navbar ">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -52,8 +52,20 @@
       <div class="collapse navbar-collapse" id="ziero-menu-collapse">
         <span class="nav navbar-nav navbar-right ">
           <ul class="nav-list nav-list-row">
-            <li><a href="concept.html">Concept</a></li>
-            <li><a href="pricing.html">Plans</a></li>
+            <li>
+              <div class="dropdown">
+                <a class=" dropdown-toggle" type="button" data-toggle="dropdown">Services
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="loan-program.html">Employee Loan Program</a></li>
+                  <li><a href="ziero-wellness.html">Ziero Financial Wellness</a></li>
+                </ul>
+              </div>
+            </li>
+            <!-- <li>
+              <a href="pricing.html">Plans</a>
+            </li> -->
             <li><a href="library.html">Library</a></li>
             <li><a href="https://app.zierofinance.com/login/" >Log In</a></li>
             <li><a href="https://app.zierofinance.com/login/signup/" class="main-cta invert login-btn">redeem</a></li>
@@ -65,21 +77,20 @@
   <section id="hero" class="ziero-wellness">
     <div class="container hero-img-row">
       <div class="row hero-copy-row">
-        <!-- <div class="col-sm-12 text-center">
-          <h1 id="employee-trigger">Introducing Financial wellness for all employees</h1>
-          <div class="separator" ></div>
-          <h5>3 Step Solutions to Better Financial Health</h5>
-        </div> -->
+        <div class="col-sm-6 text-center">
+          <br>
+          <h1 id="employee-trigger" style="color: #333!important; text-shadow: 0 0 0!important;">
+            Financial wellness made easy.</h1>
+        </div>
       </div>
     </div>
     <div class="bk-filter"></div>
   </section>
 
-  <section id ="four-columns">
+  <section id ="four-columns" >
     <div class="container">
       <div class="row">
-        <h2 class="text-center">Our program is designed to provide your employees for a path to better financial health.</h2>
-        <br>
+        <h2 class="text-center">Our program is designed to provide your employees with a path to better financial health.</h2>
         <br>
         <div class="col-md-3 col-sm-6">
           <img src="imgs/survey.svg" alt="survey icon" class="vector-icon">
@@ -120,7 +131,6 @@
           <p>Enjoy lower interest rates and/or lower monthly payments.</p>
           <p>Improve your credit score, which can lead to even lower interest rates.</p>
         </div>
-
       </div>
     </div>
   </section>
@@ -135,8 +145,6 @@
       </div>
     </div>
   </section>
-
-
 
   <section id="pricing">
     <div class="container text-center">
@@ -158,12 +166,14 @@
               <div class="col-xs-6">
                 <span class="employer-perk">Loan Program</span>
                 <span class="amount">$500</span>
-                <span class="repayment-copy">Repayment over 5 months with 0% APR <strong>Up to 15% redemption</strong> from workforce per year</span>
+                <span class="repayment-copy"><strong>Repayment:</strong> 5 months
+                  <br>
+                  <strong>Coverage:</strong> Up to 15% redemption from workforce per year.</span>
               </div>
               <div class="col-xs-6">
                 <span class="employer-perk">Education Program</span>
                 <span class="amount">Basic</span>
-                <span class="repayment-copy">Limited access to program including: Finance 101, Intro to Savings, and Debt Management</span>
+                <span class="repayment-copy">Partial access to program (3 main courses).</span>
               </div>
             </div>
           </div>
@@ -173,7 +183,7 @@
           <h5 class="text-center">Silver</h5>
           <div class="price-box">
             <span class="type">Employer Fee</span>
-            <span class="price">$6 <!-- <span class="asterisk">*</span> --> </span>
+            <span class="price">$5 <!-- <span class="asterisk">*</span> --> </span>
             <span class="employer-fee">Per Employee Per Month</span>
             <hr>
             <br>
@@ -181,12 +191,14 @@
               <div class="col-xs-6">
                 <span class="employer-perk">Loan Program</span>
                 <span class="amount">$500</span>
-                <span class="repayment-copy">Repayment over 5 months with 0% APR <strong>Maximum redemption</strong> from workforce per year</span>
+                <span class="repayment-copy"><strong>Repayment:</strong> 5 months
+                  <br>
+                  <strong>Coverage:</strong> Up to 50% redemption from workforce per year.</span>
               </div>
               <div class="col-xs-6">
                 <span class="employer-perk">Education Program</span>
                 <span class="amount">Full</span>
-                <span class="repayment-copy">Limited access to program including: Finance 101, Intro to Savings, and Debt Management</span>
+                <span class="repayment-copy">Full access to program covering over 20 topics.</span>
               </div>
             </div>
           </div>
@@ -206,12 +218,14 @@
               <div class="col-xs-6">
                 <span class="employer-perk">Loan Program</span>
                 <span class="amount">$1000</span>
-                <span class="repayment-copy">Repayment over 5 months with 0% APR <strong>Maximum redemption</strong> from workforce per year</span>
+                <span class="repayment-copy"><strong>Repayment:</strong> 10 months
+                  <br>
+                  <strong>Coverage:</strong> <strong>No Limit</strong> on redemption from workforce per year.</span>
               </div>
               <div class="col-xs-6">
                 <span class="employer-perk">Education Program</span>
                 <span class="amount">Full</span>
-                <span class="repayment-copy">Limited access to program including: Finance 101, Intro to Savings, and Debt Management</span>
+                <span class="repayment-copy">Full access to program covering over 20 topics.</span>
               </div>
             </div>
           </div>
@@ -277,42 +291,6 @@
         </div>
     </section>
 
-
-    <section id="signup-modal">
-        <i class="ion-ios-close-outline" onclick="openModal()"></i>
-        <div class="container modal-container">
-            <div class="row">
-                <h2>Please enter your e-mail address to download our infosheets.</h2>
-            </div>
-            <!-- <form action="//formspree.io/mzschoch@zierofinance.com" method="POST" id ="pricingForm"> -->
-            <form id="pricingForm">
-                <div class="col-md-8 signup-input-holder">
-                    <!-- <input type="email" name="_replyto" placeholder="Enter Email Address" required> -->
-                    <input id="email" type="email">
-                </div>
-                <div class="col-md-4 signup-cta-btn-holder">
-                    <input type="submit" value="Download Now" class="main-cta">
-                    <!-- <input type="hidden" name="_next" value="http://zierofinance.com/pricing.html" > -->
-                </div>
-            </form>
-
-            <div id="plan-info" class="row text-center">
-                <div class="col-sm-6">
-                    <a class="plan-button" href="assets/ZieroCorporatePlan.pdf" download>Ziero's Corporate Plan</a>
-                </div>
-                <div class="col-sm-6">
-                    <a class="plan-button" href="assets/ZieroSMBPlan.pdf" download>Ziero's SMB Plan</a>
-                </div>
-            </div>
-
-        </div>
-        </div>
-    </section>
-
-    <div id="modal-overlay"></div>
-
-
-
 </body>
 
 
@@ -320,32 +298,5 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/zepto.waypoints.js"></script>
 <script type="text/javascript" src="js/ziero.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#pricingForm').on('submit', function(e) {
-            e.preventDefault();
-
-            var email = $('#email').val();
-
-            $.ajax({
-                url: 'https://formspree.io/mzschoch@zierofinance.com',
-                method: 'POST',
-                data: {
-                    _replyto: email,
-                    email: email,
-                    _subject: 'Sent submission from pricing page ',
-                },
-                dataType: "json",
-                success: function() {
-                    console.log('success');
-                    $('#signup-modal h2').html("Thank You, click the link below to download your file")
-                    $('#pricingForm').hide();
-                    $('#plan-info').show();
-                }
-            });
-        });
-    });
-</script>
 
 </html>

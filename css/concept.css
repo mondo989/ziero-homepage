@@ -53,6 +53,10 @@
     width: 70%;
     background: rgba(0, 0, 0, .25)!important;
 }
+/*#corporate-plans-row .left-border{
+background: red;
+}*/
+
 #hero.concept .hero-copy-row, #hero.library .hero-copy-row {
     margin-top: 45px;
     position: absolute;
@@ -74,9 +78,9 @@
     margin: 30px 0;
 }
 #platforms li i.ion-checkmark-circled,
-#platforms li i.ion-android-arrow-dropright-circle,
+#platforms li i.ion-android-arrow-drop .right-circle,
 #ziero-way li i.ion-checkmark-circled,
-#ziero-way li i.ion-android-arrow-dropright-circle {
+#ziero-way li i.ion-android-arrow-drop .right-circle {
     font-size: 30px;
     color: #06bbb9;
     top: -6px;
@@ -85,8 +89,8 @@
     -webkit-animation: fadeInLeft .6s!important;
     animation: fadeInLeft .6s!important;
 }
-#platforms li i.ion-android-arrow-dropright-circle,
-#ziero-way li i.ion-android-arrow-dropright-circle {
+#platforms li i.ion-android-arrow-drop .right-circle,
+#ziero-way li i.ion-android-arrow-drop .right-circle {
     font-size: 33px;
     top: -9px;
 }
@@ -110,6 +114,19 @@
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
+
+#platforms img.macbook-pro-ziero,
+#ziero-way img.macbook-pro-ziero {
+   width: 450px;
+   height: auto;
+   margin-left:-220px;
+   margin-top: 80px;
+   -webkit-animation: fadeIn 1s;
+   animation: fadeIn 1s;
+   -webkit-transition: 1s;
+   transition: 1s;
+}
+
 .row#employee-row {
     padding-top: 60px;
 }
@@ -204,6 +221,41 @@
     margin: 40px auto;
     padding: 20px 0;
 }
+#corporate-plans-row .content-row {
+  position: relative;
+}
+#corporate-plans-row .content-row::after {
+    content: '';
+    background: rgba(0, 0, 0, 0.0725);
+    position: absolute;
+    width:1px;
+    height: 420px;
+    top:0;
+    right: 35%;
+    z-index: 900;
+}
+
+.ion-android-checkbox-outline {
+  color: rgba(0, 0, 0, 0.245);
+  text-align: right;
+  font-size: 25px;
+}
+
+.second-bubble-row p.loan-subcopy,
+.third-bubble-row p.loan-subcopy {
+  padding: 25px 0;
+  font-size: 17px;
+  width: 70%;
+  opacity: .7;
+}
+.third-bubble-row #employee-row {
+  padding-top: 15px;
+}
+
+#corporate-plans-row .content-row {
+  /*background: blue;*/
+}
+
 #box-a {
     background: url('../imgs/employeestressfactors.png');
     /*background-position: 0 -95px;*/
@@ -404,6 +456,11 @@
     width: 80%;
     margin: 10px auto;
 }
+section#corporate-plans-row.ziero-way .cost-per-loan-row {
+  padding: 35px 0 5px 0;
+}
+
+
 @media (max-width: 991px) {
     #hero.concept .hero-copy-row, #hero.library .hero-copy-row h1 {
         top: 27.5%;
@@ -463,6 +520,79 @@
         text-align: center;
         margin-bottom: 50px;
     }
+    .macbook-pro-ziero {
+      /*margin-left: 0!important;*/
+      margin: 80px auto 10px auto!important;
+      text-align: center;
+      width: 100%;
+      display: block;
+    }
+
+
+    .second-bubble-row p.loan-subcopy,
+    .third-bubble-row p.loan-subcopy  {
+      margin: 0 auto!important;
+      width: 80%!important;
+    }
+    .first-bubble-row .main-h2 h2,
+    .second-bubble-row  h2,
+    .third-bubble-row h2 {
+      width: 90%;
+      margin:10px auto 20px auto;
+    }
+
+    section#corporate-plans-row.ziero-way .content-row {
+      width: 92%!important;
+      margin: 0 auto;
+    }
+
+    section#corporate-plans-row.ziero-way .loan-size {
+      padding: 30px 25px 20px 30px;
+      font-size: 3vw;
+      text-align: center!important;
+    }
+    section#corporate-plans-row.ziero-way .repayment-amount {
+      padding-top: 30px;
+      text-align: center;
+      font-size: 3vw;
+      padding: 30px 15px 20px 15px;
+    }
+    section#corporate-plans-row.ziero-way .loan-term {
+      padding: 30px 25px 20px 20px;
+      font-size: 3vw;
+      text-align: center;
+    }
+    section#corporate-plans-row.ziero-way .cost-per-loan-row {
+      /*padding-top: 0!important;*/
+      font-size: 3vw;
+    }
+
+    section#corporate-plans-row.ziero-way .tier h2 {
+      font-size: 4vw;
+    }
+
+    section#corporate-plans-row.ziero-way .repayment-amount-content,
+    section#corporate-plans-row.ziero-way .loan-term-content {
+      font-size: 2.5vw;
+
+    }
+
+    section#corporate-plans-row .corporate-copy {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    section#corporate-plans-row.ziero-way .monthly-payment {
+      text-align: right;
+    }
+
+    section#corporate-plans-row.ziero-way .corporate-row .monthly-payment {
+      margin-top: 0;
+      font-size: 4vw!important;
+      text-align: center;
+      /*margin-left: 40px;*/
+    }
+
 }
 @media (max-width: 661px) {
     #hero.concept .hero-copy-row, #hero.library .hero-copy-row {

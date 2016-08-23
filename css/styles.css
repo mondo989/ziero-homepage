@@ -1564,10 +1564,10 @@ span.invalid.active {
     z-index: -1;
     opacity: .25;
   }
-  h1 {
+  #hero h1 {
     font-size: 9vw!important;
   }
-  h2 {
+  #hero h2 {
     font-size: 8vw!important;
   }
 }

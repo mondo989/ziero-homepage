@@ -13,6 +13,8 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,800' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/animate.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/pricing.css">
+
   <link rel="stylesheet" href="css/concept.css">
 
   <link rel="icon" type="image/png" href="favicon.ico" />
@@ -38,10 +40,7 @@
 </head>
 
 <body>
-
-
-
-  <nav class="navbar ">
+  <nav class="navbar">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ziero-menu-collapse" aria-expanded="false">
@@ -58,11 +57,19 @@
         <span class="nav navbar-nav navbar-right ">
             <ul class="nav-list nav-list-row">
               <li>
-                <a href="concept.html">Concept</a>
+                <div class="dropdown">
+                  <a class=" dropdown-toggle" type="button" data-toggle="dropdown">Services
+                    <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="loan-program.html">Employee Loan Program</a></li>
+                    <li><a href="ziero-wellness.html">Ziero Financial Wellness</a></li>
+                  </ul>
+                </div>
               </li>
-              <li>
+              <!-- <li>
                 <a href="pricing.html">Plans</a>
-              </li>
+              </li> -->
               <li>
                 <a href="library.html">Library</a>
               </li>
@@ -83,9 +90,11 @@
     <div class="container hero-img-row">
       <div class="row hero-copy-row">
         <div class="col-sm-12 text-center">
-          <h1 id="employee-trigger">Introducing Financial wellness for all employees</h1>
-          <div class="separator" ></div>
-          <h5>3 Step Solutions to Better Financial Health</h5>
+          <br>
+          <br>
+          <h1 id="employee-trigger">We bring an employee loan program for your business.</h1>
+          <!-- <div class="separator" ></div>
+          <h5>3 Step Solutions to Better Financial Health</h5> -->
         </div>
       </div>
     </div>
@@ -95,40 +104,127 @@
   <section id="ziero-way">
     <div class="container">
       <div class="row">
-        <h1 class="text-center">The Ziero Way</h1>
+        <h1 class="text-center">How the Ziero Program Works</h1>
       </div>
 
       <div class="row first-bubble-row">
-        <div class="col-md-offset-1 col-md-3 text-center">
+        <div class="col-md-3 text-center">
           <img class="number-bubble" src="imgs/1.png" alt="Number 1 bubble">
         </div>
-        <div class="col-md-7">
-          <h3>Select the interest-free loans for your employers.</h3>
+        <div class="col-md-8 main-h2">
+          <h2>Select the interest-free loan options for your company.</h2>
         </div>
+        <br>
+        <br>
+        <br>
+        <section id="corporate-plans-row" class="ziero-way">
+          <div class="row ">
+            <div class="content-row">
+              <div class="row text-center" style="font-weight: 600; font-size: 22px;">
+                <div class="col-xs-1 text-center checkbox">
+                </div>
+                <div class="col-xs-2 text-center loan-size">
+                  Loan Size
+                </div>
+                <div class="col-xs-2 repayment-amount" >
+                  Repayment Amount
+                </div>
+                <div class="col-xs-2 loan-term">
+                  Loan Term
+                </div>
+                <div class="col-xs-1"></div>
+                <div class="col-xs-4">
+                  <div class="text-center cost-per-loan-row">
+                     Cost Per Loan *
+                  </div>
+                </div>
+              </div>
+              <div class="row corporate-row text-center">
+                <div class="col-xs-1 ion-android-checkbox-outline text-center">
+                </div>
+                <div class="col-xs-2 tier">
+                  <h2 class="text-center">$500</h2>
+                </div>
+                <div class="col-xs-2 repayment-amount-content">
+                    $100/Month
+                </div>
+                <div class="col-xs-2 loan-term-content">
+                    5 Months
+                </div>
+                <div class="col-xs-1"></div>
+                <div class="col-xs-4 monthly-payment">
+                  $49
+                </div>
+              </div>
+              <div class="row corporate-row text-center">
+                <div class="col-xs-1 ion-android-checkbox-outline text-center">
+                </div>
+                <div class="col-xs-2 tier">
+                  <h2 class="text-center">$1,000</h2>
+                </div>
+                <div class="col-xs-2 repayment-amount-content">
+                    $100/Month
+                </div>
+                <div class="col-xs-2 loan-term-content">
+                    10 Months
+                </div>
+                <div class="col-xs-1"></div>
+                <div class="col-xs-4 monthly-payment">
+                     $99
+                </div>
+              </div>
+
+              <div class="row corporate-row text-center">
+                <div class="col-xs-1 ion-android-checkbox-outline text-center">
+                </div>
+                <div class="col-xs-2 tier">
+                  <h2 class="text-center">$1,500</h2>
+                </div>
+                <div class="col-xs-2 repayment-amount-content">
+                    $100/Month
+                </div>
+                <div class="col-xs-2 loan-term-content">
+                    15 Months
+                </div>
+                <div class="col-xs-1"></div>
+                <div class="col-xs-4 monthly-payment">
+                     $149
+                </div>
+              </div>
+            </div>
+              <div class="row">
+                <div class="col-md-offset-3 col-sm-8">
+                  <br>
+                  <span class="corporate-copy">* Employer guarantee is requred for borrowers with a FICO score below 670</span>
+                  <span class="corporate-copy">> Employers are required to have a valid US bank account.</span>
+                </div>
+              </div>
+            </div>
+          </section>
       </div>
 
-      <div class="row">
-        <div class="col-md-offset-1 col-md-3 text-center">
+<br>
+<br>
+
+      <div class="row second-bubble-row">
+        <div class="col-md-3 text-center">
           <img class="number-bubble" src="imgs/2.png" alt="Number 2 bubble">
         </div>
-        <div class="row">
-          <div class="col-sm-6">
-
-            <h3>Simply add your employees and Ziero manages the rest, including:</h3>
-
-            <ul>
-              <li><i class="ion-checkmark-circled"></i>Loan Administration </li>
-              <li><i class="ion-checkmark-circled"></i>Repayments &amp; Servicing</li>
-              <li><i class="ion-checkmark-circled"></i>Legal Paperwork</li>
-              <li><i class="ion-android-arrow-dropright-circle"></i> <span style="font-weight: 600;">And Ziero provides the capital! </span></li>
-            </ul>
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-sm-9" >
+              <h2>Add your employees to your Ziero platform:</h2>
+              <p class="loan-subcopy">Simply add your employees and Ziero manages the rest, including:</p>
+              <ul>
+                <li><i class="ion-checkmark-circled"></i>Loan Administration </li>
+                <li><i class="ion-checkmark-circled"></i>Repayments &amp; Servicing</li>
+                <li><i class="ion-checkmark-circled"></i>Legal Paperwork</li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <img src="imgs/macbook.png" class="macbook-pro-ziero" alt="Ziero interface of Employer Platform">
+            </div>
           </div>
-          <div class="col-sm-6">
-            <img src="imgs/macbook.png" class="ziero-macbook" alt="Ziero interface of Employer Platform">
-          </div>
-
-
-
         </div>
 
           <!-- <p class="bubble-copy second">
@@ -138,14 +234,18 @@
           </p> -->
         </div>
 
+<br>
+<br>
+<br>
+<br>
 
-      <div class="row">
-        <div class="col-md-offset-1 col-md-3 text-center">
+      <div class="row third-bubble-row">
+        <div class="col-md-3 text-center">
           <img class="number-bubble" src="imgs/3.png" alt="Number 3 bubble">
         </div>
-        <div class="col-md-7">
+        <div class="col-md-8">
           <div class="row">
-            <h2>The loans are now available and on demand!</h2>
+            <h2>Loans are now available to your employees!</h2>
 
             <div class="row" id="employee-row">
               <div class="col-md-6 col-sm-12 get-started-holder">
@@ -154,11 +254,11 @@
               </div>
 
               <div class="col-md-6 col-sm-12 employee-platform-container">
-                <h3>Effortless and available at any time:</h3>
+                <p class="loan-subcopy">Effortless and available at any time:</p>
                 <ul>
                   <li><i class="ion-checkmark-circled"></i>No Manual Paperwork </li>
                   <li><i class="ion-checkmark-circled"></i>5 Minute Application Process</li>
-                  <li><i class="ion-checkmark-circled"></i>Funding Available in 2-3 Business Days</li>
+                  <li><i class="ion-checkmark-circled"></i>Funding Available in 24-48 hours</li>
                 </ul>
               </div>
             </div>
@@ -169,58 +269,6 @@
   </section>
 
 
-  <section id="platforms">
-    <div class="container">
-      <div class="row">
-
-        <div class="col-md-6 col-sm-12">
-          <h2>Employer Platform</h2>
-          <h4>Simply add your employees and Ziero manages the rest, including:</h4>
-
-          <ul>
-            <li><i class="ion-checkmark-circled"></i>Loan Administration </li>
-            <li><i class="ion-checkmark-circled"></i>Repayments &amp; Servicing</li>
-            <li><i class="ion-checkmark-circled"></i>Legal Paperwork</li>
-            <li><i class="ion-android-arrow-dropright-circle"></i> <span style="font-weight: 600;">And Ziero provides the capital! </span></li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <img src="imgs/macbook.png" class="ziero-macbook" alt="Ziero interface of Employer Platform">
-        </div>
-      </div>
-
-<br><br>
-
-      <div class="row" id="employee-row">
-        <div class="col-md-6 col-sm-12 get-started-holder">
-          <img src="imgs/get-started-1.png" class="get-started-1" alt="Get Started with Ziero">
-          <img src="imgs/get-started-2.png" class="get-started-2" alt="Get Started with Ziero">
-        </div>
-
-        <div class="col-md-6 col-sm-12 employee-platform-container">
-          <h2>Employee Platform</h2>
-          <h4>Effortless and available at any time:</h4>
-          <ul>
-            <li><i class="ion-checkmark-circled"></i>No Manual Paperwork </li>
-            <li><i class="ion-checkmark-circled"></i>5 Minute Application Process</li>
-            <li><i class="ion-checkmark-circled"></i>Funding Available in 2-3 Business Days</li>
-          </ul>
-        </div>
-      </div>
-
-<br><br>
-
-      <div class="row text-center">
-        <a data-toggle="modal" data-target="#videoModal" class="main-cta invert">Watch Video</a>
-      </div>
-
-    </div>
-  </section>
-
-  <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalAboutZiero">
-    <span class="ion-ios-close-outline" data-dismiss="modal"></span>
-    <iframe class="video-container" src="https://www.youtube.com/embed/VlunxiqqHfA?rel=0&amp;controls=0&amp;showinfo=0" height="100%" frameborder="0" allowfullscreen></iframe>></iframe>
-  </div>
 
   <section id="contact">
     <div class="bk-img"></div>

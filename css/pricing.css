@@ -80,7 +80,8 @@ section#pricing a.download-infosheet-link {
 #pricing .pricing-row .repayment-copy {
   width: 98%;
   margin: 0 auto;
-  font-size: 17px;
+  font-size: 16px;
+  text-align: left;
 }
 
 section#need-help {
@@ -101,7 +102,7 @@ section#corporate-plans-row> h1, section#corporate-plans-row> h3 {
 section#corporate-plans-row> h3 {
     margin-bottom: 20px;
 }
-section#corporate-plans-row .content-row .row:first-child {
+section#corporate-plans-row .content-row > .row:first-child {
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -128,6 +129,27 @@ section#corporate-plans-row .corporate-copy {
     text-align: left;
     font-size: 12px;
 }
+
+section#corporate-plans-row.ziero-way .loan-size {
+  padding: 20px 30px 20px 30px;
+}
+section#corporate-plans-row.ziero-way .repayment-amount {
+  padding-top: 20px;
+}
+section#corporate-plans-row.ziero-way .loan-term {
+  padding: 20px 20px 20px 30px;
+}
+section#corporate-plans-row.ziero-way .cost-per-loan {
+  padding: 24px 0 5px 0;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: .5;
+}
+section#corporate-plans-row.ziero-way .monthly-payment {
+  font-size: 30px;
+  margin-top: -5px;
+}
+
 #need-help .need-help-input-holder {
     text-align: right;
 }
@@ -208,6 +230,11 @@ section#corporate-plans-row .corporate-copy {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+body.ziero-wellness #four-columns h2 {
+  line-height: 1.7;
+  width: 80%;
+  margin: 0 auto 40px auto;
 }
 
 .employer-fee {
@@ -378,9 +405,10 @@ section#corporate-plans-row .corporate-copy {
   background: #f3f3f3;
   padding-bottom: 90px;
 }
-#ziero-way.ziero-wellness h1 {
+.ziero-wellness #hero h1 {
   text-transform: uppercase;
-  margin-bottom: 30px;
+  max-width: 100%;
+  margin-top: 50px;
 }
 #ziero-way.ziero-wellness p.main-copy {
   width: 80%;
@@ -425,7 +453,6 @@ section#corporate-plans-row .corporate-copy {
     .pricing-row .employer-perk {
       max-width: 120px!important;
     }
-
 
     .most-popular {
         margin-left: 72px;
