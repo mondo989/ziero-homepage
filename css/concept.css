@@ -256,6 +256,10 @@ background: red;
   padding-top: 15px;
 }
 
+#corporate-program-section {
+  padding-top: 0!important;
+}
+
 #corporate-program-section h3 {
   line-height: 1.5!important;
 }
