@@ -131,6 +131,11 @@ background: red;
     padding-top: 60px;
 }
 
+#ziero-way {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 #ziero-way h1 {
   margin-bottom: 25px;
   text-transform: uppercase;
@@ -170,7 +175,7 @@ background: red;
 #ziero-way .get-started-holder {
     position: relative;
     display: block;
-    min-height: 450px;
+    min-height: 350px;
 }
 #platforms .get-started-holder .get-started-1,
 #ziero-way .get-started-holder .get-started-1 {
@@ -194,7 +199,6 @@ background: red;
     animation: fadeIn 1s;
 }
 #library {
-    /*background: blue;*/
     /*padding-bottom: 50px;*/
     padding: 0;
 }
@@ -250,6 +254,10 @@ background: red;
 }
 .third-bubble-row #employee-row {
   padding-top: 15px;
+}
+
+#corporate-program-section h3 {
+  line-height: 1.5!important;
 }
 
 #corporate-plans-row .content-row {
@@ -501,6 +509,12 @@ section#corporate-plans-row.ziero-way .cost-per-loan-row {
         margin-left: 0;
         margin-right: 0;
     }
+
+    #platforms .get-started-holder,
+    #ziero-way .get-started-holder {
+        position: relative;
+        display: block;
+        min-height: 450px;
 }
 @media (max-width: 767px) {
     #hero.concept h1, #hero.library h1 {
