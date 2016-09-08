@@ -1,5 +1,5 @@
     #hero.concept, #hero.library {
-    background: url("../imgs/concept-hero.png");
+    background: url("../imgs/buildings.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -104,6 +104,16 @@ background: red;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
+#four-section p {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+
+#ziero-way img.macbook,
 #platforms img.ziero-macbook,
 #ziero-way img.ziero-macbook {
     width: 100%!important;
@@ -114,6 +124,26 @@ background: red;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
+
+#four-section .four-vectors {
+    margin: 20px auto;
+    height: 80px;
+    width: 180px!important;
+}
+section#four-section {
+  background: #f3f3f3;
+  padding-top: 50px;
+}
+
+#ziero-way .time {
+  width: 80%!important;
+  height: 100%;
+  -wetbkit-transition: .6s;
+  transition: .6s;
+  margin-top: 40px;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+  }
 
 #platforms img.macbook-pro-ziero,
 #ziero-way img.macbook-pro-ziero {
@@ -127,11 +157,12 @@ background: red;
    transition: 1s;
 }
 
-.row#employee-row {
+/*.row#employee-row {
     padding-top: 60px;
-}
+}*/
 
 #ziero-way {
+  padding-top: 20px;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -151,8 +182,15 @@ background: red;
   margin: 40px auto;
 }
 #ziero-way .first-bubble-row {
-  margin-top: 70px;
+  margin-top: 40px;
+  margin-left: 0;
 }
+.first-bubble-row .macbook {
+  width: 420px;
+  margin: 0 auto;
+  text-align: left;
+}
+
 #ziero-way .bubble-copy {
   font-size: 20px;
   margin: 5px auto;
@@ -243,6 +281,10 @@ background: red;
   color: rgba(0, 0, 0, 0.245);
   text-align: right;
   font-size: 25px;
+}
+
+.third-bubble-row {
+  padding-bottom: 80px;
 }
 
 .second-bubble-row p.loan-subcopy,

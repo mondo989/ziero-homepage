@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="768px" height="768px" viewBox="0 0 768 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#CCCCCC" offset="0%"></stop>
+            <stop stop-color="#F3F3F3" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="383" cy="383" r="383"></circle>
+        <path d="M5.65033181,70.1213865 L13.5124846,61.1464917 C20.3221744,53.3730166 32.383016,52.3289518 40.4550917,58.8176938 C48.525393,65.3050094 49.5507133,76.8617914 42.7376307,84.6391396 L34.8754779,93.6140344 C28.0657881,101.38751 16.0049465,102.431574 7.93287079,95.9428323 C-0.13743046,89.4555167 -1.16275079,77.8987347 5.65033181,70.1213865" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="46.1048726" height="45.6422316" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M77.3829852,28.3908244 C73.9728803,18.8261954 79.3046084,8.38102259 89.3028541,5.05718078 L100.840618,1.22153784 C110.833884,-2.10064875 121.698714,2.95774764 125.109569,12.5244796 L125.109569,12.5244796 C128.519674,22.0891085 123.187945,32.5342814 113.1897,35.8581232 L101.651936,39.6937661 C91.6586695,43.0159527 80.7938398,37.9575563 77.3829852,28.3908244 L77.3829852,28.3908244" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="49.7869795" height="40.5125462" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10" transform="translate(1.000000, 1.000000)">
+            <g id="Oval-7">
+                <use fill-opacity="0.200000003" fill="url(#linearGradient-1)" fill-rule="evenodd" style="mix-blend-mode: darken;" xlink:href="#path-2"></use>
+                <use stroke="#979797" stroke-width="1" xlink:href="#path-2"></use>
+            </g>
+            <g id="Group-7" transform="translate(159.000000, 92.000000)">
+                <g id="Group-6" transform="translate(0.000000, 6.000000)">
+                    <path d="M217.067619,263.864779 C217.067619,263.864779 236.788179,401.03373 325.788179,427.03373 C414.788179,453.03373 479.788179,343.03373 435.788179,298.03373 C391.788179,253.03373 339.788179,285.03373 289.788179,359.03373 C239.788179,433.03373 257.788179,466.03373 274.788179,501.03373" id="Path-5" stroke="#2D3639" stroke-width="14" transform="translate(333.487137, 382.449254) rotate(-2.000000) translate(-333.487137, -382.449254) "></path>
+                    <circle id="Oval-5" stroke="#FFFFFF" stroke-width="5" fill="#2C3539" cx="304" cy="538" r="46"></circle>
+                    <path d="M103.897457,1.14974882 C109.484666,0.391948605 115.194588,0 121,0 C187.826455,0 266,73 255,189 C244,305 187,293 148,277 C128.132828,268.849365 82.0070653,248.528897 51,218 C21.1390398,188.599534 0,147.429364 0,116 C0,105.289906 1.51402051,94.9188177 4.3480709,85.0727102 C6.74429133,88.3348399 9.44430718,91.3694608 12.4076672,94.1370408 C11.4822089,99.2913856 11,104.589185 11,110 C11,136.88169 26.8847614,177.853637 53.0000011,203 C80.11758,229.111516 113.624941,247.028722 131.000001,254 C165.107891,267.684879 233.379819,274.215372 242.999993,175 C250.949061,93.0191912 202.588004,29.6035658 152,11.9999999 C141.365046,8.29925865 129.049178,12 118.896982,12 C116.98963,12 115.091853,12.0460169 113.205059,12.1369517 C110.521344,8.1437955 107.396204,4.45930283 103.897457,1.14974882 Z" id="Combined-Shape" fill="#2D3639"></path>
+                    <circle id="Oval-5" fill="#FFFFFF" cx="304" cy="538" r="36"></circle>
+                    <circle id="Oval-5" fill="#00BBBA" cx="304" cy="538" r="28"></circle>
+                </g>
+                <use id="Rectangle-3" stroke="#FFFFFF" mask="url(#mask-4)" stroke-width="6" fill="#2D3639" xlink:href="#path-3"></use>
+                <use id="Rectangle-3" stroke="#FFFFFF" mask="url(#mask-6)" stroke-width="6" fill="#2D3639" xlink:href="#path-5"></use>
+            </g>
+        </g>
+    </g>
+</svg>

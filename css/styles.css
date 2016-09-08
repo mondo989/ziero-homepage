@@ -386,6 +386,29 @@ a.main-cta:hover {
   -webkit-animation: fadeInUp 1s;
   animation: fadeInUp 1s;
 }
+
+#why-provide {
+  /*background: blue;*/
+}
+
+#why-provide img.three-icons {
+  width: 60%;
+  text-align: center;
+  margin-top: 10px;
+  /*max-width: 220px;*/
+}
+
+#why-provide p {
+  font-size: 16px;
+  width: 90%;
+  opacity: .7;
+  margin: 20px auto;
+  line-height: 1.8;
+  text-align: left;
+
+}
+
+
 #contact,
 #featured-in {
   background: #06bbb9;
@@ -423,6 +446,7 @@ a.main-cta:hover {
   height: auto;
 }
 
+#why-provide .separator,
 #featured-in .separator {
   width: 75%;
   margin: 20px auto 30px auto!important;

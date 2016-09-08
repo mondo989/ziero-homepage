@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="768px" height="768px" viewBox="0 0 768 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#CCCCCC" offset="0%"></stop>
+            <stop stop-color="#F3F3F3" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="383" cy="383" r="383"></circle>
+        <rect id="path-3" x="0" y="308" width="306" height="216"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="306" height="216" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(1.000000, 1.000000)">
+            <g id="Oval-7">
+                <use fill-opacity="0.200000003" fill="url(#linearGradient-1)" fill-rule="evenodd" style="mix-blend-mode: darken;" xlink:href="#path-2"></use>
+                <use stroke="#979797" stroke-width="1" xlink:href="#path-2"></use>
+            </g>
+            <g id="Group-4" transform="translate(230.000000, 18.000000)">
+                <use id="Rectangle-2" stroke="#47474B" mask="url(#mask-4)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-3"></use>
+                <rect id="Rectangle-2" fill="#7CAF29" x="1" y="309" width="304" height="44"></rect>
+                <g id="Group-3" transform="translate(33.000000, 371.000000)" fill="#D8D8D8">
+                    <rect id="Rectangle-2" x="0" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="35" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="70" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="105" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="140" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="175" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="210" y="0" width="30" height="30"></rect>
+                </g>
+                <g id="Group-3" transform="translate(33.000000, 406.000000)" fill="#D8D8D8">
+                    <rect id="Rectangle-2" x="0" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="35" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="70" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="105" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="140" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="175" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="210" y="0" width="30" height="30"></rect>
+                </g>
+                <g id="Group-3" transform="translate(33.000000, 441.000000)" fill="#D8D8D8">
+                    <rect id="Rectangle-2" x="0" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="35" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="70" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="105" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="140" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="175" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="210" y="0" width="30" height="30"></rect>
+                </g>
+                <g id="Group-3" transform="translate(33.000000, 476.000000)" fill="#D8D8D8">
+                    <rect id="Rectangle-2" x="0" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="35" y="0" width="30" height="30"></rect>
+                    <rect id="Rectangle-2" x="70" y="0" width="30" height="30"></rect>
+                </g>
+                <text id="$" font-family="OpenSans-Bold, Open Sans" font-size="274" font-weight="bold" letter-spacing="10.9599981" fill="#7CAF29">
+                    <tspan x="76" y="293">$</tspan>
+                </text>
+                <text id="Payday" font-family="OpenSans-Bold, Open Sans" font-size="69" font-weight="bold" letter-spacing="-3" fill="#7CAF29">
+                    <tspan x="31" y="618">Payda</tspan>
+                    <tspan x="225.594238" y="618">y</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
