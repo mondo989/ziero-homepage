@@ -26,7 +26,7 @@ section {
 
 #hero {
   /*background: rgba(231, 213, 198, .7);*/
-  background: url("../imgs/bk-img.jpg");
+  background: url("../imgs/hero-bk.png");
   /*background: #f0f0f0;*/
   /*background-position: -120px -300px;*/
   /*background-position: -80px center;*/
@@ -67,8 +67,8 @@ section {
   font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 25px;
-  color: #333;
-  text-shadow: .5px 1px 0px rgba(0, 0, 0, .8);
+  color: rgba(153, 153, 153, 1)!important;
+  /*text-shadow: .5px 1px 1.5px rgba(0, 0, 0, .8);*/
   -webkit-animation: fadeInDown 1s;
   animation: fadeInDown 1s;
 }
@@ -77,8 +77,8 @@ section {
   text-align: center;
   font-weight: 400;
   margin: 40px auto 45px auto;
-  color: #333;
-  /*text-shadow: 1px 1px .5px rgba(0, 0, 0, .8);*/
+  color: #353535;
+  /*text-shadow: .5px 1px 1.5px rgba(0, 0, 0, .8);*/
   width: 80%;
   line-height: 1.4;
 }
@@ -90,8 +90,8 @@ section {
   border-color: #fff;*/
 }
 #hero h1 span {
-  color: #06bbb9;
-  /*text-shadow: 1px 1px 1px #06bbb9;*/
+  /*color: #06bbb9;*/
+  text-shadow: 1px 1px 1px #06bbb9;
 }
 img.hero-girl {
   z-index: 1;
@@ -118,7 +118,7 @@ img.hero-img {
   /*position: absolute;*/
   color: #ccc!important;
 }
-.hero-copy-row h1, .hero-copy-row h6 {
+.hero-copy-row h1 {
   color: #fff!important;
 }
 .main-cta-row {
@@ -145,6 +145,10 @@ a.main-cta.invert, input.main-cta.invert {
   /*background: rgba(0,0,0,.25);*/
   background: transparent;
 }
+#hero a.main-cta.invert {
+  background: rgba(0,0,0,.25);
+}
+
 input.main-cta.invert {
   display: inline-block;
   padding: 20px 0;
@@ -884,7 +888,7 @@ span.strong {
   border-radius: 120px;
 }
 .bk-img {
-  background: url("../imgs/ziero-bk-blue.png");
+  /*background: url("../imgs/ziero-bk-blue.png");*/
   opacity: .6;
   background-repeat: repeat-x;
   background-position: center;
@@ -894,7 +898,7 @@ span.strong {
   right: 0;
   left: 0;
   bottom: 0;
-  z-index: -1;
+  z-index: 1;
 }
 .ziero-main-logo {
   margin-top: -8px;
@@ -1505,6 +1509,10 @@ span.invalid.active {
     left: 0;
     bottom: 0;
   }
+
+  #hero h6, #hero h1 {
+    color: white!important;
+  }
   #hero {
     background-position: -280px 0px !important;
   }
@@ -1617,7 +1625,7 @@ span.invalid.active {
   img.hero-img {
     width: 1670px;
     left: -180px;
-    top: -26%;
+    top: -16%;
   }
   .hero-copy-row {
     margin-top: 150px;
@@ -1637,6 +1645,10 @@ span.invalid.active {
     top: -32%;
     left: -8%;
     width: 1750px;
+  }
+  #hero {
+    width: 100%!important;
+    background-position: center -150px;
   }
 }
 @media (min-width: 2000px) {
